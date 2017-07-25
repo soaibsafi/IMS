@@ -1,0 +1,5 @@
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem.Entity\bin\Debug\InventoryManagementSystem.Entity.dll
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem.Entity\bin\Debug\InventoryManagementSystem.Entity.pdb
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem.Entity\obj\Debug\InventoryManagementSystem.Entity.csprojResolveAssemblyReference.cache
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem.Entity\obj\Debug\InventoryManagementSystem.Entity.dll
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem.Entity\obj\Debug\InventoryManagementSystem.Entity.pdb

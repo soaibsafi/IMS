@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F0ECD594-802B-4F3A-8BCA-6CE7AAB0C4EF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InventoryManagementSystem</RootNamespace>
+    <AssemblyName>InventoryManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAccountLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAccountLog.Designer.cs">
+      <DependentUpon>frmAccountLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddAccount.Designer.cs">
+      <DependentUpon>frmAddAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddItems.Designer.cs">
+      <DependentUpon>frmAddItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminPanel.Designer.cs">
+      <DependentUpon>frmAdminPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDailySales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDailySales.Designer.cs">
+      <DependentUpon>frmDailySales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmItemLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmItemLog.Designer.cs">
+      <DependentUpon>frmItemLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogInHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogInHistory.Designer.cs">
+      <DependentUpon>frmLogInHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMonthlySales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMonthlySales.Designer.cs">
+      <DependentUpon>frmMonthlySales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmSalesHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalesHelp.Designer.cs">
+      <DependentUpon>frmSalesHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSalesPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalesPanel.Designer.cs">
+      <DependentUpon>frmSalesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStartUpScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStartUpScreen.Designer.cs">
+      <DependentUpon>frmStartUpScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStockLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStockLog.Designer.cs">
+      <DependentUpon>frmStockLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmYearlySales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmYearlySales.Designer.cs">
+      <DependentUpon>frmYearlySales.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmAccountLog.resx">
+      <DependentUpon>frmAccountLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddAccount.resx">
+      <DependentUpon>frmAddAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddItems.resx">
+      <DependentUpon>frmAddItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminPanel.resx">
+      <DependentUpon>frmAdminPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDailySales.resx">
+      <DependentUpon>frmDailySales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmItemLog.resx">
+      <DependentUpon>frmItemLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogInHistory.resx">
+      <DependentUpon>frmLogInHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMonthlySales.resx">
+      <DependentUpon>frmMonthlySales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="frmSalesPanel.resx">
+      <DependentUpon>frmSalesPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStartUpScreen.resx">
+      <DependentUpon>frmStartUpScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStockLog.resx">
+      <DependentUpon>frmStockLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmYearlySales.resx">
+      <DependentUpon>frmYearlySales.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\startinglogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\username.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\change_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\items.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\pos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\sales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\stocks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\addNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\dailySales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\monthlySales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\yearlySales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InventoryManagementSystem.Core\InventoryManagementSystem.Core.csproj">
+      <Project>{afc4d770-824c-4f7c-a247-5f7af5847bb6}</Project>
+      <Name>InventoryManagementSystem.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InventoryManagementSystem.Entity\InventoryManagementSystem.Entity.csproj">
+      <Project>{66b52736-493f-4db2-b83b-f393d0c3e4e2}</Project>
+      <Name>InventoryManagementSystem.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

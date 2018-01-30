@@ -1,0 +1,9 @@
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Release\InventoryManagementSystem.Core.dll
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Release\InventoryManagementSystem.Core.pdb
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Release\InventoryManagementSystem.Data.dll
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Release\InventoryManagementSystem.Entity.dll
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Release\InventoryManagementSystem.Data.pdb
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Release\InventoryManagementSystem.Entity.pdb
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Release\InventoryManagementSystem.Core.csprojResolveAssemblyReference.cache
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Release\InventoryManagementSystem.Core.dll
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Release\InventoryManagementSystem.Core.pdb

@@ -1,0 +1,333 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Windows.Forms;
+using InventoryManagementSystem.Core;
+using InventoryManagementSystem.Entity;
+
+namespace InventoryManagementSystem
+{
+    public partial class frmSalesPanel : Form
+    {
+        #region Decleration
+        public static int cartCounter;
+        public static int rowIndex;
+        public static DataTable dt;
+        RefreshDelegate refreshDelegate;
+        ServiceFactory factory;
+        IItemService itemService;
+        IAccountService accountService;
+        ITransactionService transactionService;
+        IMembershipService  membershipService;
+
+        Membership member;
+        #endregion
+
+        #region Initial Load
+        public frmSalesPanel()
+        {
+            InitializeComponent();
+            this.initialMethod();
+        }
+        private void initialMethod()
+        {
+            factory = new ServiceFactory();
+            itemService = factory.GetItemServiceInstance();
+            accountService = factory.GetAccountServiceInstance();
+            transactionService = factory.GetTransactionServiceInstance();
+            membershipService = factory.GetMembershipServiceInstance();
+            AutoCompleteMethod(txtItemOrCode);
+            AutoCompleteMethod(txtSearchItem);
+            refreshDelegate = this.RefreshDataGridView;
+        }
+        private void frmSalesPanel_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'imsDBDataSet.MemberType' table. You can move, or remove it, as needed.
+            this.memberTypeTableAdapter.Fill(this.imsDBDataSet.MemberType);
+            // TODO: This line of code loads data into the 'imsDBDataSet.Membership' table. You can move, or remove it, as needed.
+            this.membershipTableAdapter.Fill(this.imsDBDataSet.Membership);
+            // TODO: This line of code loads data into the 'imsDBDataSet.Offer' table. You can move, or remove it, as needed.
+            this.offerTableAdapter.Fill(this.imsDBDataSet.Offer);
+            this.WindowState = FormWindowState.Maximized;
+            this.dataGridViewItemAvailable.DataSource = null;
+            this.PopulateDataGridViewItemAvailable();
+        }
+        #endregion
+
+        #region Sales Panel Method
+        private void ChangeUser()
+        {
+            new frmLogin().Show();
+            this.Hide();
+        }
+        #endregion
+
+        #region POS Method
+        private void tableClear(DataTable dt)
+        {
+            try
+            {
+                dt.Clear();
+            }
+            catch (DataException e)
+            {
+                Console.WriteLine("Exception of type {0} occurred.", e.GetType());
+            }
+        }
+        private void RefreshDataGridView()
+        {
+
+            this.PopulateDataGridViewItemAvailable();
+        }
+        private void PopulateDataGridViewItemAvailable()
+        {
+            this.dataGridViewItemAvailable.AutoGenerateColumns = false;
+            this.dataGridViewItemAvailable.DataSource = itemService.GetAllSortedItem();
+        }
+        private void AutoCompleteMethod(TextBox txtBox)
+        {
+
+            txtBox.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            txtBox.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            AutoCompleteStringCollection col = new AutoCompleteStringCollection();
+            List<string> itemNameList = new List<string>();
+            itemNameList = itemService.GetName();
+            foreach (string it in itemNameList)
+            {
+                col.Add(it);
+            }
+            txtBox.AutoCompleteCustomSource = col;
+        }
+        private void ClearPosButton()
+        {
+            txtItemOrCode.Text = "";
+            txtQuantity.Text = "";
+        }
+        private void PosGridViewContentClick(DataGridViewCellEventArgs e)
+        {
+            //MessageBox.Show(cartCounter.ToString());
+            if (e.ColumnIndex == 0)
+            {
+
+                if (cartCounter == 1)
+                {
+                    this.tableClear(dt);
+                    cartCounter = 0;
+                }
+                else
+                {
+                    int rin = e.RowIndex;
+                    String stock = dt.Rows[rin].ItemArray[5].ToString();
+                    dt.Rows[rin].Delete();
+                    rowIndex--;
+                    cartCounter--;
+                }
+                dt.AcceptChanges();
+
+            }
+            dataGridViewPos.DataSource = dt;
+        }
+        private void PosQuantityEnter(KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter || e.KeyCode == Keys.Tab)
+            {
+                string itemName = txtItemOrCode.Text;
+                double quantity = Convert.ToDouble(txtQuantity.Text);
+                if (cartCounter == 0)
+                {
+                    dt = itemService.GetByName(itemName, quantity);
+                    cartCounter++;
+                    string price = dt.Rows[rowIndex].ItemArray[4].ToString();
+                    double totalPrice = quantity * Convert.ToDouble(price);
+                    dt.Rows[rowIndex].SetField(4, totalPrice);
+                }
+                else
+                {
+                    rowIndex++;
+                    cartCounter++;
+
+                    DataTable Odt = new DataTable();
+                    Odt = dt.Clone();
+                    Odt = itemService.GetByName(itemName, quantity);
+                    dt.Merge(Odt);
+                    string price = dt.Rows[rowIndex].ItemArray[4].ToString();
+                    double totalPrice = quantity * Convert.ToDouble(price);
+                    dt.Rows[rowIndex].SetField(4, totalPrice);
+                }
+                dataGridViewPos.DataSource = dt;
+            }
+        }
+
+        #endregion
+
+        #region Item Available Method
+        private void ItemAvailableSearchItem(KeyEventArgs e)
+        {
+            int rowIn = -1;
+            if (e.KeyCode == Keys.Enter || e.KeyCode == Keys.Tab)
+            {
+                string searchValue = txtSearchItem.Text;
+
+                bool found = false;
+                foreach (DataGridViewRow row in dataGridViewItemAvailable.Rows)
+                {
+                    if (row.Cells[1].Value.ToString().Equals(searchValue))
+                    {
+                        rowIn = row.Index;
+                        dataGridViewItemAvailable.Rows[rowIn].Selected = true;
+                        found = true;
+                        break;
+                    }
+                }
+                if (found == false)
+                {
+                    MessageBox.Show("Item Unavailable");
+                }
+            }
+        }
+        #endregion
+
+        #region Offers Method
+
+        #endregion
+
+        #region Membership Method
+        private void EditMember()
+        {
+            member = new Membership(txtMemberId.Text.ToString());
+            this.member.MemberTypeID = comMemberTypeId.Text;
+            this.member.MemberName = txtName.Text;
+            this.member.MemberAddress = txtAddress.Text;
+            this.member.PhoneNumber = txtPhoneNumber.Text;
+            this.member.Email = txtEmail.Text;
+
+            if (membershipService.Edit(this.member) == 1)
+            {
+                this.refreshDelegate.Invoke();
+                MessageBox.Show("Record Updated Successfully!");
+            }
+        }
+        private void RemoveMember()
+        {
+            this.member = new Membership(txtMemberId.Text.ToString());
+            DialogResult result = MessageBox.Show("Are you sure?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                if (membershipService.Remove(this.member.MemberID) == 1)
+                {
+                    this.refreshDelegate.Invoke();
+                    MessageBox.Show("Record Deleted Successfully!");
+                }
+            }
+        }
+        private void PopulateMemberGridView(DataGridViewCellEventArgs e)
+        {
+            int index = e.RowIndex;
+            DataGridViewRow selectedRow = dataGridViewMember.Rows[index];
+            txtMemberId.Text = selectedRow.Cells[0].Value.ToString();
+            comMemberTypeId.Text = selectedRow.Cells[1].Value.ToString();
+            txtName.Text = selectedRow.Cells[2].Value.ToString();
+            txtAddress.Text = selectedRow.Cells[3].Value.ToString();
+            txtPhoneNumber.Text = selectedRow.Cells[4].Value.ToString();
+            txtEmail.Text = selectedRow.Cells[5].Value.ToString();
+        }
+        #endregion
+
+        #region Sales Panel Event
+        private void btnChangeUser_Click(object sender, EventArgs e)
+        {
+            this.ChangeUser();
+        }
+        private void frmSalesPanel_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+        private void tabControlSales_Click(object sender, EventArgs e)
+        {
+            refreshDelegate.Invoke();
+        }
+        //Menu Strip
+        private void changeUserToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            this.ChangeUser();
+        }
+        private void exitToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+        private void pOSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.tabControlSalesPanel.SelectedTab = tabPagePos;
+        }
+        private void itemAvailableToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.tabControlSalesPanel.SelectedTab = tabPageItemAvailable;
+        }
+        private void offersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.tabControlSalesPanel.SelectedTab = tabPageOffers;
+        }
+        private void membershipToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            this.tabControlSalesPanel.SelectedTab = tabPageMembership;
+        }
+        #endregion
+
+        #region POS Event
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            this.ClearPosButton();
+        } 
+        private void dataGridViewPos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            this.PosGridViewContentClick(e);
+        }
+        private void txtItemOrCode_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter || e.KeyCode == Keys.Tab)
+            {
+                txtQuantity.Focus();
+            }
+        }
+        public void txtQuantity_KeyDown(object sender, KeyEventArgs e)
+        {
+            this.PosQuantityEnter(e);
+        }
+        private void btnAddToCart_Click(object sender, EventArgs e)
+        {
+            //this.txtQuantity_KeyDown(this.e);
+        }
+        #endregion
+
+        #region Item Available Event
+        private void txtSearchItem_KeyDown_1(object sender, KeyEventArgs e)
+        {
+            this.ItemAvailableSearchItem(e);
+        }
+        #endregion
+
+        #region Offers Event
+
+        #endregion
+
+        #region Membership Event
+        private void picAddMember_Click(object sender, EventArgs e)
+        {
+            new frmAddMember(refreshDelegate).ShowDialog();
+        }
+        private void dataGridViewMember_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            this.PopulateMemberGridView(e);
+        }
+        private void pictureBoxEditMember_Click(object sender, EventArgs e)
+        {
+            this.EditMember();
+        }
+        private void pictureBoxDeleteAccount_Click(object sender, EventArgs e)
+        {
+            this.RemoveMember();
+        }
+        #endregion
+
+    }
+}

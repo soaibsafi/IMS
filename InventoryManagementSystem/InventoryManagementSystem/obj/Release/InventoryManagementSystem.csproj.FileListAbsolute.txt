@@ -1,0 +1,16 @@
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\bin\Release\InventoryManagementSystem.exe.config
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Release\InventoryManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Release\InventoryManagementSystem.frmAddAccount.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Release\InventoryManagementSystem.frmAddCategory.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Release\InventoryManagementSystem.frmAddItem.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Release\InventoryManagementSystem.frmAddMember.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Release\InventoryManagementSystem.frmAddNewUserType.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Release\InventoryManagementSystem.frmAddOffer.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Release\InventoryManagementSystem.frmAdminPanel.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Release\InventoryManagementSystem.frmDeleteCategory.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Release\InventoryManagementSystem.frmDeleteUserType.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Release\InventoryManagementSystem.frmLogin.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Release\InventoryManagementSystem.frmSalesPanel.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Release\InventoryManagementSystem.frmStartUpScreen.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Release\InventoryManagementSystem.Properties.Resources.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Release\InventoryManagementSystem.csproj.GenerateResource.Cache

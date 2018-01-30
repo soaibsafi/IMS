@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{75248250-64B1-4568-8F5C-262FE7401A4B}</ProjectGuid>
+    <ProjectGuid>{6F577935-F5B9-4271-8E18-84C326CF68D4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>InventoryManagementSystem.Data</RootNamespace>
@@ -32,6 +32,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,13 +42,54 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountDataAccess.cs" />
+    <Compile Include="CategoryDataAccess.cs" />
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="IMSDB.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IMSDB.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="ItemDataAccess.cs" />
+    <Compile Include="JoinTableDataAccess.cs" />
+    <Compile Include="LogDataAccess.cs" />
+    <Compile Include="MembershipDataAccess.cs" />
+    <Compile Include="MemberTypeDataAccess.cs" />
+    <Compile Include="OfferDataAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionDataAccess.cs" />
+    <Compile Include="UserTypeDataAccess.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\InventoryManagementSystem.Entity\InventoryManagementSystem.Entity.csproj">
-      <Project>{66b52736-493f-4db2-b83b-f393d0c3e4e2}</Project>
+      <Project>{f1805ed6-aeda-41f6-8a01-845d2ba4bce6}</Project>
       <Name>InventoryManagementSystem.Entity</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="IMSDB.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>IMSDB.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMSDB.dbml.layout">
+      <DependentUpon>IMSDB.dbml</DependentUpon>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

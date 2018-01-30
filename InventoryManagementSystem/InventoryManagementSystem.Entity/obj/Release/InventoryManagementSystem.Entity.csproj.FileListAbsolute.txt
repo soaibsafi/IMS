@@ -1,0 +1,4 @@
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Entity\bin\Release\InventoryManagementSystem.Entity.dll
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Entity\bin\Release\InventoryManagementSystem.Entity.pdb
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Entity\obj\Release\InventoryManagementSystem.Entity.dll
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Entity\obj\Release\InventoryManagementSystem.Entity.pdb

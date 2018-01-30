@@ -1,9 +1,38 @@
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Core.dll
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Core.pdb
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Data.dll
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Entity.dll
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Data.pdb
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Entity.pdb
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\InventoryManagementSystem.Core.csprojResolveAssemblyReference.cache
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\InventoryManagementSystem.Core.dll
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\InventoryManagementSystem.Core.pdb
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Core.dll
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Core.pdb
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Data.dll
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Entity.dll
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Data.pdb
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Entity.pdb
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\InventoryManagementSystem.Core.csprojResolveAssemblyReference.cache
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\InventoryManagementSystem.Core.dll
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\InventoryManagementSystem.Core.pdb
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Core.dll
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Core.pdb
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Data.dll
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Entity.dll
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Data.pdb
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Entity.pdb
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\InventoryManagementSystem.Core.csprojResolveAssemblyReference.cache
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\InventoryManagementSystem.Core.dll
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\InventoryManagementSystem.Core.pdb
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Core.dll
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Core.pdb
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Data.dll
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Entity.dll
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Data.pdb
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Entity.pdb
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\InventoryManagementSystem.Core.csprojResolveAssemblyReference.cache
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\InventoryManagementSystem.Core.dll
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\InventoryManagementSystem.Core.pdb
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Core.dll
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Core.pdb
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Data.dll
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Entity.dll
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Data.pdb
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Entity.pdb
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\InventoryManagementSystem.Core.csprojResolveAssemblyReference.cache
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\InventoryManagementSystem.Core.dll
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\InventoryManagementSystem.Core.pdb
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\InventoryManagementSystem.Data.dll.config
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\InventoryManagementSystem.Core.csproj.CoreCompileInputs.cache

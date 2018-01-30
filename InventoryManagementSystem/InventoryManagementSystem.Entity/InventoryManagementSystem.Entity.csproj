@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{66B52736-493F-4DB2-B83B-F393D0C3E4E2}</ProjectGuid>
+    <ProjectGuid>{F1805ED6-AEDA-41F6-8A01-845D2BA4BCE6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>InventoryManagementSystem.Entity</RootNamespace>
@@ -41,10 +41,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account.cs" />
+    <Compile Include="Category.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="Log.cs" />
+    <Compile Include="Membership.cs" />
+    <Compile Include="MemberType.cs" />
+    <Compile Include="Offer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sales.cs" />
+    <Compile Include="Transaction.cs" />
+    <Compile Include="UserType.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

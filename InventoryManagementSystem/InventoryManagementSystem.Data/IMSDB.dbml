@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="imsDB" Class="IMSDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\Database\imsDB.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="InventoryManagementSystem.Data.Properties.Settings" SettingsPropertyName="imsDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Account" Member="Accounts">
+    <Type Name="Account">
+      <Column Name="AccountId" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(256)" CanBeNull="true" />
+      <Column Name="UserTypeID" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Salary" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="JoinDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="Account_Log" Member="Logs" ThisKey="AccountId" OtherKey="AccountId" Type="Log" />
+      <Association Name="Account_Transaction" Member="Transactions" ThisKey="AccountId" OtherKey="AccountId" Type="Transaction" />
+      <Association Name="UserType_Account" Member="UserType" ThisKey="UserTypeID" OtherKey="UserTypeId" Type="UserType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Category" Member="Categories">
+    <Type Name="Category">
+      <Column Name="CategoryID" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CategoryName" Type="System.String" DbType="VarChar(32) NOT NULL" CanBeNull="false" />
+      <Association Name="Category_Item" Member="Items" ThisKey="CategoryID" OtherKey="CategoryID" Type="Item" />
+      <Association Name="Category_Offer" Member="Offers" ThisKey="CategoryID" OtherKey="CategoryID" Type="Offer" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Item" Member="Items">
+    <Type Name="Item">
+      <Column Name="ItemCode" Type="System.String" DbType="VarChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ItemName" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="CategoryID" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Stock" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Item_Log" Member="Logs" ThisKey="ItemCode" OtherKey="ItemCode" Type="Log" />
+      <Association Name="Item_Offer" Member="Offers" ThisKey="ItemCode" OtherKey="ItemCode" Type="Offer" />
+      <Association Name="Item_Transaction" Member="Transactions" ThisKey="ItemCode" OtherKey="ItemCode" Type="Transaction" />
+      <Association Name="Category_Item" Member="Category" ThisKey="CategoryID" OtherKey="CategoryID" Type="Category" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Log]" Member="Logs">
+    <Type Name="Log">
+      <Column Name="LogId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TimeIn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="TimeOut" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Action" Type="System.String" DbType="VarChar(256)" CanBeNull="true" />
+      <Column Name="AccountId" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="ItemCode" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Association Name="Account_Log" Member="Account" ThisKey="AccountId" OtherKey="AccountId" Type="Account" IsForeignKey="true" />
+      <Association Name="Item_Log" Member="Item" ThisKey="ItemCode" OtherKey="ItemCode" Type="Item" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MemberType" Member="MemberTypes">
+    <Type Name="MemberType">
+      <Column Name="MemberTypeID" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MemberTypeName" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="MemberType_Membership" Member="Memberships" ThisKey="MemberTypeID" OtherKey="MemberTypeID" Type="Membership" />
+      <Association Name="MemberType_Offer" Member="Offers" ThisKey="MemberTypeID" OtherKey="MemberTypeID" Type="Offer" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Membership" Member="Memberships">
+    <Type Name="Membership">
+      <Column Name="MembershipID" Type="System.String" DbType="VarChar(32) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MemberTypeID" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="MemberName" Type="System.String" DbType="VarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="MemberAddress" Type="System.String" DbType="VarChar(256)" CanBeNull="true" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(256)" CanBeNull="true" />
+      <Column Name="MemberFrom" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="TotalShopping" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="Membership_Transaction" Member="Transactions" ThisKey="MembershipID" OtherKey="MembershipID" Type="Transaction" />
+      <Association Name="MemberType_Membership" Member="MemberType" ThisKey="MemberTypeID" OtherKey="MemberTypeID" Type="MemberType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Offer" Member="Offers">
+    <Type Name="Offer">
+      <Column Name="OfferID" Type="System.String" DbType="VarChar(32) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OfferName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="DiscountPercentage" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="OfferGiven" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="OfferValid" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ItemCode" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="CategoryID" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="MemberTypeID" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="Offer_Transaction" Member="Transactions" ThisKey="OfferID" OtherKey="OfferID" Type="Transaction" />
+      <Association Name="Category_Offer" Member="Category" ThisKey="CategoryID" OtherKey="CategoryID" Type="Category" IsForeignKey="true" />
+      <Association Name="Item_Offer" Member="Item" ThisKey="ItemCode" OtherKey="ItemCode" Type="Item" IsForeignKey="true" />
+      <Association Name="MemberType_Offer" Member="MemberType" ThisKey="MemberTypeID" OtherKey="MemberTypeID" Type="MemberType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Transaction]" Member="Transactions">
+    <Type Name="Transaction">
+      <Column Name="TransactionID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TransactionDateTime" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ItemCode" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="AccountId" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="MembershipID" Type="System.String" DbType="VarChar(32)" CanBeNull="true" />
+      <Column Name="OfferID" Type="System.String" DbType="VarChar(32)" CanBeNull="true" />
+      <Association Name="Account_Transaction" Member="Account" ThisKey="AccountId" OtherKey="AccountId" Type="Account" IsForeignKey="true" />
+      <Association Name="Item_Transaction" Member="Item" ThisKey="ItemCode" OtherKey="ItemCode" Type="Item" IsForeignKey="true" />
+      <Association Name="Membership_Transaction" Member="Membership" ThisKey="MembershipID" OtherKey="MembershipID" Type="Membership" IsForeignKey="true" />
+      <Association Name="Offer_Transaction" Member="Offer" ThisKey="OfferID" OtherKey="OfferID" Type="Offer" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserType" Member="UserTypes">
+    <Type Name="UserType">
+      <Column Name="UserTypeId" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserTypeName" Type="System.String" DbType="VarChar(32) NOT NULL" CanBeNull="false" />
+      <Association Name="UserType_Account" Member="Accounts" ThisKey="UserTypeId" OtherKey="UserTypeID" Type="Account" />
+    </Type>
+  </Table>
+</Database>

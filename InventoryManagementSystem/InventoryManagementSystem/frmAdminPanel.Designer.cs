@@ -29,115 +29,139 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.ColumnHeader colUserType;
+            System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Chart chart2;
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Chart chart3;
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Chart chart4;
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Chart chart5;
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Chart chart6;
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Chart chart7;
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Chart chart8;
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Chart chart9;
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Chart chart10;
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Chart chart11;
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend11 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series14 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Chart chart12;
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea12 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend12 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series15 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea13 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend13 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series16 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea14 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend14 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea15 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend15 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea16 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend16 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series19 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea17 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend17 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series20 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea18 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend18 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series21 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea19 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend19 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series22 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAdminPanel));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.lblSubTitle = new System.Windows.Forms.Label();
-            this.adminImageList = new System.Windows.Forms.ImageList(this.components);
-            this.tabPageHelp = new System.Windows.Forms.TabPage();
-            this.tabPageLogManager = new System.Windows.Forms.TabPage();
-            this.btnItemLog = new System.Windows.Forms.Button();
-            this.btnAccountLog = new System.Windows.Forms.Button();
-            this.btnStockLog = new System.Windows.Forms.Button();
-            this.btnLogInHistory = new System.Windows.Forms.Button();
-            this.tabPageSales = new System.Windows.Forms.TabPage();
-            this.picMonthlySales = new System.Windows.Forms.PictureBox();
-            this.picYearlySales = new System.Windows.Forms.PictureBox();
-            this.picDailySales = new System.Windows.Forms.PictureBox();
-            this.lblYearlySales = new System.Windows.Forms.Label();
-            this.lblMonthlySales = new System.Windows.Forms.Label();
-            this.lblDailySales = new System.Windows.Forms.Label();
-            this.listViewSales = new System.Windows.Forms.ListView();
-            this.colTransCode = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colDate = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colItemCodeSales = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colItemNameSales = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colPriceSales = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colQuantity = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colTotal = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tabPageAccount = new System.Windows.Forms.TabPage();
-            this.txtSearchUsername = new System.Windows.Forms.TextBox();
-            this.lblSearchUsername = new System.Windows.Forms.Label();
-            this.listViewAccount = new System.Windows.Forms.ListView();
-            this.colAccountId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colUsername = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colPassword = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colFirstName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.coLastName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colSalary = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colJoinDate = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btnDeleteAccount = new System.Windows.Forms.Button();
-            this.btnUpdateAccount = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.lblAccountId = new System.Windows.Forms.Label();
-            this.lblUsername = new System.Windows.Forms.Label();
-            this.lblFirstName = new System.Windows.Forms.Label();
-            this.lblLastName = new System.Windows.Forms.Label();
-            this.lblSalary = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.picAddAccount = new System.Windows.Forms.PictureBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.lblUserType = new System.Windows.Forms.Label();
-            this.lblPassword = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.transactionBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.imsDBDataSet = new InventoryManagementSystem.imsDBDataSet();
+            this.itemBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.accountBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.logBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.offerBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.membershipBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnChangeUser = new System.Windows.Forms.Button();
+            this.menuStripAdmin = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.changeUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.homeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.stockToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.userAccountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.offerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.membershipToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
+            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.tabControlAdmin = new System.Windows.Forms.TabControl();
             this.tabPageStocks = new System.Windows.Forms.TabPage();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.listViewStocks = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.txtCategory2 = new System.Windows.Forms.TextBox();
-            this.txtItemCode2 = new System.Windows.Forms.TextBox();
-            this.lblStock2 = new System.Windows.Forms.Label();
-            this.lblPrice2 = new System.Windows.Forms.Label();
-            this.btnAddStock = new System.Windows.Forms.Button();
-            this.lblCaterory2 = new System.Windows.Forms.Label();
-            this.txtItemName2 = new System.Windows.Forms.TextBox();
-            this.lblDescription2 = new System.Windows.Forms.Label();
-            this.txtDescription2 = new System.Windows.Forms.TextBox();
-            this.lblItemName2 = new System.Windows.Forms.Label();
-            this.txtPrice2 = new System.Windows.Forms.TextBox();
-            this.lblItemCode2 = new System.Windows.Forms.Label();
-            this.txtStock2 = new System.Windows.Forms.TextBox();
-            this.tabPageItems = new System.Windows.Forms.TabPage();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.chartPricevsStock = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartItemName = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartItemNamevsStock = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.itemBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.pictureBoxSearchCategory = new System.Windows.Forms.PictureBox();
+            this.pictureBoxSearchItem = new System.Windows.Forms.PictureBox();
+            this.dataGridViewStocks = new System.Windows.Forms.DataGridView();
+            this.itemCodeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.itemNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.categoryIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.priceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stockDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.comSearchByCategory = new System.Windows.Forms.ComboBox();
-            this.lblSearchByCategory = new System.Windows.Forms.Label();
+            this.categoryBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.txtSearchItem = new System.Windows.Forms.TextBox();
-            this.lblSearchItem = new System.Windows.Forms.Label();
-            this.listViewItems = new System.Windows.Forms.ListView();
-            this.colItemCode = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colItemName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colDescription = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colCategory = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colPrice = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colStocks = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBoxDeleteCategory = new System.Windows.Forms.PictureBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.pictureBoxNewCategory = new System.Windows.Forms.PictureBox();
+            this.lblNewCategory = new System.Windows.Forms.Label();
+            this.lblDeleteItem = new System.Windows.Forms.Label();
+            this.lblEditItem = new System.Windows.Forms.Label();
+            this.pictureBoxDeleteItem = new System.Windows.Forms.PictureBox();
+            this.pictureBoxEditItem = new System.Windows.Forms.PictureBox();
             this.comCategory = new System.Windows.Forms.ComboBox();
-            this.btnDeleteItem = new System.Windows.Forms.Button();
-            this.btnEditItem = new System.Windows.Forms.Button();
             this.txtItemName = new System.Windows.Forms.TextBox();
             this.txtItemDescription = new System.Windows.Forms.TextBox();
             this.txtPrice = new System.Windows.Forms.TextBox();
             this.txtStocks = new System.Windows.Forms.TextBox();
             this.txtItemCode = new System.Windows.Forms.TextBox();
             this.picAddItem = new System.Windows.Forms.PictureBox();
-            this.lblTotalItem = new System.Windows.Forms.Label();
-            this.llblTotalItemCount = new System.Windows.Forms.Label();
             this.lblItemCode = new System.Windows.Forms.Label();
             this.lblItemName = new System.Windows.Forms.Label();
             this.lblItemDescription = new System.Windows.Forms.Label();
@@ -145,982 +169,998 @@
             this.lblPrice = new System.Windows.Forms.Label();
             this.lblStocks = new System.Windows.Forms.Label();
             this.lblAddItem = new System.Windows.Forms.Label();
-            this.tabControlAdmin = new System.Windows.Forms.TabControl();
-            this.lblSystemDateTime = new System.Windows.Forms.Label();
-            this.lblSystemUserName = new System.Windows.Forms.Label();
-            this.btnExit = new System.Windows.Forms.Button();
-            this.btnChangeUser = new System.Windows.Forms.Button();
-            this.lblTitle = new System.Windows.Forms.Label();
-            colUserType = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.panel1.SuspendLayout();
-            this.tabPageLogManager.SuspendLayout();
-            this.tabPageSales.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picMonthlySales)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picYearlySales)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDailySales)).BeginInit();
-            this.tabPageAccount.SuspendLayout();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picAddAccount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.tabPageStocks.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.tabPageItems.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picAddItem)).BeginInit();
+            this.tabPageUserAccount = new System.Windows.Forms.TabPage();
+            this.chartJoinDatevsSalary = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartNamevsSalary = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartUserIDType = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.userTypeIdDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.userTypeNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.userTypeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.pictureBoxSearchUser = new System.Windows.Forms.PictureBox();
+            this.dataGridViewAccount = new System.Windows.Forms.DataGridView();
+            this.accountIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.userNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.passwordDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.firstNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lastNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.userTypeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.salaryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.joinDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.accountBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.imsDBDataSet1 = new InventoryManagementSystem.imsDBDataSet1();
+            this.txtSearchUsername = new System.Windows.Forms.TextBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBoxDeleteUserType = new System.Windows.Forms.PictureBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.pictureBoxNewUserType = new System.Windows.Forms.PictureBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBoxDeleteAccount = new System.Windows.Forms.PictureBox();
+            this.pictureBoxEditUser = new System.Windows.Forms.PictureBox();
+            this.picAddAccount = new System.Windows.Forms.PictureBox();
+            this.txtSalary = new System.Windows.Forms.TextBox();
+            this.comUserType = new System.Windows.Forms.ComboBox();
+            this.lblSalary = new System.Windows.Forms.Label();
+            this.txtFirstname = new System.Windows.Forms.TextBox();
+            this.txtLastName = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.lblLastName = new System.Windows.Forms.Label();
+            this.lblUserType = new System.Windows.Forms.Label();
+            this.lblPassword = new System.Windows.Forms.Label();
+            this.lblFirstName = new System.Windows.Forms.Label();
+            this.lblUsername = new System.Windows.Forms.Label();
+            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.txtAccountId = new System.Windows.Forms.TextBox();
+            this.lblAccountId = new System.Windows.Forms.Label();
+            this.tabPageReport = new System.Windows.Forms.TabPage();
+            this.tabControlReport = new System.Windows.Forms.TabControl();
+            this.tabPageAllReport = new System.Windows.Forms.TabPage();
+            this.chartAccIDvsTrDate = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.dataGridViewAllSales = new System.Windows.Forms.DataGridView();
+            this.tabPageDailyReport = new System.Windows.Forms.TabPage();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.dataGridViewDailySales = new System.Windows.Forms.DataGridView();
+            this.tabPageMonthlyReport = new System.Windows.Forms.TabPage();
+            this.label3 = new System.Windows.Forms.Label();
+            this.comboBoxSelectMonth = new System.Windows.Forms.ComboBox();
+            this.dataGridViewMonthlySales = new System.Windows.Forms.DataGridView();
+            this.tabPageYearlyReport = new System.Windows.Forms.TabPage();
+            this.label4 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.dataGridViewYearlySales = new System.Windows.Forms.DataGridView();
+            this.imageListReport = new System.Windows.Forms.ImageList(this.components);
+            this.tabPageLog = new System.Windows.Forms.TabPage();
+            this.tabControlLog = new System.Windows.Forms.TabControl();
+            this.itemLog = new System.Windows.Forms.TabPage();
+            this.dataGridViewItemLog = new System.Windows.Forms.DataGridView();
+            this.tabPageStockLog = new System.Windows.Forms.TabPage();
+            this.dataGridViewStockLog = new System.Windows.Forms.DataGridView();
+            this.accountLog = new System.Windows.Forms.TabPage();
+            this.dataGridViewAccountLog = new System.Windows.Forms.DataGridView();
+            this.loginHistory = new System.Windows.Forms.TabPage();
+            this.dataGridViewLoginHistory = new System.Windows.Forms.DataGridView();
+            this.tabPageOffers = new System.Windows.Forms.TabPage();
+            this.pictureBoxOfferSearch = new System.Windows.Forms.PictureBox();
+            this.txtOfferSearch = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.pictureBoxDeteleOffer = new System.Windows.Forms.PictureBox();
+            this.pictureBoxEditOffer = new System.Windows.Forms.PictureBox();
+            this.pictureBoxNewOffer = new System.Windows.Forms.PictureBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txtOfferValidity = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.txtOfferGiven = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.comboBoxMemberShipId = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.comboBoxItemCode = new System.Windows.Forms.ComboBox();
+            this.comboBoxCategoryId = new System.Windows.Forms.ComboBox();
+            this.txtDiscount = new System.Windows.Forms.TextBox();
+            this.txtOfferDescription = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtOfferName = new System.Windows.Forms.TextBox();
+            this.txtOfferId = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.dataGridViewOfferDetails = new System.Windows.Forms.DataGridView();
+            this.offerIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.offerNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descriptionDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.discountPercentageDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.offerGivenDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.offerValidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.itemCodeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.categoryIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.memberTypeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPageMembership = new System.Windows.Forms.TabPage();
+            this.pictureBoxMemberSearch = new System.Windows.Forms.PictureBox();
+            this.txtMemberSearch = new System.Windows.Forms.TextBox();
+            this.dataGridViewMember = new System.Windows.Forms.DataGridView();
+            this.membershipIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.memberTypeIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.memberNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.memberAddressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.phoneNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.memberFromDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.totalShoppingDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.imageListAdmin = new System.Windows.Forms.ImageList(this.components);
+            this.itemTableAdapter = new InventoryManagementSystem.imsDBDataSetTableAdapters.ItemTableAdapter();
+            this.categoryTableAdapter = new InventoryManagementSystem.imsDBDataSetTableAdapters.CategoryTableAdapter();
+            this.logTableAdapter = new InventoryManagementSystem.imsDBDataSetTableAdapters.LogTableAdapter();
+            this.accountTableAdapter = new InventoryManagementSystem.imsDBDataSetTableAdapters.AccountTableAdapter();
+            this.offerTableAdapter = new InventoryManagementSystem.imsDBDataSetTableAdapters.OfferTableAdapter();
+            this.offerBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.membershipBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.membershipTableAdapter = new InventoryManagementSystem.imsDBDataSetTableAdapters.MembershipTableAdapter();
+            this.membershipBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.membershipBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.userTypeTableAdapter = new InventoryManagementSystem.imsDBDataSetTableAdapters.UserTypeTableAdapter();
+            this.transactionTableAdapter = new InventoryManagementSystem.imsDBDataSetTableAdapters.TransactionTableAdapter();
+            this.accountTableAdapter1 = new InventoryManagementSystem.imsDBDataSet1TableAdapters.AccountTableAdapter();
+            chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            chart3 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            chart4 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            chart5 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            chart6 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            chart7 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            chart8 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            chart9 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            chart10 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            chart11 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            chart12 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            ((System.ComponentModel.ISupportInitialize)(chart1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.transactionBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imsDBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(chart2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(chart3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(chart4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.itemBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(chart5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(chart6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(chart7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(chart8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(chart9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(chart10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(chart11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.offerBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(chart12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.membershipBindingSource3)).BeginInit();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
+            this.menuStripAdmin.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.tabControlAdmin.SuspendLayout();
+            this.tabPageStocks.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartPricevsStock)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartItemName)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartItemNamevsStock)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.itemBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSearchCategory)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSearchItem)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStocks)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.categoryBindingSource)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDeleteCategory)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNewCategory)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDeleteItem)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEditItem)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAddItem)).BeginInit();
+            this.tabPageUserAccount.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartJoinDatevsSalary)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartNamevsSalary)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartUserIDType)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userTypeBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSearchUser)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAccount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imsDBDataSet1)).BeginInit();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDeleteUserType)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNewUserType)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDeleteAccount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEditUser)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAddAccount)).BeginInit();
+            this.tabPageReport.SuspendLayout();
+            this.tabControlReport.SuspendLayout();
+            this.tabPageAllReport.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartAccIDvsTrDate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAllSales)).BeginInit();
+            this.tabPageDailyReport.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDailySales)).BeginInit();
+            this.tabPageMonthlyReport.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMonthlySales)).BeginInit();
+            this.tabPageYearlyReport.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewYearlySales)).BeginInit();
+            this.tabPageLog.SuspendLayout();
+            this.tabControlLog.SuspendLayout();
+            this.itemLog.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewItemLog)).BeginInit();
+            this.tabPageStockLog.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStockLog)).BeginInit();
+            this.accountLog.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAccountLog)).BeginInit();
+            this.loginHistory.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewLoginHistory)).BeginInit();
+            this.tabPageOffers.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOfferSearch)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDeteleOffer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEditOffer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNewOffer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOfferDetails)).BeginInit();
+            this.tabPageMembership.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMemberSearch)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMember)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.offerBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.membershipBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.membershipBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.membershipBindingSource2)).BeginInit();
             this.SuspendLayout();
             // 
-            // colUserType
-            // 
-            colUserType.DisplayIndex = 7;
-            colUserType.Text = "User Type";
-            colUserType.Width = 82;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.panel1.Controls.Add(this.btnChangeUser);
-            this.panel1.Controls.Add(this.btnExit);
-            this.panel1.Controls.Add(this.lblSystemUserName);
-            this.panel1.Controls.Add(this.lblSystemDateTime);
-            this.panel1.Controls.Add(this.lblTitle);
-            this.panel1.Controls.Add(this.lblSubTitle);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(892, 74);
-            this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // lblSubTitle
-            // 
-            this.lblSubTitle.AutoSize = true;
-            this.lblSubTitle.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSubTitle.Location = new System.Drawing.Point(323, 39);
-            this.lblSubTitle.Name = "lblSubTitle";
-            this.lblSubTitle.Size = new System.Drawing.Size(247, 22);
-            this.lblSubTitle.TabIndex = 3;
-            this.lblSubTitle.Text = "Sales And Inventory System";
-            // 
-            // adminImageList
-            // 
-            this.adminImageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("adminImageList.ImageStream")));
-            this.adminImageList.TransparentColor = System.Drawing.Color.Maroon;
-            this.adminImageList.Images.SetKeyName(0, "items.png");
-            this.adminImageList.Images.SetKeyName(1, "stocks.png");
-            this.adminImageList.Images.SetKeyName(2, "username.png");
-            this.adminImageList.Images.SetKeyName(3, "sales.png");
-            this.adminImageList.Images.SetKeyName(4, "log.png");
-            this.adminImageList.Images.SetKeyName(5, "help.png");
-            this.adminImageList.Images.SetKeyName(6, "change_user.png");
-            this.adminImageList.Images.SetKeyName(7, "exit.png");
-            // 
-            // tabPageHelp
-            // 
-            this.tabPageHelp.ImageIndex = 5;
-            this.tabPageHelp.Location = new System.Drawing.Point(4, 55);
-            this.tabPageHelp.Name = "tabPageHelp";
-            this.tabPageHelp.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageHelp.Size = new System.Drawing.Size(884, 407);
-            this.tabPageHelp.TabIndex = 5;
-            this.tabPageHelp.Text = "   HELP    ";
-            this.tabPageHelp.UseVisualStyleBackColor = true;
-            this.tabPageHelp.Click += new System.EventHandler(this.tabPageHelp_Click);
-            // 
-            // tabPageLogManager
-            // 
-            this.tabPageLogManager.Controls.Add(this.btnItemLog);
-            this.tabPageLogManager.Controls.Add(this.btnAccountLog);
-            this.tabPageLogManager.Controls.Add(this.btnStockLog);
-            this.tabPageLogManager.Controls.Add(this.btnLogInHistory);
-            this.tabPageLogManager.ImageIndex = 4;
-            this.tabPageLogManager.Location = new System.Drawing.Point(4, 55);
-            this.tabPageLogManager.Name = "tabPageLogManager";
-            this.tabPageLogManager.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageLogManager.Size = new System.Drawing.Size(884, 407);
-            this.tabPageLogManager.TabIndex = 4;
-            this.tabPageLogManager.Text = "  LOG     ";
-            this.tabPageLogManager.UseVisualStyleBackColor = true;
-            this.tabPageLogManager.Click += new System.EventHandler(this.tabPageLogManager_Click);
-            // 
-            // btnItemLog
-            // 
-            this.btnItemLog.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnItemLog.FlatAppearance.BorderSize = 0;
-            this.btnItemLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnItemLog.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnItemLog.ForeColor = System.Drawing.Color.White;
-            this.btnItemLog.Location = new System.Drawing.Point(122, 122);
-            this.btnItemLog.Name = "btnItemLog";
-            this.btnItemLog.Size = new System.Drawing.Size(138, 91);
-            this.btnItemLog.TabIndex = 3;
-            this.btnItemLog.Text = "ITEM LOG";
-            this.btnItemLog.UseVisualStyleBackColor = false;
-            this.btnItemLog.Click += new System.EventHandler(this.btnItemLog_Click);
-            // 
-            // btnAccountLog
-            // 
-            this.btnAccountLog.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnAccountLog.FlatAppearance.BorderSize = 0;
-            this.btnAccountLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAccountLog.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAccountLog.ForeColor = System.Drawing.Color.White;
-            this.btnAccountLog.Location = new System.Drawing.Point(482, 122);
-            this.btnAccountLog.Name = "btnAccountLog";
-            this.btnAccountLog.Size = new System.Drawing.Size(138, 91);
-            this.btnAccountLog.TabIndex = 2;
-            this.btnAccountLog.Text = "ACCOUNT LOG";
-            this.btnAccountLog.UseVisualStyleBackColor = false;
-            this.btnAccountLog.Click += new System.EventHandler(this.btnAccountLog_Click);
-            // 
-            // btnStockLog
-            // 
-            this.btnStockLog.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnStockLog.FlatAppearance.BorderSize = 0;
-            this.btnStockLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStockLog.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStockLog.ForeColor = System.Drawing.Color.White;
-            this.btnStockLog.Location = new System.Drawing.Point(303, 122);
-            this.btnStockLog.Name = "btnStockLog";
-            this.btnStockLog.Size = new System.Drawing.Size(138, 91);
-            this.btnStockLog.TabIndex = 1;
-            this.btnStockLog.Text = "STOCK LOG";
-            this.btnStockLog.UseVisualStyleBackColor = false;
-            this.btnStockLog.Click += new System.EventHandler(this.btnStockLog_Click);
-            // 
-            // btnLogInHistory
-            // 
-            this.btnLogInHistory.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnLogInHistory.FlatAppearance.BorderSize = 0;
-            this.btnLogInHistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogInHistory.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogInHistory.ForeColor = System.Drawing.Color.White;
-            this.btnLogInHistory.Location = new System.Drawing.Point(659, 122);
-            this.btnLogInHistory.Name = "btnLogInHistory";
-            this.btnLogInHistory.Size = new System.Drawing.Size(138, 91);
-            this.btnLogInHistory.TabIndex = 0;
-            this.btnLogInHistory.Text = "LOG IN HISTORY";
-            this.btnLogInHistory.UseVisualStyleBackColor = false;
-            this.btnLogInHistory.Click += new System.EventHandler(this.btnLogInHistory_Click);
-            // 
-            // tabPageSales
-            // 
-            this.tabPageSales.Controls.Add(this.picMonthlySales);
-            this.tabPageSales.Controls.Add(this.picYearlySales);
-            this.tabPageSales.Controls.Add(this.picDailySales);
-            this.tabPageSales.Controls.Add(this.lblYearlySales);
-            this.tabPageSales.Controls.Add(this.lblMonthlySales);
-            this.tabPageSales.Controls.Add(this.lblDailySales);
-            this.tabPageSales.Controls.Add(this.listViewSales);
-            this.tabPageSales.ImageIndex = 3;
-            this.tabPageSales.Location = new System.Drawing.Point(4, 55);
-            this.tabPageSales.Name = "tabPageSales";
-            this.tabPageSales.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageSales.Size = new System.Drawing.Size(884, 407);
-            this.tabPageSales.TabIndex = 3;
-            this.tabPageSales.Text = "  SALES     ";
-            this.tabPageSales.UseVisualStyleBackColor = true;
-            this.tabPageSales.Click += new System.EventHandler(this.tabPageSales_Click);
-            // 
-            // picMonthlySales
-            // 
-            this.picMonthlySales.Image = global::InventoryManagementSystem.Properties.Resources.monthlySales;
-            this.picMonthlySales.Location = new System.Drawing.Point(144, 4);
-            this.picMonthlySales.Name = "picMonthlySales";
-            this.picMonthlySales.Size = new System.Drawing.Size(54, 50);
-            this.picMonthlySales.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picMonthlySales.TabIndex = 15;
-            this.picMonthlySales.TabStop = false;
-            this.picMonthlySales.Click += new System.EventHandler(this.picMonthlySales_Click);
-            // 
-            // picYearlySales
-            // 
-            this.picYearlySales.Image = global::InventoryManagementSystem.Properties.Resources.yearlySales;
-            this.picYearlySales.Location = new System.Drawing.Point(252, 4);
-            this.picYearlySales.Name = "picYearlySales";
-            this.picYearlySales.Size = new System.Drawing.Size(56, 50);
-            this.picYearlySales.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picYearlySales.TabIndex = 14;
-            this.picYearlySales.TabStop = false;
-            this.picYearlySales.Click += new System.EventHandler(this.picYearlySales_Click);
-            // 
-            // picDailySales
-            // 
-            this.picDailySales.Image = global::InventoryManagementSystem.Properties.Resources.dailySales;
-            this.picDailySales.Location = new System.Drawing.Point(32, 4);
-            this.picDailySales.Name = "picDailySales";
-            this.picDailySales.Size = new System.Drawing.Size(57, 50);
-            this.picDailySales.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picDailySales.TabIndex = 13;
-            this.picDailySales.TabStop = false;
-            this.picDailySales.Click += new System.EventHandler(this.picDailySales_Click);
-            // 
-            // lblYearlySales
-            // 
-            this.lblYearlySales.AutoSize = true;
-            this.lblYearlySales.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYearlySales.Location = new System.Drawing.Point(240, 54);
-            this.lblYearlySales.Name = "lblYearlySales";
-            this.lblYearlySales.Size = new System.Drawing.Size(81, 16);
-            this.lblYearlySales.TabIndex = 12;
-            this.lblYearlySales.Text = "Yearly Sales";
-            // 
-            // lblMonthlySales
-            // 
-            this.lblMonthlySales.AutoSize = true;
-            this.lblMonthlySales.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMonthlySales.Location = new System.Drawing.Point(125, 54);
-            this.lblMonthlySales.Name = "lblMonthlySales";
-            this.lblMonthlySales.Size = new System.Drawing.Size(91, 16);
-            this.lblMonthlySales.TabIndex = 11;
-            this.lblMonthlySales.Text = "Monthly Sales";
-            // 
-            // lblDailySales
-            // 
-            this.lblDailySales.AutoSize = true;
-            this.lblDailySales.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDailySales.Location = new System.Drawing.Point(25, 54);
-            this.lblDailySales.Name = "lblDailySales";
-            this.lblDailySales.Size = new System.Drawing.Size(74, 16);
-            this.lblDailySales.TabIndex = 10;
-            this.lblDailySales.Text = "Daily Sales";
-            // 
-            // listViewSales
-            // 
-            this.listViewSales.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.colTransCode,
-            this.colDate,
-            this.colItemCodeSales,
-            this.colItemNameSales,
-            this.colPriceSales,
-            this.colQuantity,
-            this.colTotal});
-            this.listViewSales.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listViewSales.Location = new System.Drawing.Point(24, 76);
-            this.listViewSales.Name = "listViewSales";
-            this.listViewSales.Size = new System.Drawing.Size(833, 286);
-            this.listViewSales.TabIndex = 9;
-            this.listViewSales.UseCompatibleStateImageBehavior = false;
-            this.listViewSales.View = System.Windows.Forms.View.Details;
-            // 
-            // colTransCode
-            // 
-            this.colTransCode.Text = "Transaction code";
-            this.colTransCode.Width = 114;
-            // 
-            // colDate
-            // 
-            this.colDate.Text = "Date";
-            this.colDate.Width = 147;
-            // 
-            // colItemCodeSales
-            // 
-            this.colItemCodeSales.Text = "Item Code";
-            this.colItemCodeSales.Width = 82;
-            // 
-            // colItemNameSales
-            // 
-            this.colItemNameSales.Text = "Item";
-            this.colItemNameSales.Width = 170;
-            // 
-            // colPriceSales
-            // 
-            this.colPriceSales.Text = "Price";
-            this.colPriceSales.Width = 110;
-            // 
-            // colQuantity
-            // 
-            this.colQuantity.Text = "Quantity";
-            this.colQuantity.Width = 113;
-            // 
-            // colTotal
-            // 
-            this.colTotal.Text = "Total";
-            this.colTotal.Width = 85;
-            // 
-            // tabPageAccount
-            // 
-            this.tabPageAccount.Controls.Add(this.txtSearchUsername);
-            this.tabPageAccount.Controls.Add(this.lblSearchUsername);
-            this.tabPageAccount.Controls.Add(this.listViewAccount);
-            this.tabPageAccount.Controls.Add(this.btnDeleteAccount);
-            this.tabPageAccount.Controls.Add(this.btnUpdateAccount);
-            this.tabPageAccount.Controls.Add(this.textBox2);
-            this.tabPageAccount.Controls.Add(this.textBox4);
-            this.tabPageAccount.Controls.Add(this.textBox5);
-            this.tabPageAccount.Controls.Add(this.textBox6);
-            this.tabPageAccount.Controls.Add(this.label7);
-            this.tabPageAccount.Controls.Add(this.label8);
-            this.tabPageAccount.Controls.Add(this.lblAccountId);
-            this.tabPageAccount.Controls.Add(this.lblUsername);
-            this.tabPageAccount.Controls.Add(this.lblFirstName);
-            this.tabPageAccount.Controls.Add(this.lblLastName);
-            this.tabPageAccount.Controls.Add(this.lblSalary);
-            this.tabPageAccount.Controls.Add(this.label15);
-            this.tabPageAccount.Controls.Add(this.panel4);
-            this.tabPageAccount.Controls.Add(this.pictureBox1);
-            this.tabPageAccount.ImageIndex = 2;
-            this.tabPageAccount.Location = new System.Drawing.Point(4, 55);
-            this.tabPageAccount.Name = "tabPageAccount";
-            this.tabPageAccount.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageAccount.Size = new System.Drawing.Size(884, 407);
-            this.tabPageAccount.TabIndex = 2;
-            this.tabPageAccount.Text = " ACCOUNT      ";
-            this.tabPageAccount.UseVisualStyleBackColor = true;
-            this.tabPageAccount.Click += new System.EventHandler(this.tabPageAccount_Click);
-            // 
-            // txtSearchUsername
-            // 
-            this.txtSearchUsername.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearchUsername.Location = new System.Drawing.Point(443, 17);
-            this.txtSearchUsername.Name = "txtSearchUsername";
-            this.txtSearchUsername.Size = new System.Drawing.Size(193, 26);
-            this.txtSearchUsername.TabIndex = 39;
-            // 
-            // lblSearchUsername
-            // 
-            this.lblSearchUsername.AutoSize = true;
-            this.lblSearchUsername.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSearchUsername.Location = new System.Drawing.Point(325, 22);
-            this.lblSearchUsername.Name = "lblSearchUsername";
-            this.lblSearchUsername.Size = new System.Drawing.Size(116, 16);
-            this.lblSearchUsername.TabIndex = 38;
-            this.lblSearchUsername.Text = "Search Username:";
-            // 
-            // listViewAccount
-            // 
-            this.listViewAccount.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.colAccountId,
-            this.colUsername,
-            this.colPassword,
-            this.colFirstName,
-            this.coLastName,
-            colUserType,
-            this.colSalary,
-            this.colJoinDate});
-            this.listViewAccount.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listViewAccount.Location = new System.Drawing.Point(306, 49);
-            this.listViewAccount.Name = "listViewAccount";
-            this.listViewAccount.Size = new System.Drawing.Size(570, 332);
-            this.listViewAccount.TabIndex = 37;
-            this.listViewAccount.UseCompatibleStateImageBehavior = false;
-            this.listViewAccount.View = System.Windows.Forms.View.Details;
-            // 
-            // colAccountId
-            // 
-            this.colAccountId.Text = "Id";
-            this.colAccountId.Width = 51;
-            // 
-            // colUsername
-            // 
-            this.colUsername.Text = "Username";
-            this.colUsername.Width = 75;
-            // 
-            // colPassword
-            // 
-            this.colPassword.Text = "Password";
-            this.colPassword.Width = 70;
-            // 
-            // colFirstName
-            // 
-            this.colFirstName.Text = "First Name";
-            this.colFirstName.Width = 81;
-            // 
-            // coLastName
-            // 
-            this.coLastName.Text = "Last Name";
-            this.coLastName.Width = 79;
-            // 
-            // colSalary
-            // 
-            this.colSalary.DisplayIndex = 5;
-            this.colSalary.Text = "Salary";
-            this.colSalary.Width = 50;
-            // 
-            // colJoinDate
-            // 
-            this.colJoinDate.DisplayIndex = 6;
-            this.colJoinDate.Text = "Join Date";
-            this.colJoinDate.Width = 72;
-            // 
-            // btnDeleteAccount
-            // 
-            this.btnDeleteAccount.BackColor = System.Drawing.Color.Red;
-            this.btnDeleteAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteAccount.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeleteAccount.ForeColor = System.Drawing.Color.White;
-            this.btnDeleteAccount.Location = new System.Drawing.Point(157, 349);
-            this.btnDeleteAccount.Name = "btnDeleteAccount";
-            this.btnDeleteAccount.Size = new System.Drawing.Size(141, 39);
-            this.btnDeleteAccount.TabIndex = 35;
-            this.btnDeleteAccount.Text = "Delete Account";
-            this.btnDeleteAccount.UseVisualStyleBackColor = false;
-            // 
-            // btnUpdateAccount
-            // 
-            this.btnUpdateAccount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnUpdateAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpdateAccount.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdateAccount.ForeColor = System.Drawing.Color.White;
-            this.btnUpdateAccount.Location = new System.Drawing.Point(7, 349);
-            this.btnUpdateAccount.Name = "btnUpdateAccount";
-            this.btnUpdateAccount.Size = new System.Drawing.Size(141, 39);
-            this.btnUpdateAccount.TabIndex = 34;
-            this.btnUpdateAccount.Text = "Update Account";
-            this.btnUpdateAccount.UseVisualStyleBackColor = false;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(101, 128);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(193, 26);
-            this.textBox2.TabIndex = 33;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(101, 233);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(193, 26);
-            this.textBox4.TabIndex = 30;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(101, 299);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(193, 26);
-            this.textBox5.TabIndex = 29;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Enabled = false;
-            this.textBox6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(101, 93);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(193, 26);
-            this.textBox6.TabIndex = 28;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(134, 56);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(98, 16);
-            this.label7.TabIndex = 26;
-            this.label7.Text = "Total Account:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(229, 39);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(37, 41);
-            this.label8.TabIndex = 25;
-            this.label8.Text = "0";
-            // 
-            // lblAccountId
-            // 
-            this.lblAccountId.AutoSize = true;
-            this.lblAccountId.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAccountId.Location = new System.Drawing.Point(13, 97);
-            this.lblAccountId.Name = "lblAccountId";
-            this.lblAccountId.Size = new System.Drawing.Size(86, 18);
-            this.lblAccountId.TabIndex = 24;
-            this.lblAccountId.Text = "Account Id:";
-            // 
-            // lblUsername
-            // 
-            this.lblUsername.AutoSize = true;
-            this.lblUsername.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsername.Location = new System.Drawing.Point(15, 132);
-            this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(84, 18);
-            this.lblUsername.TabIndex = 23;
-            this.lblUsername.Text = "Username:";
-            // 
-            // lblFirstName
-            // 
-            this.lblFirstName.AutoSize = true;
-            this.lblFirstName.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFirstName.Location = new System.Drawing.Point(11, 202);
-            this.lblFirstName.Name = "lblFirstName";
-            this.lblFirstName.Size = new System.Drawing.Size(88, 18);
-            this.lblFirstName.TabIndex = 21;
-            this.lblFirstName.Text = "First Name:";
-            // 
-            // lblLastName
-            // 
-            this.lblLastName.AutoSize = true;
-            this.lblLastName.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLastName.Location = new System.Drawing.Point(13, 237);
-            this.lblLastName.Name = "lblLastName";
-            this.lblLastName.Size = new System.Drawing.Size(86, 18);
-            this.lblLastName.TabIndex = 20;
-            this.lblLastName.Text = "Last Name:";
-            // 
-            // lblSalary
-            // 
-            this.lblSalary.AutoSize = true;
-            this.lblSalary.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSalary.Location = new System.Drawing.Point(44, 303);
-            this.lblSalary.Name = "lblSalary";
-            this.lblSalary.Size = new System.Drawing.Size(55, 18);
-            this.lblSalary.TabIndex = 19;
-            this.lblSalary.Text = "Salary:";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(13, 67);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(82, 16);
-            this.label15.TabIndex = 18;
-            this.label15.Text = "Add Account";
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.picAddAccount);
-            this.panel4.Controls.Add(this.comboBox2);
-            this.panel4.Controls.Add(this.textBox9);
-            this.panel4.Controls.Add(this.textBox3);
-            this.panel4.Controls.Add(this.lblUserType);
-            this.panel4.Controls.Add(this.lblPassword);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel4.Location = new System.Drawing.Point(3, 3);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(298, 401);
-            this.panel4.TabIndex = 36;
-            // 
-            // picAddAccount
-            // 
-            this.picAddAccount.Image = global::InventoryManagementSystem.Properties.Resources.addNew;
-            this.picAddAccount.Location = new System.Drawing.Point(21, 14);
-            this.picAddAccount.Name = "picAddAccount";
-            this.picAddAccount.Size = new System.Drawing.Size(57, 50);
-            this.picAddAccount.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picAddAccount.TabIndex = 34;
-            this.picAddAccount.TabStop = false;
-            this.picAddAccount.Click += new System.EventHandler(this.picAddAccount_Click);
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(98, 263);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(193, 27);
-            this.comboBox2.TabIndex = 33;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(98, 196);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(193, 26);
-            this.textBox9.TabIndex = 32;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(99, 161);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(193, 26);
-            this.textBox3.TabIndex = 31;
-            // 
-            // lblUserType
-            // 
-            this.lblUserType.AutoSize = true;
-            this.lblUserType.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserType.Location = new System.Drawing.Point(8, 270);
-            this.lblUserType.Name = "lblUserType";
-            this.lblUserType.Size = new System.Drawing.Size(84, 18);
-            this.lblUserType.TabIndex = 30;
-            this.lblUserType.Text = "User Type:";
-            // 
-            // lblPassword
-            // 
-            this.lblPassword.AutoSize = true;
-            this.lblPassword.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.Location = new System.Drawing.Point(8, 165);
-            this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(81, 18);
-            this.lblPassword.TabIndex = 22;
-            this.lblPassword.Text = "Password:";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 40;
-            this.pictureBox1.TabStop = false;
+            // chart1
+            // 
+            chartArea1.Name = "ChartArea1";
+            chart1.ChartAreas.Add(chartArea1);
+            chart1.DataSource = this.transactionBindingSource;
+            legend1.Name = "Legend1";
+            chart1.Legends.Add(legend1);
+            chart1.Location = new System.Drawing.Point(0, 167);
+            chart1.Name = "chart1";
+            chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Bar;
+            series1.Legend = "Legend1";
+            series1.Name = "AccountID vs Transaction Date";
+            series1.XValueMember = "AccountId";
+            series1.YValueMembers = "TransactionDateTime";
+            chart1.Series.Add(series1);
+            chart1.Size = new System.Drawing.Size(567, 387);
+            chart1.TabIndex = 27;
+            chart1.Text = "chart1";
+            // 
+            // transactionBindingSource
+            // 
+            this.transactionBindingSource.DataMember = "Transaction";
+            this.transactionBindingSource.DataSource = this.imsDBDataSet;
+            // 
+            // imsDBDataSet
+            // 
+            this.imsDBDataSet.DataSetName = "imsDBDataSet";
+            this.imsDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // chart2
+            // 
+            chartArea2.Name = "ChartArea1";
+            chart2.ChartAreas.Add(chartArea2);
+            chart2.DataSource = this.transactionBindingSource;
+            legend2.Name = "Legend1";
+            chart2.Legends.Add(legend2);
+            chart2.Location = new System.Drawing.Point(-4, 170);
+            chart2.Name = "chart2";
+            chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.RangeColumn;
+            series2.Legend = "Legend1";
+            series2.Name = "AccountID vs Transaction Date";
+            series2.XValueMember = "AccountId";
+            series2.YValueMembers = "TransactionDateTime";
+            series2.YValuesPerPoint = 2;
+            chart2.Series.Add(series2);
+            chart2.Size = new System.Drawing.Size(469, 387);
+            chart2.TabIndex = 28;
+            chart2.Text = "chart2";
+            // 
+            // chart3
+            // 
+            chartArea3.Name = "ChartArea1";
+            chart3.ChartAreas.Add(chartArea3);
+            chart3.DataSource = this.transactionBindingSource;
+            legend3.Name = "Legend1";
+            chart3.Legends.Add(legend3);
+            chart3.Location = new System.Drawing.Point(-1, 81);
+            chart3.Name = "chart3";
+            chart3.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series3.Legend = "Legend1";
+            series3.Name = "AccountID vs Transaction Date";
+            series3.XValueMember = "AccountId";
+            series3.YValueMembers = "TransactionDateTime";
+            series3.YValuesPerPoint = 2;
+            chart3.Series.Add(series3);
+            chart3.Size = new System.Drawing.Size(460, 488);
+            chart3.TabIndex = 30;
+            chart3.Text = "chart3";
+            // 
+            // chart4
+            // 
+            chartArea4.Name = "ChartArea1";
+            chart4.ChartAreas.Add(chartArea4);
+            chart4.DataSource = this.itemBindingSource;
+            legend4.Name = "Legend1";
+            chart4.Legends.Add(legend4);
+            chart4.Location = new System.Drawing.Point(7, -1);
+            chart4.Name = "chart4";
+            chart4.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series4.Legend = "Legend1";
+            series4.Name = "Item VS Stock-Price";
+            series4.XValueMember = "CategoryID";
+            series4.YValueMembers = "Price, Stock";
+            series4.YValuesPerPoint = 2;
+            chart4.Series.Add(series4);
+            chart4.Size = new System.Drawing.Size(543, 234);
+            chart4.TabIndex = 31;
+            chart4.Text = "Item VS Stock-Price";
+            // 
+            // itemBindingSource
+            // 
+            this.itemBindingSource.DataMember = "Item";
+            this.itemBindingSource.DataSource = this.imsDBDataSet;
+            // 
+            // chart5
+            // 
+            chartArea5.Name = "ChartArea1";
+            chart5.ChartAreas.Add(chartArea5);
+            chart5.DataSource = this.itemBindingSource;
+            legend5.Name = "Legend1";
+            chart5.Legends.Add(legend5);
+            chart5.Location = new System.Drawing.Point(3, 253);
+            chart5.Name = "chart5";
+            chart5.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series5.Legend = "Legend1";
+            series5.Name = "ItemVSPrice";
+            series5.XValueMember = "ItemName";
+            series5.YValueMembers = "Price";
+            series5.YValuesPerPoint = 2;
+            series6.ChartArea = "ChartArea1";
+            series6.Legend = "Legend1";
+            series6.Name = "Item VS Stock";
+            series6.XValueMember = "ItemName";
+            series6.YValueMembers = "Stock";
+            chart5.Series.Add(series5);
+            chart5.Series.Add(series6);
+            chart5.Size = new System.Drawing.Size(1320, 316);
+            chart5.TabIndex = 32;
+            // 
+            // chart6
+            // 
+            chartArea6.Name = "ChartArea1";
+            chart6.ChartAreas.Add(chartArea6);
+            chart6.DataSource = this.itemBindingSource;
+            legend6.Name = "Legend1";
+            chart6.Legends.Add(legend6);
+            chart6.Location = new System.Drawing.Point(3, 251);
+            chart6.Name = "chart6";
+            chart6.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
+            series7.ChartArea = "ChartArea1";
+            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series7.Legend = "Legend1";
+            series7.Name = "ItemVSPrice";
+            series7.XValueMember = "ItemName";
+            series7.YValueMembers = "Price";
+            series7.YValuesPerPoint = 2;
+            series8.ChartArea = "ChartArea1";
+            series8.Legend = "Legend1";
+            series8.Name = "Item VS Stock";
+            series8.XValueMember = "ItemName";
+            series8.YValueMembers = "Stock";
+            chart6.Series.Add(series7);
+            chart6.Series.Add(series8);
+            chart6.Size = new System.Drawing.Size(1320, 316);
+            chart6.TabIndex = 34;
+            // 
+            // chart7
+            // 
+            chartArea7.Name = "ChartArea1";
+            chart7.ChartAreas.Add(chartArea7);
+            chart7.DataSource = this.itemBindingSource;
+            legend7.Name = "Legend1";
+            chart7.Legends.Add(legend7);
+            chart7.Location = new System.Drawing.Point(7, -3);
+            chart7.Name = "chart7";
+            chart7.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
+            series9.ChartArea = "ChartArea1";
+            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series9.Legend = "Legend1";
+            series9.Name = "Item VS Stock-Price";
+            series9.XValueMember = "CategoryID";
+            series9.YValueMembers = "Price, Stock";
+            series9.YValuesPerPoint = 2;
+            chart7.Series.Add(series9);
+            chart7.Size = new System.Drawing.Size(493, 234);
+            chart7.TabIndex = 33;
+            // 
+            // chart8
+            // 
+            chartArea8.Name = "ChartArea1";
+            chart8.ChartAreas.Add(chartArea8);
+            chart8.DataSource = this.accountBindingSource;
+            legend8.Name = "Legend1";
+            chart8.Legends.Add(legend8);
+            chart8.Location = new System.Drawing.Point(3, 251);
+            chart8.Name = "chart8";
+            chart8.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
+            series10.ChartArea = "ChartArea1";
+            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series10.Legend = "Legend1";
+            series10.Name = "Name VS JoinDate";
+            series10.XValueMember = "UserName";
+            series10.YValueMembers = "JoinDate";
+            series10.YValuesPerPoint = 2;
+            chart8.Series.Add(series10);
+            chart8.Size = new System.Drawing.Size(1320, 316);
+            chart8.TabIndex = 34;
+            // 
+            // accountBindingSource
+            // 
+            this.accountBindingSource.DataMember = "Account";
+            this.accountBindingSource.DataSource = this.imsDBDataSet;
+            // 
+            // chart9
+            // 
+            chartArea9.Name = "ChartArea1";
+            chart9.ChartAreas.Add(chartArea9);
+            chart9.DataSource = this.accountBindingSource;
+            legend9.Name = "Legend1";
+            chart9.Legends.Add(legend9);
+            chart9.Location = new System.Drawing.Point(7, -3);
+            chart9.Name = "chart9";
+            chart9.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
+            series11.ChartArea = "ChartArea1";
+            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series11.Legend = "Legend1";
+            series11.Name = "Series1";
+            series11.XValueMember = "FirstName";
+            series11.YValueMembers = "Salary";
+            series11.YValuesPerPoint = 2;
+            chart9.Series.Add(series11);
+            chart9.Size = new System.Drawing.Size(360, 234);
+            chart9.TabIndex = 33;
+            // 
+            // chart10
+            // 
+            chartArea10.Name = "ChartArea1";
+            chart10.ChartAreas.Add(chartArea10);
+            chart10.DataSource = this.logBindingSource;
+            legend10.Name = "Legend1";
+            chart10.Legends.Add(legend10);
+            chart10.Location = new System.Drawing.Point(-1, 250);
+            chart10.Name = "chart10";
+            chart10.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
+            series12.ChartArea = "ChartArea1";
+            series12.Legend = "Legend1";
+            series12.Name = "Account VS Login";
+            series12.XValueMember = "AccountId";
+            series12.YValueMembers = "Login";
+            series12.YValuesPerPoint = 2;
+            series13.ChartArea = "ChartArea1";
+            series13.Legend = "Legend1";
+            series13.Name = "Account VS Logout";
+            series13.XValueMember = "AccountId";
+            series13.YValueMembers = "Logout";
+            chart10.Series.Add(series12);
+            chart10.Series.Add(series13);
+            chart10.Size = new System.Drawing.Size(1320, 316);
+            chart10.TabIndex = 35;
+            // 
+            // logBindingSource
+            // 
+            this.logBindingSource.DataMember = "Log";
+            this.logBindingSource.DataSource = this.imsDBDataSet;
+            // 
+            // chart11
+            // 
+            chartArea11.Name = "ChartArea1";
+            chart11.ChartAreas.Add(chartArea11);
+            chart11.DataSource = this.offerBindingSource;
+            legend11.Name = "Legend1";
+            chart11.Legends.Add(legend11);
+            chart11.Location = new System.Drawing.Point(324, 290);
+            chart11.Name = "chart11";
+            chart11.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
+            series14.ChartArea = "ChartArea1";
+            series14.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series14.Legend = "Legend1";
+            series14.Name = "Offer VS Discount";
+            series14.XValueMember = "OfferName";
+            series14.YValueMembers = "DiscountPercentage";
+            series14.YValuesPerPoint = 2;
+            chart11.Series.Add(series14);
+            chart11.Size = new System.Drawing.Size(1013, 316);
+            chart11.TabIndex = 79;
+            // 
+            // offerBindingSource
+            // 
+            this.offerBindingSource.DataMember = "Offer";
+            this.offerBindingSource.DataSource = this.imsDBDataSet;
+            // 
+            // chart12
+            // 
+            chartArea12.Name = "ChartArea1";
+            chart12.ChartAreas.Add(chartArea12);
+            chart12.DataSource = this.membershipBindingSource3;
+            chart12.Dock = System.Windows.Forms.DockStyle.Bottom;
+            legend12.Name = "Legend1";
+            chart12.Legends.Add(legend12);
+            chart12.Location = new System.Drawing.Point(3, 260);
+            chart12.Name = "chart12";
+            chart12.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
+            series15.ChartArea = "ChartArea1";
+            series15.Legend = "Legend1";
+            series15.Name = "Member VS Shopping";
+            series15.YValueMembers = "TotalShopping";
+            series15.YValuesPerPoint = 2;
+            chart12.Series.Add(series15);
+            chart12.Size = new System.Drawing.Size(1334, 343);
+            chart12.TabIndex = 81;
+            // 
+            // membershipBindingSource3
+            // 
+            this.membershipBindingSource3.DataMember = "Membership";
+            this.membershipBindingSource3.DataSource = this.imsDBDataSet;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 3;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.04448F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.95552F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 173F));
+            this.tableLayoutPanel1.Controls.Add(this.lblTitle, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel2, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.menuStripAdmin, 0, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.33333F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 63F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1350, 63);
+            this.tableLayoutPanel1.TabIndex = 0;
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Location = new System.Drawing.Point(462, 0);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(330, 29);
+            this.lblTitle.TabIndex = 3;
+            this.lblTitle.Text = "S H W A P N O   R E T A I L";
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Controls.Add(this.btnChangeUser);
+            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(1176, 0);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(174, 63);
+            this.flowLayoutPanel2.TabIndex = 1;
+            // 
+            // btnChangeUser
+            // 
+            this.btnChangeUser.BackColor = System.Drawing.Color.YellowGreen;
+            this.btnChangeUser.FlatAppearance.BorderSize = 0;
+            this.btnChangeUser.FlatAppearance.MouseDownBackColor = System.Drawing.Color.GreenYellow;
+            this.btnChangeUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChangeUser.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChangeUser.ForeColor = System.Drawing.Color.White;
+            this.btnChangeUser.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnChangeUser.Location = new System.Drawing.Point(85, 1);
+            this.btnChangeUser.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.btnChangeUser.Name = "btnChangeUser";
+            this.btnChangeUser.Size = new System.Drawing.Size(86, 29);
+            this.btnChangeUser.TabIndex = 9;
+            this.btnChangeUser.Text = "CHANGE USER";
+            this.btnChangeUser.UseVisualStyleBackColor = false;
+            this.btnChangeUser.Click += new System.EventHandler(this.btnChangeUser_Click);
+            // 
+            // menuStripAdmin
+            // 
+            this.menuStripAdmin.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
+            this.homeToolStripMenuItem});
+            this.menuStripAdmin.Location = new System.Drawing.Point(0, 0);
+            this.menuStripAdmin.Name = "menuStripAdmin";
+            this.menuStripAdmin.Size = new System.Drawing.Size(459, 24);
+            this.menuStripAdmin.TabIndex = 4;
+            this.menuStripAdmin.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.changeUserToolStripMenuItem,
+            this.exitToolStripMenuItem});
+            this.fileToolStripMenuItem.Image = global::InventoryManagementSystem.Properties.Resources.homeMenu;
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
+            this.fileToolStripMenuItem.Text = "Home";
+            // 
+            // changeUserToolStripMenuItem
+            // 
+            this.changeUserToolStripMenuItem.Image = global::InventoryManagementSystem.Properties.Resources.change_user;
+            this.changeUserToolStripMenuItem.Name = "changeUserToolStripMenuItem";
+            this.changeUserToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.changeUserToolStripMenuItem.Text = "Change User";
+            this.changeUserToolStripMenuItem.Click += new System.EventHandler(this.changeUserToolStripMenuItem_Click);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Image = global::InventoryManagementSystem.Properties.Resources.exitMenu;
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // homeToolStripMenuItem
+            // 
+            this.homeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.stockToolStripMenuItem,
+            this.userAccountToolStripMenuItem,
+            this.reportToolStripMenuItem,
+            this.logToolStripMenuItem,
+            this.offerToolStripMenuItem,
+            this.membershipToolStripMenuItem});
+            this.homeToolStripMenuItem.Image = global::InventoryManagementSystem.Properties.Resources.viewMenu;
+            this.homeToolStripMenuItem.Name = "homeToolStripMenuItem";
+            this.homeToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.homeToolStripMenuItem.Text = "View";
+            // 
+            // stockToolStripMenuItem
+            // 
+            this.stockToolStripMenuItem.Image = global::InventoryManagementSystem.Properties.Resources.stocks;
+            this.stockToolStripMenuItem.Name = "stockToolStripMenuItem";
+            this.stockToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.stockToolStripMenuItem.Text = "Stock";
+            this.stockToolStripMenuItem.Click += new System.EventHandler(this.stockToolStripMenuItem_Click);
+            // 
+            // userAccountToolStripMenuItem
+            // 
+            this.userAccountToolStripMenuItem.Image = global::InventoryManagementSystem.Properties.Resources.username;
+            this.userAccountToolStripMenuItem.Name = "userAccountToolStripMenuItem";
+            this.userAccountToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.userAccountToolStripMenuItem.Text = "UserAccount";
+            this.userAccountToolStripMenuItem.Click += new System.EventHandler(this.userAccountToolStripMenuItem_Click);
+            // 
+            // reportToolStripMenuItem
+            // 
+            this.reportToolStripMenuItem.Image = global::InventoryManagementSystem.Properties.Resources.log;
+            this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
+            this.reportToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.reportToolStripMenuItem.Text = "Report";
+            this.reportToolStripMenuItem.Click += new System.EventHandler(this.reportToolStripMenuItem_Click);
+            // 
+            // logToolStripMenuItem
+            // 
+            this.logToolStripMenuItem.Image = global::InventoryManagementSystem.Properties.Resources.sales;
+            this.logToolStripMenuItem.Name = "logToolStripMenuItem";
+            this.logToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.logToolStripMenuItem.Text = "Log";
+            this.logToolStripMenuItem.Click += new System.EventHandler(this.logToolStripMenuItem_Click);
+            // 
+            // offerToolStripMenuItem
+            // 
+            this.offerToolStripMenuItem.Image = global::InventoryManagementSystem.Properties.Resources.offers;
+            this.offerToolStripMenuItem.Name = "offerToolStripMenuItem";
+            this.offerToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.offerToolStripMenuItem.Text = "Offer";
+            this.offerToolStripMenuItem.Click += new System.EventHandler(this.offerToolStripMenuItem_Click);
+            // 
+            // membershipToolStripMenuItem
+            // 
+            this.membershipToolStripMenuItem.Image = global::InventoryManagementSystem.Properties.Resources.Membership;
+            this.membershipToolStripMenuItem.Name = "membershipToolStripMenuItem";
+            this.membershipToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.membershipToolStripMenuItem.Text = "Membership";
+            this.membershipToolStripMenuItem.Click += new System.EventHandler(this.membershipToolStripMenuItem_Click);
+            // 
+            // shapeContainer1
+            // 
+            this.shapeContainer1.Location = new System.Drawing.Point(0, 0);
+            this.shapeContainer1.Margin = new System.Windows.Forms.Padding(0);
+            this.shapeContainer1.Name = "shapeContainer1";
+            this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.lineShape1});
+            this.shapeContainer1.Size = new System.Drawing.Size(1350, 729);
+            this.shapeContainer1.TabIndex = 1;
+            this.shapeContainer1.TabStop = false;
+            // 
+            // lineShape1
+            // 
+            this.lineShape1.BorderColor = System.Drawing.Color.Silver;
+            this.lineShape1.Name = "lineShape1";
+            this.lineShape1.X1 = 2;
+            this.lineShape1.X2 = 884;
+            this.lineShape1.Y1 = 64;
+            this.lineShape1.Y2 = 64;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 1;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Controls.Add(this.tabControlAdmin, 0, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 63);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1350, 666);
+            this.tableLayoutPanel2.TabIndex = 2;
+            // 
+            // tabControlAdmin
+            // 
+            this.tabControlAdmin.Controls.Add(this.tabPageStocks);
+            this.tabControlAdmin.Controls.Add(this.tabPageUserAccount);
+            this.tabControlAdmin.Controls.Add(this.tabPageReport);
+            this.tabControlAdmin.Controls.Add(this.tabPageLog);
+            this.tabControlAdmin.Controls.Add(this.tabPageOffers);
+            this.tabControlAdmin.Controls.Add(this.tabPageMembership);
+            this.tabControlAdmin.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlAdmin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControlAdmin.ImageList = this.imageListAdmin;
+            this.tabControlAdmin.Location = new System.Drawing.Point(1, 0);
+            this.tabControlAdmin.Margin = new System.Windows.Forms.Padding(1, 0, 1, 1);
+            this.tabControlAdmin.Multiline = true;
+            this.tabControlAdmin.Name = "tabControlAdmin";
+            this.tabControlAdmin.Padding = new System.Drawing.Point(0, 0);
+            this.tabControlAdmin.SelectedIndex = 0;
+            this.tabControlAdmin.Size = new System.Drawing.Size(1348, 665);
+            this.tabControlAdmin.TabIndex = 0;
+            this.tabControlAdmin.Click += new System.EventHandler(this.tabControlAdmin_Click);
             // 
             // tabPageStocks
             // 
-            this.tabPageStocks.Controls.Add(this.comboBox1);
-            this.tabPageStocks.Controls.Add(this.label5);
-            this.tabPageStocks.Controls.Add(this.textBox1);
-            this.tabPageStocks.Controls.Add(this.label6);
-            this.tabPageStocks.Controls.Add(this.listViewStocks);
-            this.tabPageStocks.Controls.Add(this.panel3);
-            this.tabPageStocks.ImageIndex = 1;
+            this.tabPageStocks.Controls.Add(this.panel1);
+            this.tabPageStocks.Controls.Add(this.panel2);
+            this.tabPageStocks.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPageStocks.ImageIndex = 4;
+            this.tabPageStocks.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.tabPageStocks.Location = new System.Drawing.Point(4, 55);
+            this.tabPageStocks.Margin = new System.Windows.Forms.Padding(0);
             this.tabPageStocks.Name = "tabPageStocks";
             this.tabPageStocks.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageStocks.Size = new System.Drawing.Size(884, 407);
-            this.tabPageStocks.TabIndex = 1;
-            this.tabPageStocks.Text = "   STOCKS   ";
+            this.tabPageStocks.Size = new System.Drawing.Size(1340, 606);
+            this.tabPageStocks.TabIndex = 0;
+            this.tabPageStocks.Text = "STOCKS";
             this.tabPageStocks.UseVisualStyleBackColor = true;
-            this.tabPageStocks.Click += new System.EventHandler(this.tabPageStocks_Click);
             // 
-            // comboBox1
+            // panel1
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(728, 12);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(144, 24);
-            this.comboBox1.TabIndex = 37;
+            this.panel1.Controls.Add(this.chartPricevsStock);
+            this.panel1.Controls.Add(this.chartItemName);
+            this.panel1.Controls.Add(this.chartItemNamevsStock);
+            this.panel1.Controls.Add(this.pictureBoxSearchCategory);
+            this.panel1.Controls.Add(this.pictureBoxSearchItem);
+            this.panel1.Controls.Add(this.dataGridViewStocks);
+            this.panel1.Controls.Add(this.comSearchByCategory);
+            this.panel1.Controls.Add(this.txtSearchItem);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel1.Location = new System.Drawing.Point(313, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1024, 600);
+            this.panel1.TabIndex = 9;
             // 
-            // label5
+            // chartPricevsStock
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(602, 19);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(129, 16);
-            this.label5.TabIndex = 36;
-            this.label5.Text = "Search By Category:";
+            chartArea13.Name = "ChartArea1";
+            this.chartPricevsStock.ChartAreas.Add(chartArea13);
+            this.chartPricevsStock.DataSource = this.itemBindingSource;
+            legend13.Name = "Legend1";
+            this.chartPricevsStock.Legends.Add(legend13);
+            this.chartPricevsStock.Location = new System.Drawing.Point(0, 0);
+            this.chartPricevsStock.Name = "chartPricevsStock";
+            this.chartPricevsStock.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
+            series16.ChartArea = "ChartArea1";
+            series16.Legend = "Legend1";
+            series16.Name = "Price vs Stock";
+            series16.XValueMember = "Price";
+            series16.YValueMembers = "Stock";
+            series16.YValuesPerPoint = 4;
+            this.chartPricevsStock.Series.Add(series16);
+            this.chartPricevsStock.Size = new System.Drawing.Size(407, 267);
+            this.chartPricevsStock.TabIndex = 57;
+            this.chartPricevsStock.Text = "chart2";
             // 
-            // textBox1
+            // chartItemName
             // 
-            this.textBox1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(401, 14);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(182, 22);
-            this.textBox1.TabIndex = 35;
+            this.chartItemName.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.chartItemName.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.Cross;
+            chartArea14.Name = "ChartArea1";
+            this.chartItemName.ChartAreas.Add(chartArea14);
+            this.chartItemName.DataSource = this.itemBindingSource;
+            legend14.Name = "Legend1";
+            this.chartItemName.Legends.Add(legend14);
+            this.chartItemName.Location = new System.Drawing.Point(0, 270);
+            this.chartItemName.Name = "chartItemName";
+            this.chartItemName.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
+            series17.ChartArea = "ChartArea1";
+            series17.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series17.Legend = "Legend1";
+            series17.Name = "Item Name";
+            series17.XValueMember = "ItemName";
+            series17.YValueMembers = "Price";
+            this.chartItemName.Series.Add(series17);
+            this.chartItemName.Size = new System.Drawing.Size(407, 326);
+            this.chartItemName.TabIndex = 56;
+            this.chartItemName.Text = "chart1";
             // 
-            // label6
+            // chartItemNamevsStock
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(321, 18);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(82, 16);
-            this.label6.TabIndex = 34;
-            this.label6.Text = "Search Item:";
+            this.chartItemNamevsStock.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.chartItemNamevsStock.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkDownwardDiagonal;
+            this.chartItemNamevsStock.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.DashDot;
+            chartArea15.Name = "ChartArea1";
+            this.chartItemNamevsStock.ChartAreas.Add(chartArea15);
+            this.chartItemNamevsStock.DataSource = this.itemBindingSource1;
+            legend15.Name = "Legend1";
+            this.chartItemNamevsStock.Legends.Add(legend15);
+            this.chartItemNamevsStock.Location = new System.Drawing.Point(413, 270);
+            this.chartItemNamevsStock.Name = "chartItemNamevsStock";
+            this.chartItemNamevsStock.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
+            series18.ChartArea = "ChartArea1";
+            series18.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series18.Legend = "Legend1";
+            series18.Name = "Item vs Stock";
+            series18.XValueMember = "ItemName";
+            series18.YValueMembers = "Stock";
+            this.chartItemNamevsStock.Series.Add(series18);
+            this.chartItemNamevsStock.Size = new System.Drawing.Size(607, 326);
+            this.chartItemNamevsStock.TabIndex = 55;
+            this.chartItemNamevsStock.Text = "chart1";
             // 
-            // listViewStocks
+            // itemBindingSource1
             // 
-            this.listViewStocks.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4,
-            this.columnHeader5,
-            this.columnHeader6});
-            this.listViewStocks.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listViewStocks.Location = new System.Drawing.Point(319, 45);
-            this.listViewStocks.Name = "listViewStocks";
-            this.listViewStocks.Size = new System.Drawing.Size(553, 344);
-            this.listViewStocks.TabIndex = 33;
-            this.listViewStocks.UseCompatibleStateImageBehavior = false;
-            this.listViewStocks.View = System.Windows.Forms.View.Details;
+            this.itemBindingSource1.DataMember = "Item";
+            this.itemBindingSource1.DataSource = this.imsDBDataSet;
             // 
-            // columnHeader1
+            // pictureBoxSearchCategory
             // 
-            this.columnHeader1.Text = "Item Code";
-            this.columnHeader1.Width = 82;
+            this.pictureBoxSearchCategory.Image = global::InventoryManagementSystem.Properties.Resources.category;
+            this.pictureBoxSearchCategory.Location = new System.Drawing.Point(781, 7);
+            this.pictureBoxSearchCategory.Name = "pictureBoxSearchCategory";
+            this.pictureBoxSearchCategory.Size = new System.Drawing.Size(26, 24);
+            this.pictureBoxSearchCategory.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSearchCategory.TabIndex = 54;
+            this.pictureBoxSearchCategory.TabStop = false;
             // 
-            // columnHeader2
+            // pictureBoxSearchItem
             // 
-            this.columnHeader2.Text = "Item Name";
-            this.columnHeader2.Width = 110;
+            this.pictureBoxSearchItem.Image = global::InventoryManagementSystem.Properties.Resources.search;
+            this.pictureBoxSearchItem.Location = new System.Drawing.Point(413, 9);
+            this.pictureBoxSearchItem.Name = "pictureBoxSearchItem";
+            this.pictureBoxSearchItem.Size = new System.Drawing.Size(26, 22);
+            this.pictureBoxSearchItem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSearchItem.TabIndex = 53;
+            this.pictureBoxSearchItem.TabStop = false;
             // 
-            // columnHeader3
+            // dataGridViewStocks
             // 
-            this.columnHeader3.Text = "Description";
-            this.columnHeader3.Width = 113;
+            this.dataGridViewStocks.AllowUserToAddRows = false;
+            this.dataGridViewStocks.AllowUserToDeleteRows = false;
+            this.dataGridViewStocks.AutoGenerateColumns = false;
+            this.dataGridViewStocks.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dataGridViewStocks.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridViewStocks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewStocks.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.itemCodeDataGridViewTextBoxColumn,
+            this.itemNameDataGridViewTextBoxColumn,
+            this.descriptionDataGridViewTextBoxColumn,
+            this.categoryIDDataGridViewTextBoxColumn,
+            this.priceDataGridViewTextBoxColumn,
+            this.stockDataGridViewTextBoxColumn});
+            this.dataGridViewStocks.DataSource = this.itemBindingSource;
+            this.dataGridViewStocks.Location = new System.Drawing.Point(413, 47);
+            this.dataGridViewStocks.Name = "dataGridViewStocks";
+            this.dataGridViewStocks.ReadOnly = true;
+            this.dataGridViewStocks.Size = new System.Drawing.Size(608, 220);
+            this.dataGridViewStocks.TabIndex = 18;
+            this.dataGridViewStocks.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewStocks_CellContentClick);
             // 
-            // columnHeader4
+            // itemCodeDataGridViewTextBoxColumn
             // 
-            this.columnHeader4.Text = "Category";
-            this.columnHeader4.Width = 91;
+            this.itemCodeDataGridViewTextBoxColumn.DataPropertyName = "ItemCode";
+            this.itemCodeDataGridViewTextBoxColumn.HeaderText = "ItemCode";
+            this.itemCodeDataGridViewTextBoxColumn.Name = "itemCodeDataGridViewTextBoxColumn";
+            this.itemCodeDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // columnHeader5
+            // itemNameDataGridViewTextBoxColumn
             // 
-            this.columnHeader5.Text = "Price";
-            this.columnHeader5.Width = 79;
+            this.itemNameDataGridViewTextBoxColumn.DataPropertyName = "ItemName";
+            this.itemNameDataGridViewTextBoxColumn.HeaderText = "ItemName";
+            this.itemNameDataGridViewTextBoxColumn.Name = "itemNameDataGridViewTextBoxColumn";
+            this.itemNameDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // columnHeader6
+            // descriptionDataGridViewTextBoxColumn
             // 
-            this.columnHeader6.Text = "Stocks";
+            this.descriptionDataGridViewTextBoxColumn.DataPropertyName = "Description";
+            this.descriptionDataGridViewTextBoxColumn.HeaderText = "Description";
+            this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
+            this.descriptionDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // panel3
+            // categoryIDDataGridViewTextBoxColumn
             // 
-            this.panel3.Controls.Add(this.txtCategory2);
-            this.panel3.Controls.Add(this.txtItemCode2);
-            this.panel3.Controls.Add(this.lblStock2);
-            this.panel3.Controls.Add(this.lblPrice2);
-            this.panel3.Controls.Add(this.btnAddStock);
-            this.panel3.Controls.Add(this.lblCaterory2);
-            this.panel3.Controls.Add(this.txtItemName2);
-            this.panel3.Controls.Add(this.lblDescription2);
-            this.panel3.Controls.Add(this.txtDescription2);
-            this.panel3.Controls.Add(this.lblItemName2);
-            this.panel3.Controls.Add(this.txtPrice2);
-            this.panel3.Controls.Add(this.lblItemCode2);
-            this.panel3.Controls.Add(this.txtStock2);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(3, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(308, 401);
-            this.panel3.TabIndex = 32;
+            this.categoryIDDataGridViewTextBoxColumn.DataPropertyName = "CategoryID";
+            this.categoryIDDataGridViewTextBoxColumn.HeaderText = "CategoryID";
+            this.categoryIDDataGridViewTextBoxColumn.Name = "categoryIDDataGridViewTextBoxColumn";
+            this.categoryIDDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // txtCategory2
+            // priceDataGridViewTextBoxColumn
             // 
-            this.txtCategory2.Enabled = false;
-            this.txtCategory2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCategory2.Location = new System.Drawing.Point(100, 164);
-            this.txtCategory2.Name = "txtCategory2";
-            this.txtCategory2.Size = new System.Drawing.Size(193, 26);
-            this.txtCategory2.TabIndex = 32;
+            this.priceDataGridViewTextBoxColumn.DataPropertyName = "Price";
+            this.priceDataGridViewTextBoxColumn.HeaderText = "Price";
+            this.priceDataGridViewTextBoxColumn.Name = "priceDataGridViewTextBoxColumn";
+            this.priceDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // txtItemCode2
+            // stockDataGridViewTextBoxColumn
             // 
-            this.txtItemCode2.Enabled = false;
-            this.txtItemCode2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtItemCode2.Location = new System.Drawing.Point(100, 59);
-            this.txtItemCode2.Name = "txtItemCode2";
-            this.txtItemCode2.Size = new System.Drawing.Size(193, 26);
-            this.txtItemCode2.TabIndex = 24;
-            // 
-            // lblStock2
-            // 
-            this.lblStock2.AutoSize = true;
-            this.lblStock2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStock2.Location = new System.Drawing.Point(36, 236);
-            this.lblStock2.Name = "lblStock2";
-            this.lblStock2.Size = new System.Drawing.Size(60, 18);
-            this.lblStock2.TabIndex = 18;
-            this.lblStock2.Text = "Stocks:";
-            // 
-            // lblPrice2
-            // 
-            this.lblPrice2.AutoSize = true;
-            this.lblPrice2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrice2.Location = new System.Drawing.Point(44, 201);
-            this.lblPrice2.Name = "lblPrice2";
-            this.lblPrice2.Size = new System.Drawing.Size(49, 18);
-            this.lblPrice2.TabIndex = 19;
-            this.lblPrice2.Text = "Price:";
-            // 
-            // btnAddStock
-            // 
-            this.btnAddStock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnAddStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddStock.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddStock.ForeColor = System.Drawing.Color.White;
-            this.btnAddStock.Location = new System.Drawing.Point(89, 291);
-            this.btnAddStock.Name = "btnAddStock";
-            this.btnAddStock.Size = new System.Drawing.Size(141, 39);
-            this.btnAddStock.TabIndex = 30;
-            this.btnAddStock.Text = "Add Stock";
-            this.btnAddStock.UseVisualStyleBackColor = false;
-            // 
-            // lblCaterory2
-            // 
-            this.lblCaterory2.AutoSize = true;
-            this.lblCaterory2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCaterory2.Location = new System.Drawing.Point(20, 166);
-            this.lblCaterory2.Name = "lblCaterory2";
-            this.lblCaterory2.Size = new System.Drawing.Size(76, 18);
-            this.lblCaterory2.TabIndex = 20;
-            this.lblCaterory2.Text = "Category:";
-            // 
-            // txtItemName2
-            // 
-            this.txtItemName2.Enabled = false;
-            this.txtItemName2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtItemName2.Location = new System.Drawing.Point(100, 94);
-            this.txtItemName2.Name = "txtItemName2";
-            this.txtItemName2.Size = new System.Drawing.Size(193, 26);
-            this.txtItemName2.TabIndex = 29;
-            // 
-            // lblDescription2
-            // 
-            this.lblDescription2.AutoSize = true;
-            this.lblDescription2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescription2.Location = new System.Drawing.Point(6, 131);
-            this.lblDescription2.Name = "lblDescription2";
-            this.lblDescription2.Size = new System.Drawing.Size(94, 18);
-            this.lblDescription2.TabIndex = 21;
-            this.lblDescription2.Text = "Description:";
-            // 
-            // txtDescription2
-            // 
-            this.txtDescription2.Enabled = false;
-            this.txtDescription2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDescription2.Location = new System.Drawing.Point(100, 129);
-            this.txtDescription2.Name = "txtDescription2";
-            this.txtDescription2.Size = new System.Drawing.Size(193, 26);
-            this.txtDescription2.TabIndex = 28;
-            // 
-            // lblItemName2
-            // 
-            this.lblItemName2.AutoSize = true;
-            this.lblItemName2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblItemName2.Location = new System.Drawing.Point(8, 96);
-            this.lblItemName2.Name = "lblItemName2";
-            this.lblItemName2.Size = new System.Drawing.Size(86, 18);
-            this.lblItemName2.TabIndex = 22;
-            this.lblItemName2.Text = "Item Name:";
-            // 
-            // txtPrice2
-            // 
-            this.txtPrice2.Enabled = false;
-            this.txtPrice2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrice2.Location = new System.Drawing.Point(100, 199);
-            this.txtPrice2.Name = "txtPrice2";
-            this.txtPrice2.Size = new System.Drawing.Size(193, 26);
-            this.txtPrice2.TabIndex = 26;
-            // 
-            // lblItemCode2
-            // 
-            this.lblItemCode2.AutoSize = true;
-            this.lblItemCode2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblItemCode2.Location = new System.Drawing.Point(12, 61);
-            this.lblItemCode2.Name = "lblItemCode2";
-            this.lblItemCode2.Size = new System.Drawing.Size(84, 18);
-            this.lblItemCode2.TabIndex = 23;
-            this.lblItemCode2.Text = "Item Code:";
-            // 
-            // txtStock2
-            // 
-            this.txtStock2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtStock2.Location = new System.Drawing.Point(100, 234);
-            this.txtStock2.Name = "txtStock2";
-            this.txtStock2.Size = new System.Drawing.Size(193, 26);
-            this.txtStock2.TabIndex = 25;
-            // 
-            // tabPageItems
-            // 
-            this.tabPageItems.Controls.Add(this.comSearchByCategory);
-            this.tabPageItems.Controls.Add(this.lblSearchByCategory);
-            this.tabPageItems.Controls.Add(this.txtSearchItem);
-            this.tabPageItems.Controls.Add(this.lblSearchItem);
-            this.tabPageItems.Controls.Add(this.listViewItems);
-            this.tabPageItems.Controls.Add(this.panel2);
-            this.tabPageItems.ImageIndex = 0;
-            this.tabPageItems.Location = new System.Drawing.Point(4, 55);
-            this.tabPageItems.Name = "tabPageItems";
-            this.tabPageItems.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageItems.Size = new System.Drawing.Size(884, 407);
-            this.tabPageItems.TabIndex = 0;
-            this.tabPageItems.Text = "   ITEMS       ";
-            this.tabPageItems.UseVisualStyleBackColor = true;
-            this.tabPageItems.Click += new System.EventHandler(this.tabPageItems_Click);
+            this.stockDataGridViewTextBoxColumn.DataPropertyName = "Stock";
+            this.stockDataGridViewTextBoxColumn.HeaderText = "Stock";
+            this.stockDataGridViewTextBoxColumn.Name = "stockDataGridViewTextBoxColumn";
+            this.stockDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // comSearchByCategory
             // 
+            this.comSearchByCategory.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.categoryBindingSource, "CategoryName", true));
+            this.comSearchByCategory.DataSource = this.categoryBindingSource;
+            this.comSearchByCategory.DisplayMember = "CategoryName";
             this.comSearchByCategory.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comSearchByCategory.FormattingEnabled = true;
-            this.comSearchByCategory.Location = new System.Drawing.Point(732, 15);
+            this.comSearchByCategory.Location = new System.Drawing.Point(813, 7);
             this.comSearchByCategory.Name = "comSearchByCategory";
-            this.comSearchByCategory.Size = new System.Drawing.Size(144, 24);
-            this.comSearchByCategory.TabIndex = 13;
+            this.comSearchByCategory.Size = new System.Drawing.Size(207, 24);
+            this.comSearchByCategory.TabIndex = 17;
+            this.comSearchByCategory.ValueMember = "CategoryName";
             // 
-            // lblSearchByCategory
+            // categoryBindingSource
             // 
-            this.lblSearchByCategory.AutoSize = true;
-            this.lblSearchByCategory.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSearchByCategory.Location = new System.Drawing.Point(606, 22);
-            this.lblSearchByCategory.Name = "lblSearchByCategory";
-            this.lblSearchByCategory.Size = new System.Drawing.Size(129, 16);
-            this.lblSearchByCategory.TabIndex = 12;
-            this.lblSearchByCategory.Text = "Search By Category:";
+            this.categoryBindingSource.DataMember = "Category";
+            this.categoryBindingSource.DataSource = this.imsDBDataSet;
             // 
             // txtSearchItem
             // 
             this.txtSearchItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearchItem.Location = new System.Drawing.Point(405, 17);
+            this.txtSearchItem.Location = new System.Drawing.Point(445, 9);
             this.txtSearchItem.Name = "txtSearchItem";
-            this.txtSearchItem.Size = new System.Drawing.Size(182, 22);
-            this.txtSearchItem.TabIndex = 11;
-            // 
-            // lblSearchItem
-            // 
-            this.lblSearchItem.AutoSize = true;
-            this.lblSearchItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSearchItem.Location = new System.Drawing.Point(325, 21);
-            this.lblSearchItem.Name = "lblSearchItem";
-            this.lblSearchItem.Size = new System.Drawing.Size(82, 16);
-            this.lblSearchItem.TabIndex = 9;
-            this.lblSearchItem.Text = "Search Item:";
-            // 
-            // listViewItems
-            // 
-            this.listViewItems.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.colItemCode,
-            this.colItemName,
-            this.colDescription,
-            this.colCategory,
-            this.colPrice,
-            this.colStocks});
-            this.listViewItems.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listViewItems.Location = new System.Drawing.Point(323, 48);
-            this.listViewItems.Name = "listViewItems";
-            this.listViewItems.Size = new System.Drawing.Size(553, 344);
-            this.listViewItems.TabIndex = 8;
-            this.listViewItems.UseCompatibleStateImageBehavior = false;
-            this.listViewItems.View = System.Windows.Forms.View.Details;
-            // 
-            // colItemCode
-            // 
-            this.colItemCode.Text = "Item Code";
-            this.colItemCode.Width = 82;
-            // 
-            // colItemName
-            // 
-            this.colItemName.Text = "Item Name";
-            this.colItemName.Width = 110;
-            // 
-            // colDescription
-            // 
-            this.colDescription.Text = "Description";
-            this.colDescription.Width = 113;
-            // 
-            // colCategory
-            // 
-            this.colCategory.Text = "Category";
-            this.colCategory.Width = 91;
-            // 
-            // colPrice
-            // 
-            this.colPrice.Text = "Price";
-            this.colPrice.Width = 79;
-            // 
-            // colStocks
-            // 
-            this.colStocks.Text = "Stocks";
+            this.txtSearchItem.Size = new System.Drawing.Size(223, 22);
+            this.txtSearchItem.TabIndex = 15;
+            this.txtSearchItem.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSearchItem_KeyDown);
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.pictureBoxDeleteCategory);
+            this.panel2.Controls.Add(this.label18);
+            this.panel2.Controls.Add(this.pictureBoxNewCategory);
+            this.panel2.Controls.Add(this.lblNewCategory);
+            this.panel2.Controls.Add(this.lblDeleteItem);
+            this.panel2.Controls.Add(this.lblEditItem);
+            this.panel2.Controls.Add(this.pictureBoxDeleteItem);
+            this.panel2.Controls.Add(this.pictureBoxEditItem);
             this.panel2.Controls.Add(this.comCategory);
-            this.panel2.Controls.Add(this.btnDeleteItem);
-            this.panel2.Controls.Add(this.btnEditItem);
             this.panel2.Controls.Add(this.txtItemName);
             this.panel2.Controls.Add(this.txtItemDescription);
             this.panel2.Controls.Add(this.txtPrice);
             this.panel2.Controls.Add(this.txtStocks);
             this.panel2.Controls.Add(this.txtItemCode);
             this.panel2.Controls.Add(this.picAddItem);
-            this.panel2.Controls.Add(this.lblTotalItem);
-            this.panel2.Controls.Add(this.llblTotalItemCount);
             this.panel2.Controls.Add(this.lblItemCode);
             this.panel2.Controls.Add(this.lblItemName);
             this.panel2.Controls.Add(this.lblItemDescription);
@@ -1131,48 +1171,115 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(309, 401);
-            this.panel2.TabIndex = 7;
+            this.panel2.Size = new System.Drawing.Size(310, 600);
+            this.panel2.TabIndex = 8;
+            // 
+            // pictureBoxDeleteCategory
+            // 
+            this.pictureBoxDeleteCategory.BackColor = System.Drawing.Color.Red;
+            this.pictureBoxDeleteCategory.Image = global::InventoryManagementSystem.Properties.Resources.removeButton;
+            this.pictureBoxDeleteCategory.Location = new System.Drawing.Point(223, 35);
+            this.pictureBoxDeleteCategory.Name = "pictureBoxDeleteCategory";
+            this.pictureBoxDeleteCategory.Size = new System.Drawing.Size(57, 50);
+            this.pictureBoxDeleteCategory.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxDeleteCategory.TabIndex = 59;
+            this.pictureBoxDeleteCategory.TabStop = false;
+            this.pictureBoxDeleteCategory.Click += new System.EventHandler(this.pictureBoxDeleteCategory_Click);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.Red;
+            this.label18.Location = new System.Drawing.Point(200, 85);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(110, 16);
+            this.label18.TabIndex = 58;
+            this.label18.Text = "Remove Category";
+            // 
+            // pictureBoxNewCategory
+            // 
+            this.pictureBoxNewCategory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBoxNewCategory.Image = global::InventoryManagementSystem.Properties.Resources.addButton;
+            this.pictureBoxNewCategory.Location = new System.Drawing.Point(97, 35);
+            this.pictureBoxNewCategory.Name = "pictureBoxNewCategory";
+            this.pictureBoxNewCategory.Size = new System.Drawing.Size(57, 50);
+            this.pictureBoxNewCategory.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxNewCategory.TabIndex = 57;
+            this.pictureBoxNewCategory.TabStop = false;
+            this.pictureBoxNewCategory.Click += new System.EventHandler(this.pictureBoxNewCategory_Click);
+            // 
+            // lblNewCategory
+            // 
+            this.lblNewCategory.AutoSize = true;
+            this.lblNewCategory.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNewCategory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.lblNewCategory.Location = new System.Drawing.Point(82, 85);
+            this.lblNewCategory.Name = "lblNewCategory";
+            this.lblNewCategory.Size = new System.Drawing.Size(89, 16);
+            this.lblNewCategory.TabIndex = 56;
+            this.lblNewCategory.Text = "New Category";
+            this.lblNewCategory.Click += new System.EventHandler(this.pictureBoxNewCategory_Click);
+            // 
+            // lblDeleteItem
+            // 
+            this.lblDeleteItem.AutoSize = true;
+            this.lblDeleteItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDeleteItem.ForeColor = System.Drawing.Color.Red;
+            this.lblDeleteItem.Location = new System.Drawing.Point(180, 446);
+            this.lblDeleteItem.Name = "lblDeleteItem";
+            this.lblDeleteItem.Size = new System.Drawing.Size(74, 16);
+            this.lblDeleteItem.TabIndex = 55;
+            this.lblDeleteItem.Text = "Delete Item";
+            // 
+            // lblEditItem
+            // 
+            this.lblEditItem.AutoSize = true;
+            this.lblEditItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEditItem.ForeColor = System.Drawing.Color.Teal;
+            this.lblEditItem.Location = new System.Drawing.Point(54, 446);
+            this.lblEditItem.Name = "lblEditItem";
+            this.lblEditItem.Size = new System.Drawing.Size(60, 16);
+            this.lblEditItem.TabIndex = 54;
+            this.lblEditItem.Text = "Edit Item";
+            // 
+            // pictureBoxDeleteItem
+            // 
+            this.pictureBoxDeleteItem.BackColor = System.Drawing.Color.Red;
+            this.pictureBoxDeleteItem.Image = global::InventoryManagementSystem.Properties.Resources.delete;
+            this.pictureBoxDeleteItem.Location = new System.Drawing.Point(177, 367);
+            this.pictureBoxDeleteItem.Name = "pictureBoxDeleteItem";
+            this.pictureBoxDeleteItem.Size = new System.Drawing.Size(77, 76);
+            this.pictureBoxDeleteItem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxDeleteItem.TabIndex = 53;
+            this.pictureBoxDeleteItem.TabStop = false;
+            this.pictureBoxDeleteItem.Click += new System.EventHandler(this.pictureBoxDeleteItem_Click);
+            // 
+            // pictureBoxEditItem
+            // 
+            this.pictureBoxEditItem.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxEditItem.Image = global::InventoryManagementSystem.Properties.Resources.editItem;
+            this.pictureBoxEditItem.Location = new System.Drawing.Point(45, 367);
+            this.pictureBoxEditItem.Name = "pictureBoxEditItem";
+            this.pictureBoxEditItem.Size = new System.Drawing.Size(77, 76);
+            this.pictureBoxEditItem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxEditItem.TabIndex = 52;
+            this.pictureBoxEditItem.TabStop = false;
+            this.pictureBoxEditItem.Click += new System.EventHandler(this.pictureBoxEditItem_Click);
             // 
             // comCategory
             // 
             this.comCategory.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comCategory.FormattingEnabled = true;
-            this.comCategory.Location = new System.Drawing.Point(102, 215);
+            this.comCategory.Location = new System.Drawing.Point(102, 235);
             this.comCategory.Name = "comCategory";
             this.comCategory.Size = new System.Drawing.Size(193, 27);
             this.comCategory.TabIndex = 14;
             // 
-            // btnDeleteItem
-            // 
-            this.btnDeleteItem.BackColor = System.Drawing.Color.Red;
-            this.btnDeleteItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeleteItem.ForeColor = System.Drawing.Color.White;
-            this.btnDeleteItem.Location = new System.Drawing.Point(161, 333);
-            this.btnDeleteItem.Name = "btnDeleteItem";
-            this.btnDeleteItem.Size = new System.Drawing.Size(141, 39);
-            this.btnDeleteItem.TabIndex = 17;
-            this.btnDeleteItem.Text = "Delete Item";
-            this.btnDeleteItem.UseVisualStyleBackColor = false;
-            // 
-            // btnEditItem
-            // 
-            this.btnEditItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnEditItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEditItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditItem.ForeColor = System.Drawing.Color.White;
-            this.btnEditItem.Location = new System.Drawing.Point(8, 333);
-            this.btnEditItem.Name = "btnEditItem";
-            this.btnEditItem.Size = new System.Drawing.Size(141, 39);
-            this.btnEditItem.TabIndex = 16;
-            this.btnEditItem.Text = "Edit Item";
-            this.btnEditItem.UseVisualStyleBackColor = false;
-            // 
             // txtItemName
             // 
             this.txtItemName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtItemName.Location = new System.Drawing.Point(102, 145);
+            this.txtItemName.Location = new System.Drawing.Point(102, 165);
             this.txtItemName.Name = "txtItemName";
             this.txtItemName.Size = new System.Drawing.Size(193, 26);
             this.txtItemName.TabIndex = 15;
@@ -1180,7 +1287,7 @@
             // txtItemDescription
             // 
             this.txtItemDescription.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtItemDescription.Location = new System.Drawing.Point(102, 180);
+            this.txtItemDescription.Location = new System.Drawing.Point(102, 200);
             this.txtItemDescription.Name = "txtItemDescription";
             this.txtItemDescription.Size = new System.Drawing.Size(193, 26);
             this.txtItemDescription.TabIndex = 14;
@@ -1188,7 +1295,7 @@
             // txtPrice
             // 
             this.txtPrice.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrice.Location = new System.Drawing.Point(102, 250);
+            this.txtPrice.Location = new System.Drawing.Point(102, 270);
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.Size = new System.Drawing.Size(193, 26);
             this.txtPrice.TabIndex = 12;
@@ -1196,24 +1303,24 @@
             // txtStocks
             // 
             this.txtStocks.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtStocks.Location = new System.Drawing.Point(102, 285);
+            this.txtStocks.Location = new System.Drawing.Point(102, 305);
             this.txtStocks.Name = "txtStocks";
             this.txtStocks.Size = new System.Drawing.Size(193, 26);
             this.txtStocks.TabIndex = 11;
             // 
             // txtItemCode
             // 
-            this.txtItemCode.Enabled = false;
             this.txtItemCode.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtItemCode.Location = new System.Drawing.Point(102, 110);
+            this.txtItemCode.Location = new System.Drawing.Point(102, 130);
             this.txtItemCode.Name = "txtItemCode";
             this.txtItemCode.Size = new System.Drawing.Size(193, 26);
             this.txtItemCode.TabIndex = 10;
             // 
             // picAddItem
             // 
-            this.picAddItem.Image = global::InventoryManagementSystem.Properties.Resources.addNew;
-            this.picAddItem.Location = new System.Drawing.Point(15, 15);
+            this.picAddItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.picAddItem.Image = global::InventoryManagementSystem.Properties.Resources.addItem;
+            this.picAddItem.Location = new System.Drawing.Point(10, 35);
             this.picAddItem.Name = "picAddItem";
             this.picAddItem.Size = new System.Drawing.Size(57, 50);
             this.picAddItem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1221,31 +1328,11 @@
             this.picAddItem.TabStop = false;
             this.picAddItem.Click += new System.EventHandler(this.picAddItem_Click);
             // 
-            // lblTotalItem
-            // 
-            this.lblTotalItem.AutoSize = true;
-            this.lblTotalItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalItem.Location = new System.Drawing.Point(135, 52);
-            this.lblTotalItem.Name = "lblTotalItem";
-            this.lblTotalItem.Size = new System.Drawing.Size(89, 16);
-            this.lblTotalItem.TabIndex = 8;
-            this.lblTotalItem.Text = "Total Item(s):";
-            // 
-            // llblTotalItemCount
-            // 
-            this.llblTotalItemCount.AutoSize = true;
-            this.llblTotalItemCount.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llblTotalItemCount.Location = new System.Drawing.Point(230, 27);
-            this.llblTotalItemCount.Name = "llblTotalItemCount";
-            this.llblTotalItemCount.Size = new System.Drawing.Size(37, 41);
-            this.llblTotalItemCount.TabIndex = 7;
-            this.llblTotalItemCount.Text = "0";
-            // 
             // lblItemCode
             // 
             this.lblItemCode.AutoSize = true;
             this.lblItemCode.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblItemCode.Location = new System.Drawing.Point(14, 112);
+            this.lblItemCode.Location = new System.Drawing.Point(14, 132);
             this.lblItemCode.Name = "lblItemCode";
             this.lblItemCode.Size = new System.Drawing.Size(84, 18);
             this.lblItemCode.TabIndex = 6;
@@ -1255,7 +1342,7 @@
             // 
             this.lblItemName.AutoSize = true;
             this.lblItemName.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblItemName.Location = new System.Drawing.Point(10, 147);
+            this.lblItemName.Location = new System.Drawing.Point(10, 167);
             this.lblItemName.Name = "lblItemName";
             this.lblItemName.Size = new System.Drawing.Size(86, 18);
             this.lblItemName.TabIndex = 5;
@@ -1265,7 +1352,7 @@
             // 
             this.lblItemDescription.AutoSize = true;
             this.lblItemDescription.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblItemDescription.Location = new System.Drawing.Point(8, 182);
+            this.lblItemDescription.Location = new System.Drawing.Point(8, 202);
             this.lblItemDescription.Name = "lblItemDescription";
             this.lblItemDescription.Size = new System.Drawing.Size(94, 18);
             this.lblItemDescription.TabIndex = 4;
@@ -1275,7 +1362,7 @@
             // 
             this.lblCategory.AutoSize = true;
             this.lblCategory.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCategory.Location = new System.Drawing.Point(22, 217);
+            this.lblCategory.Location = new System.Drawing.Point(22, 237);
             this.lblCategory.Name = "lblCategory";
             this.lblCategory.Size = new System.Drawing.Size(76, 18);
             this.lblCategory.TabIndex = 3;
@@ -1285,7 +1372,7 @@
             // 
             this.lblPrice.AutoSize = true;
             this.lblPrice.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrice.Location = new System.Drawing.Point(46, 252);
+            this.lblPrice.Location = new System.Drawing.Point(46, 272);
             this.lblPrice.Name = "lblPrice";
             this.lblPrice.Size = new System.Drawing.Size(49, 18);
             this.lblPrice.TabIndex = 2;
@@ -1295,7 +1382,7 @@
             // 
             this.lblStocks.AutoSize = true;
             this.lblStocks.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStocks.Location = new System.Drawing.Point(38, 287);
+            this.lblStocks.Location = new System.Drawing.Point(38, 307);
             this.lblStocks.Name = "lblStocks";
             this.lblStocks.Size = new System.Drawing.Size(60, 18);
             this.lblStocks.TabIndex = 1;
@@ -1305,151 +1392,1615 @@
             // 
             this.lblAddItem.AutoSize = true;
             this.lblAddItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAddItem.Location = new System.Drawing.Point(14, 63);
+            this.lblAddItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.lblAddItem.Location = new System.Drawing.Point(8, 85);
             this.lblAddItem.Name = "lblAddItem";
-            this.lblAddItem.Size = new System.Drawing.Size(60, 16);
+            this.lblAddItem.Size = new System.Drawing.Size(62, 16);
             this.lblAddItem.TabIndex = 0;
-            this.lblAddItem.Text = "Add Item";
+            this.lblAddItem.Text = "New Item";
+            this.lblAddItem.Click += new System.EventHandler(this.lblAddItem_Click);
             // 
-            // tabControlAdmin
+            // tabPageUserAccount
             // 
-            this.tabControlAdmin.Controls.Add(this.tabPageItems);
-            this.tabControlAdmin.Controls.Add(this.tabPageStocks);
-            this.tabControlAdmin.Controls.Add(this.tabPageAccount);
-            this.tabControlAdmin.Controls.Add(this.tabPageSales);
-            this.tabControlAdmin.Controls.Add(this.tabPageLogManager);
-            this.tabControlAdmin.Controls.Add(this.tabPageHelp);
-            this.tabControlAdmin.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlAdmin.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControlAdmin.ImageList = this.adminImageList;
-            this.tabControlAdmin.Location = new System.Drawing.Point(0, 74);
-            this.tabControlAdmin.Multiline = true;
-            this.tabControlAdmin.Name = "tabControlAdmin";
-            this.tabControlAdmin.SelectedIndex = 0;
-            this.tabControlAdmin.Size = new System.Drawing.Size(892, 466);
-            this.tabControlAdmin.TabIndex = 6;
+            this.tabPageUserAccount.Controls.Add(this.chartJoinDatevsSalary);
+            this.tabPageUserAccount.Controls.Add(this.chartNamevsSalary);
+            this.tabPageUserAccount.Controls.Add(this.chartUserIDType);
+            this.tabPageUserAccount.Controls.Add(this.dataGridView1);
+            this.tabPageUserAccount.Controls.Add(this.pictureBoxSearchUser);
+            this.tabPageUserAccount.Controls.Add(this.dataGridViewAccount);
+            this.tabPageUserAccount.Controls.Add(this.txtSearchUsername);
+            this.tabPageUserAccount.Controls.Add(this.panel4);
+            this.tabPageUserAccount.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPageUserAccount.ImageIndex = 5;
+            this.tabPageUserAccount.Location = new System.Drawing.Point(4, 55);
+            this.tabPageUserAccount.Margin = new System.Windows.Forms.Padding(1);
+            this.tabPageUserAccount.Name = "tabPageUserAccount";
+            this.tabPageUserAccount.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageUserAccount.Size = new System.Drawing.Size(1340, 606);
+            this.tabPageUserAccount.TabIndex = 1;
+            this.tabPageUserAccount.Text = "USER ACCOUNT";
+            this.tabPageUserAccount.UseVisualStyleBackColor = true;
             // 
-            // lblSystemDateTime
+            // chartJoinDatevsSalary
             // 
-            this.lblSystemDateTime.AutoSize = true;
-            this.lblSystemDateTime.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSystemDateTime.Location = new System.Drawing.Point(4, 53);
-            this.lblSystemDateTime.Name = "lblSystemDateTime";
-            this.lblSystemDateTime.Size = new System.Drawing.Size(184, 14);
-            this.lblSystemDateTime.TabIndex = 4;
-            this.lblSystemDateTime.Text = "12:04 AM, Wednesday, 5 April, 2017 ";
+            chartArea16.Name = "ChartArea1";
+            this.chartJoinDatevsSalary.ChartAreas.Add(chartArea16);
+            this.chartJoinDatevsSalary.DataSource = this.accountBindingSource;
+            legend16.Name = "Legend1";
+            this.chartJoinDatevsSalary.Legends.Add(legend16);
+            this.chartJoinDatevsSalary.Location = new System.Drawing.Point(1033, 304);
+            this.chartJoinDatevsSalary.Name = "chartJoinDatevsSalary";
+            this.chartJoinDatevsSalary.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
+            series19.ChartArea = "ChartArea1";
+            series19.Legend = "Legend1";
+            series19.Name = "Join vs Salary";
+            series19.XValueMember = "JoinDate";
+            series19.YValueMembers = "Salary";
+            series19.YValuesPerPoint = 6;
+            this.chartJoinDatevsSalary.Series.Add(series19);
+            this.chartJoinDatevsSalary.Size = new System.Drawing.Size(300, 300);
+            this.chartJoinDatevsSalary.TabIndex = 59;
+            this.chartJoinDatevsSalary.Text = "chart1";
             // 
-            // lblSystemUserName
+            // chartNamevsSalary
             // 
-            this.lblSystemUserName.AutoSize = true;
-            this.lblSystemUserName.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSystemUserName.Location = new System.Drawing.Point(8, 36);
-            this.lblSystemUserName.Name = "lblSystemUserName";
-            this.lblSystemUserName.Size = new System.Drawing.Size(43, 14);
-            this.lblSystemUserName.TabIndex = 5;
-            this.lblSystemUserName.Text = "Admin";
+            chartArea17.Name = "ChartArea1";
+            this.chartNamevsSalary.ChartAreas.Add(chartArea17);
+            this.chartNamevsSalary.DataSource = this.accountBindingSource;
+            legend17.Name = "Legend1";
+            this.chartNamevsSalary.Legends.Add(legend17);
+            this.chartNamevsSalary.Location = new System.Drawing.Point(666, 297);
+            this.chartNamevsSalary.Name = "chartNamevsSalary";
+            this.chartNamevsSalary.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
+            series20.ChartArea = "ChartArea1";
+            series20.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pyramid;
+            series20.Legend = "Legend1";
+            series20.Name = "Name vs Join Date";
+            series20.XValueMember = "FirstName";
+            series20.YValueMembers = "JoinDate";
+            this.chartNamevsSalary.Series.Add(series20);
+            this.chartNamevsSalary.Size = new System.Drawing.Size(377, 302);
+            this.chartNamevsSalary.TabIndex = 58;
+            this.chartNamevsSalary.Text = "chart1";
             // 
-            // btnExit
+            // chartUserIDType
             // 
-            this.btnExit.BackColor = System.Drawing.Color.OrangeRed;
-            this.btnExit.FlatAppearance.BorderSize = 0;
-            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExit.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.ForeColor = System.Drawing.Color.White;
-            this.btnExit.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnExit.Location = new System.Drawing.Point(773, 42);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(88, 28);
-            this.btnExit.TabIndex = 6;
-            this.btnExit.Text = "EXIT";
-            this.btnExit.UseVisualStyleBackColor = false;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            chartArea18.Name = "ChartArea1";
+            this.chartUserIDType.ChartAreas.Add(chartArea18);
+            this.chartUserIDType.DataSource = this.accountBindingSource;
+            legend18.Name = "Legend1";
+            this.chartUserIDType.Legends.Add(legend18);
+            this.chartUserIDType.Location = new System.Drawing.Point(307, 285);
+            this.chartUserIDType.Name = "chartUserIDType";
+            this.chartUserIDType.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Chocolate;
+            series21.ChartArea = "ChartArea1";
+            series21.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series21.Legend = "Legend1";
+            series21.Name = "Account Type";
+            series21.XValueMember = "UserTypeID";
+            series21.YValueMembers = "Salary";
+            this.chartUserIDType.Series.Add(series21);
+            this.chartUserIDType.Size = new System.Drawing.Size(352, 314);
+            this.chartUserIDType.TabIndex = 57;
+            this.chartUserIDType.Text = "chart1";
             // 
-            // btnChangeUser
+            // dataGridView1
             // 
-            this.btnChangeUser.BackColor = System.Drawing.Color.YellowGreen;
-            this.btnChangeUser.FlatAppearance.BorderSize = 0;
-            this.btnChangeUser.FlatAppearance.MouseDownBackColor = System.Drawing.Color.GreenYellow;
-            this.btnChangeUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnChangeUser.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChangeUser.ForeColor = System.Drawing.Color.White;
-            this.btnChangeUser.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnChangeUser.Location = new System.Drawing.Point(736, 9);
-            this.btnChangeUser.Name = "btnChangeUser";
-            this.btnChangeUser.Size = new System.Drawing.Size(144, 29);
-            this.btnChangeUser.TabIndex = 7;
-            this.btnChangeUser.Text = "CHANGE USER";
-            this.btnChangeUser.UseVisualStyleBackColor = false;
-            this.btnChangeUser.Click += new System.EventHandler(this.btnChangeUser_Click);
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.userTypeIdDataGridViewTextBoxColumn1,
+            this.userTypeNameDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.userTypeBindingSource;
+            this.dataGridView1.Location = new System.Drawing.Point(307, 38);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(246, 214);
+            this.dataGridView1.TabIndex = 56;
             // 
-            // lblTitle
+            // userTypeIdDataGridViewTextBoxColumn1
             // 
-            this.lblTitle.AutoSize = true;
-            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblTitle.Font = new System.Drawing.Font("Hobo Std", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(277, 4);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(338, 34);
-            this.lblTitle.TabIndex = 2;
-            this.lblTitle.Text = "S H W A P N O   R E T A I L";
+            this.userTypeIdDataGridViewTextBoxColumn1.DataPropertyName = "UserTypeId";
+            this.userTypeIdDataGridViewTextBoxColumn1.HeaderText = "UserTypeId";
+            this.userTypeIdDataGridViewTextBoxColumn1.Name = "userTypeIdDataGridViewTextBoxColumn1";
+            this.userTypeIdDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // userTypeNameDataGridViewTextBoxColumn
+            // 
+            this.userTypeNameDataGridViewTextBoxColumn.DataPropertyName = "UserTypeName";
+            this.userTypeNameDataGridViewTextBoxColumn.HeaderText = "UserTypeName";
+            this.userTypeNameDataGridViewTextBoxColumn.Name = "userTypeNameDataGridViewTextBoxColumn";
+            this.userTypeNameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // userTypeBindingSource
+            // 
+            this.userTypeBindingSource.DataMember = "UserType";
+            this.userTypeBindingSource.DataSource = this.imsDBDataSet;
+            // 
+            // pictureBoxSearchUser
+            // 
+            this.pictureBoxSearchUser.Image = global::InventoryManagementSystem.Properties.Resources.searchUser;
+            this.pictureBoxSearchUser.Location = new System.Drawing.Point(1302, 6);
+            this.pictureBoxSearchUser.Name = "pictureBoxSearchUser";
+            this.pictureBoxSearchUser.Size = new System.Drawing.Size(31, 26);
+            this.pictureBoxSearchUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSearchUser.TabIndex = 55;
+            this.pictureBoxSearchUser.TabStop = false;
+            // 
+            // dataGridViewAccount
+            // 
+            this.dataGridViewAccount.AllowUserToAddRows = false;
+            this.dataGridViewAccount.AllowUserToDeleteRows = false;
+            this.dataGridViewAccount.AutoGenerateColumns = false;
+            this.dataGridViewAccount.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dataGridViewAccount.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridViewAccount.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewAccount.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.accountIdDataGridViewTextBoxColumn,
+            this.userNameDataGridViewTextBoxColumn,
+            this.passwordDataGridViewTextBoxColumn,
+            this.firstNameDataGridViewTextBoxColumn,
+            this.lastNameDataGridViewTextBoxColumn,
+            this.userTypeIDDataGridViewTextBoxColumn,
+            this.salaryDataGridViewTextBoxColumn,
+            this.joinDateDataGridViewTextBoxColumn});
+            this.dataGridViewAccount.DataSource = this.accountBindingSource1;
+            this.dataGridViewAccount.Location = new System.Drawing.Point(642, 38);
+            this.dataGridViewAccount.Name = "dataGridViewAccount";
+            this.dataGridViewAccount.ReadOnly = true;
+            this.dataGridViewAccount.Size = new System.Drawing.Size(691, 214);
+            this.dataGridViewAccount.TabIndex = 54;
+            this.dataGridViewAccount.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAccount_CellContentClick);
+            // 
+            // accountIdDataGridViewTextBoxColumn
+            // 
+            this.accountIdDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.accountIdDataGridViewTextBoxColumn.DataPropertyName = "AccountId";
+            this.accountIdDataGridViewTextBoxColumn.HeaderText = "AccountId";
+            this.accountIdDataGridViewTextBoxColumn.Name = "accountIdDataGridViewTextBoxColumn";
+            this.accountIdDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // userNameDataGridViewTextBoxColumn
+            // 
+            this.userNameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.userNameDataGridViewTextBoxColumn.DataPropertyName = "UserName";
+            this.userNameDataGridViewTextBoxColumn.HeaderText = "UserName";
+            this.userNameDataGridViewTextBoxColumn.Name = "userNameDataGridViewTextBoxColumn";
+            this.userNameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // passwordDataGridViewTextBoxColumn
+            // 
+            this.passwordDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.passwordDataGridViewTextBoxColumn.DataPropertyName = "Password";
+            this.passwordDataGridViewTextBoxColumn.HeaderText = "Password";
+            this.passwordDataGridViewTextBoxColumn.Name = "passwordDataGridViewTextBoxColumn";
+            this.passwordDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // firstNameDataGridViewTextBoxColumn
+            // 
+            this.firstNameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.firstNameDataGridViewTextBoxColumn.DataPropertyName = "FirstName";
+            this.firstNameDataGridViewTextBoxColumn.HeaderText = "FirstName";
+            this.firstNameDataGridViewTextBoxColumn.Name = "firstNameDataGridViewTextBoxColumn";
+            this.firstNameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // lastNameDataGridViewTextBoxColumn
+            // 
+            this.lastNameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.lastNameDataGridViewTextBoxColumn.DataPropertyName = "LastName";
+            this.lastNameDataGridViewTextBoxColumn.HeaderText = "LastName";
+            this.lastNameDataGridViewTextBoxColumn.Name = "lastNameDataGridViewTextBoxColumn";
+            this.lastNameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // userTypeIDDataGridViewTextBoxColumn
+            // 
+            this.userTypeIDDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.userTypeIDDataGridViewTextBoxColumn.DataPropertyName = "UserTypeID";
+            this.userTypeIDDataGridViewTextBoxColumn.HeaderText = "UserTypeID";
+            this.userTypeIDDataGridViewTextBoxColumn.Name = "userTypeIDDataGridViewTextBoxColumn";
+            this.userTypeIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // salaryDataGridViewTextBoxColumn
+            // 
+            this.salaryDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.salaryDataGridViewTextBoxColumn.DataPropertyName = "Salary";
+            this.salaryDataGridViewTextBoxColumn.HeaderText = "Salary";
+            this.salaryDataGridViewTextBoxColumn.Name = "salaryDataGridViewTextBoxColumn";
+            this.salaryDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // joinDateDataGridViewTextBoxColumn
+            // 
+            this.joinDateDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.joinDateDataGridViewTextBoxColumn.DataPropertyName = "JoinDate";
+            this.joinDateDataGridViewTextBoxColumn.HeaderText = "JoinDate";
+            this.joinDateDataGridViewTextBoxColumn.Name = "joinDateDataGridViewTextBoxColumn";
+            this.joinDateDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // accountBindingSource1
+            // 
+            this.accountBindingSource1.DataMember = "Account";
+            this.accountBindingSource1.DataSource = this.imsDBDataSet1;
+            // 
+            // imsDBDataSet1
+            // 
+            this.imsDBDataSet1.DataSetName = "imsDBDataSet1";
+            this.imsDBDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // txtSearchUsername
+            // 
+            this.txtSearchUsername.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearchUsername.Location = new System.Drawing.Point(1090, 6);
+            this.txtSearchUsername.Name = "txtSearchUsername";
+            this.txtSearchUsername.Size = new System.Drawing.Size(206, 26);
+            this.txtSearchUsername.TabIndex = 53;
+            this.txtSearchUsername.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSearchUsername_KeyDown);
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.pictureBoxDeleteUserType);
+            this.panel4.Controls.Add(this.label19);
+            this.panel4.Controls.Add(this.pictureBoxNewUserType);
+            this.panel4.Controls.Add(this.label20);
+            this.panel4.Controls.Add(this.label2);
+            this.panel4.Controls.Add(this.label1);
+            this.panel4.Controls.Add(this.pictureBoxDeleteAccount);
+            this.panel4.Controls.Add(this.pictureBoxEditUser);
+            this.panel4.Controls.Add(this.picAddAccount);
+            this.panel4.Controls.Add(this.txtSalary);
+            this.panel4.Controls.Add(this.comUserType);
+            this.panel4.Controls.Add(this.lblSalary);
+            this.panel4.Controls.Add(this.txtFirstname);
+            this.panel4.Controls.Add(this.txtLastName);
+            this.panel4.Controls.Add(this.txtPassword);
+            this.panel4.Controls.Add(this.lblLastName);
+            this.panel4.Controls.Add(this.lblUserType);
+            this.panel4.Controls.Add(this.lblPassword);
+            this.panel4.Controls.Add(this.lblFirstName);
+            this.panel4.Controls.Add(this.lblUsername);
+            this.panel4.Controls.Add(this.txtUsername);
+            this.panel4.Controls.Add(this.label15);
+            this.panel4.Controls.Add(this.txtAccountId);
+            this.panel4.Controls.Add(this.lblAccountId);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel4.Location = new System.Drawing.Point(3, 3);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(298, 600);
+            this.panel4.TabIndex = 51;
+            // 
+            // pictureBoxDeleteUserType
+            // 
+            this.pictureBoxDeleteUserType.BackColor = System.Drawing.Color.Red;
+            this.pictureBoxDeleteUserType.Image = global::InventoryManagementSystem.Properties.Resources.removeButton;
+            this.pictureBoxDeleteUserType.Location = new System.Drawing.Point(205, 101);
+            this.pictureBoxDeleteUserType.Name = "pictureBoxDeleteUserType";
+            this.pictureBoxDeleteUserType.Size = new System.Drawing.Size(57, 50);
+            this.pictureBoxDeleteUserType.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxDeleteUserType.TabIndex = 63;
+            this.pictureBoxDeleteUserType.TabStop = false;
+            this.pictureBoxDeleteUserType.Click += new System.EventHandler(this.pictureBoxDeleteUserType_Click);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.Red;
+            this.label19.Location = new System.Drawing.Point(177, 151);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(116, 16);
+            this.label19.TabIndex = 62;
+            this.label19.Text = "Remove User Type";
+            // 
+            // pictureBoxNewUserType
+            // 
+            this.pictureBoxNewUserType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBoxNewUserType.Image = global::InventoryManagementSystem.Properties.Resources.addButton;
+            this.pictureBoxNewUserType.Location = new System.Drawing.Point(20, 101);
+            this.pictureBoxNewUserType.Name = "pictureBoxNewUserType";
+            this.pictureBoxNewUserType.Size = new System.Drawing.Size(57, 50);
+            this.pictureBoxNewUserType.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxNewUserType.TabIndex = 61;
+            this.pictureBoxNewUserType.TabStop = false;
+            this.pictureBoxNewUserType.Click += new System.EventHandler(this.pictureBoxNewUserType_Click);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label20.Location = new System.Drawing.Point(5, 151);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(95, 16);
+            this.label20.TabIndex = 60;
+            this.label20.Text = "New User Type";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(168, 530);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(96, 16);
+            this.label2.TabIndex = 54;
+            this.label2.Text = "Delete Account";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(22, 530);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 16);
+            this.label1.TabIndex = 53;
+            this.label1.Text = "Edit Account";
+            // 
+            // pictureBoxDeleteAccount
+            // 
+            this.pictureBoxDeleteAccount.BackColor = System.Drawing.Color.Red;
+            this.pictureBoxDeleteAccount.Image = global::InventoryManagementSystem.Properties.Resources.deleteAccount;
+            this.pictureBoxDeleteAccount.Location = new System.Drawing.Point(172, 451);
+            this.pictureBoxDeleteAccount.Name = "pictureBoxDeleteAccount";
+            this.pictureBoxDeleteAccount.Size = new System.Drawing.Size(87, 76);
+            this.pictureBoxDeleteAccount.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxDeleteAccount.TabIndex = 52;
+            this.pictureBoxDeleteAccount.TabStop = false;
+            this.pictureBoxDeleteAccount.Click += new System.EventHandler(this.pictureBoxDeleteAccount_Click);
+            // 
+            // pictureBoxEditUser
+            // 
+            this.pictureBoxEditUser.Image = global::InventoryManagementSystem.Properties.Resources.editAccount;
+            this.pictureBoxEditUser.Location = new System.Drawing.Point(21, 451);
+            this.pictureBoxEditUser.Name = "pictureBoxEditUser";
+            this.pictureBoxEditUser.Size = new System.Drawing.Size(87, 76);
+            this.pictureBoxEditUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxEditUser.TabIndex = 51;
+            this.pictureBoxEditUser.TabStop = false;
+            this.pictureBoxEditUser.Click += new System.EventHandler(this.pictureBoxEditUser_Click);
+            // 
+            // picAddAccount
+            // 
+            this.picAddAccount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.picAddAccount.Image = global::InventoryManagementSystem.Properties.Resources.addAccount;
+            this.picAddAccount.Location = new System.Drawing.Point(20, 13);
+            this.picAddAccount.Name = "picAddAccount";
+            this.picAddAccount.Size = new System.Drawing.Size(57, 50);
+            this.picAddAccount.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picAddAccount.TabIndex = 34;
+            this.picAddAccount.TabStop = false;
+            this.picAddAccount.Click += new System.EventHandler(this.picAddAccount_Click);
+            // 
+            // txtSalary
+            // 
+            this.txtSalary.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSalary.Location = new System.Drawing.Point(98, 398);
+            this.txtSalary.Name = "txtSalary";
+            this.txtSalary.Size = new System.Drawing.Size(193, 26);
+            this.txtSalary.TabIndex = 46;
+            // 
+            // comUserType
+            // 
+            this.comUserType.FormattingEnabled = true;
+            this.comUserType.Location = new System.Drawing.Point(98, 363);
+            this.comUserType.Name = "comUserType";
+            this.comUserType.Size = new System.Drawing.Size(193, 23);
+            this.comUserType.TabIndex = 33;
+            // 
+            // lblSalary
+            // 
+            this.lblSalary.AutoSize = true;
+            this.lblSalary.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalary.Location = new System.Drawing.Point(37, 402);
+            this.lblSalary.Name = "lblSalary";
+            this.lblSalary.Size = new System.Drawing.Size(55, 18);
+            this.lblSalary.TabIndex = 38;
+            this.lblSalary.Text = "Salary:";
+            // 
+            // txtFirstname
+            // 
+            this.txtFirstname.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFirstname.Location = new System.Drawing.Point(98, 294);
+            this.txtFirstname.Name = "txtFirstname";
+            this.txtFirstname.Size = new System.Drawing.Size(193, 26);
+            this.txtFirstname.TabIndex = 32;
+            // 
+            // txtLastName
+            // 
+            this.txtLastName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLastName.Location = new System.Drawing.Point(98, 330);
+            this.txtLastName.Name = "txtLastName";
+            this.txtLastName.Size = new System.Drawing.Size(193, 26);
+            this.txtLastName.TabIndex = 47;
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Location = new System.Drawing.Point(98, 260);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(193, 26);
+            this.txtPassword.TabIndex = 31;
+            // 
+            // lblLastName
+            // 
+            this.lblLastName.AutoSize = true;
+            this.lblLastName.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLastName.Location = new System.Drawing.Point(6, 334);
+            this.lblLastName.Name = "lblLastName";
+            this.lblLastName.Size = new System.Drawing.Size(86, 18);
+            this.lblLastName.TabIndex = 39;
+            this.lblLastName.Text = "Last Name:";
+            // 
+            // lblUserType
+            // 
+            this.lblUserType.AutoSize = true;
+            this.lblUserType.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserType.Location = new System.Drawing.Point(8, 369);
+            this.lblUserType.Name = "lblUserType";
+            this.lblUserType.Size = new System.Drawing.Size(84, 18);
+            this.lblUserType.TabIndex = 30;
+            this.lblUserType.Text = "User Type:";
+            // 
+            // lblPassword
+            // 
+            this.lblPassword.AutoSize = true;
+            this.lblPassword.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPassword.Location = new System.Drawing.Point(11, 264);
+            this.lblPassword.Name = "lblPassword";
+            this.lblPassword.Size = new System.Drawing.Size(81, 18);
+            this.lblPassword.TabIndex = 22;
+            this.lblPassword.Text = "Password:";
+            // 
+            // lblFirstName
+            // 
+            this.lblFirstName.AutoSize = true;
+            this.lblFirstName.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFirstName.Location = new System.Drawing.Point(4, 301);
+            this.lblFirstName.Name = "lblFirstName";
+            this.lblFirstName.Size = new System.Drawing.Size(88, 18);
+            this.lblFirstName.TabIndex = 40;
+            this.lblFirstName.Text = "First Name:";
+            // 
+            // lblUsername
+            // 
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsername.Location = new System.Drawing.Point(8, 231);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(84, 18);
+            this.lblUsername.TabIndex = 41;
+            this.lblUsername.Text = "Username:";
+            // 
+            // txtUsername
+            // 
+            this.txtUsername.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsername.Location = new System.Drawing.Point(98, 227);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(193, 26);
+            this.txtUsername.TabIndex = 48;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label15.Location = new System.Drawing.Point(9, 66);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(82, 16);
+            this.label15.TabIndex = 37;
+            this.label15.Text = "Add Account";
+            // 
+            // txtAccountId
+            // 
+            this.txtAccountId.Enabled = false;
+            this.txtAccountId.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAccountId.Location = new System.Drawing.Point(98, 192);
+            this.txtAccountId.Name = "txtAccountId";
+            this.txtAccountId.Size = new System.Drawing.Size(193, 26);
+            this.txtAccountId.TabIndex = 45;
+            // 
+            // lblAccountId
+            // 
+            this.lblAccountId.AutoSize = true;
+            this.lblAccountId.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAccountId.Location = new System.Drawing.Point(6, 196);
+            this.lblAccountId.Name = "lblAccountId";
+            this.lblAccountId.Size = new System.Drawing.Size(86, 18);
+            this.lblAccountId.TabIndex = 42;
+            this.lblAccountId.Text = "Account Id:";
+            // 
+            // tabPageReport
+            // 
+            this.tabPageReport.Controls.Add(this.tabControlReport);
+            this.tabPageReport.ImageIndex = 2;
+            this.tabPageReport.Location = new System.Drawing.Point(4, 55);
+            this.tabPageReport.Name = "tabPageReport";
+            this.tabPageReport.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageReport.Size = new System.Drawing.Size(1340, 606);
+            this.tabPageReport.TabIndex = 2;
+            this.tabPageReport.Text = "REPORT";
+            this.tabPageReport.UseVisualStyleBackColor = true;
+            // 
+            // tabControlReport
+            // 
+            this.tabControlReport.Controls.Add(this.tabPageAllReport);
+            this.tabControlReport.Controls.Add(this.tabPageDailyReport);
+            this.tabControlReport.Controls.Add(this.tabPageMonthlyReport);
+            this.tabControlReport.Controls.Add(this.tabPageYearlyReport);
+            this.tabControlReport.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlReport.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControlReport.ImageList = this.imageListReport;
+            this.tabControlReport.Location = new System.Drawing.Point(3, 3);
+            this.tabControlReport.Name = "tabControlReport";
+            this.tabControlReport.SelectedIndex = 0;
+            this.tabControlReport.Size = new System.Drawing.Size(1334, 600);
+            this.tabControlReport.TabIndex = 0;
+            this.tabControlReport.Selected += new System.Windows.Forms.TabControlEventHandler(this.tabControlReport_Selected);
+            // 
+            // tabPageAllReport
+            // 
+            this.tabPageAllReport.Controls.Add(this.chartAccIDvsTrDate);
+            this.tabPageAllReport.Controls.Add(this.dataGridViewAllSales);
+            this.tabPageAllReport.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPageAllReport.ImageIndex = 2;
+            this.tabPageAllReport.Location = new System.Drawing.Point(4, 39);
+            this.tabPageAllReport.Name = "tabPageAllReport";
+            this.tabPageAllReport.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageAllReport.Size = new System.Drawing.Size(1326, 557);
+            this.tabPageAllReport.TabIndex = 0;
+            this.tabPageAllReport.Text = "All Report";
+            this.tabPageAllReport.UseVisualStyleBackColor = true;
+            // 
+            // chartAccIDvsTrDate
+            // 
+            chartArea19.Name = "ChartArea1";
+            this.chartAccIDvsTrDate.ChartAreas.Add(chartArea19);
+            this.chartAccIDvsTrDate.DataSource = this.transactionBindingSource;
+            legend19.Name = "Legend1";
+            this.chartAccIDvsTrDate.Legends.Add(legend19);
+            this.chartAccIDvsTrDate.Location = new System.Drawing.Point(6, 246);
+            this.chartAccIDvsTrDate.Name = "chartAccIDvsTrDate";
+            this.chartAccIDvsTrDate.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
+            series22.ChartArea = "ChartArea1";
+            series22.Legend = "Legend1";
+            series22.Name = "AccountID vs Transaction Date";
+            series22.XValueMember = "AccountId";
+            series22.YValueMembers = "TransactionDateTime";
+            this.chartAccIDvsTrDate.Series.Add(series22);
+            this.chartAccIDvsTrDate.Size = new System.Drawing.Size(1314, 305);
+            this.chartAccIDvsTrDate.TabIndex = 24;
+            this.chartAccIDvsTrDate.Text = "chart1";
+            // 
+            // dataGridViewAllSales
+            // 
+            this.dataGridViewAllSales.AllowUserToAddRows = false;
+            this.dataGridViewAllSales.AllowUserToDeleteRows = false;
+            this.dataGridViewAllSales.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGridViewAllSales.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridViewAllSales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewAllSales.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dataGridViewAllSales.Location = new System.Drawing.Point(3, 3);
+            this.dataGridViewAllSales.Name = "dataGridViewAllSales";
+            this.dataGridViewAllSales.ReadOnly = true;
+            this.dataGridViewAllSales.Size = new System.Drawing.Size(1320, 220);
+            this.dataGridViewAllSales.TabIndex = 23;
+            // 
+            // tabPageDailyReport
+            // 
+            this.tabPageDailyReport.Controls.Add(chart1);
+            this.tabPageDailyReport.Controls.Add(this.monthCalendar1);
+            this.tabPageDailyReport.Controls.Add(this.dataGridViewDailySales);
+            this.tabPageDailyReport.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPageDailyReport.ImageIndex = 0;
+            this.tabPageDailyReport.Location = new System.Drawing.Point(4, 39);
+            this.tabPageDailyReport.Name = "tabPageDailyReport";
+            this.tabPageDailyReport.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageDailyReport.Size = new System.Drawing.Size(1326, 557);
+            this.tabPageDailyReport.TabIndex = 1;
+            this.tabPageDailyReport.Text = "Daily Report";
+            this.tabPageDailyReport.UseVisualStyleBackColor = true;
+            // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.monthCalendar1.Location = new System.Drawing.Point(2, 2);
+            this.monthCalendar1.Margin = new System.Windows.Forms.Padding(0);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 26;
+            this.monthCalendar1.TodayDate = new System.DateTime(2017, 4, 26, 0, 0, 0, 0);
+            this.monthCalendar1.DateSelected += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateSelected);
+            // 
+            // dataGridViewDailySales
+            // 
+            this.dataGridViewDailySales.AllowUserToAddRows = false;
+            this.dataGridViewDailySales.AllowUserToDeleteRows = false;
+            this.dataGridViewDailySales.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGridViewDailySales.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridViewDailySales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewDailySales.Dock = System.Windows.Forms.DockStyle.Right;
+            this.dataGridViewDailySales.Location = new System.Drawing.Point(573, 3);
+            this.dataGridViewDailySales.Name = "dataGridViewDailySales";
+            this.dataGridViewDailySales.ReadOnly = true;
+            this.dataGridViewDailySales.Size = new System.Drawing.Size(750, 551);
+            this.dataGridViewDailySales.TabIndex = 24;
+            // 
+            // tabPageMonthlyReport
+            // 
+            this.tabPageMonthlyReport.Controls.Add(chart2);
+            this.tabPageMonthlyReport.Controls.Add(this.label3);
+            this.tabPageMonthlyReport.Controls.Add(this.comboBoxSelectMonth);
+            this.tabPageMonthlyReport.Controls.Add(this.dataGridViewMonthlySales);
+            this.tabPageMonthlyReport.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPageMonthlyReport.ImageIndex = 1;
+            this.tabPageMonthlyReport.Location = new System.Drawing.Point(4, 39);
+            this.tabPageMonthlyReport.Name = "tabPageMonthlyReport";
+            this.tabPageMonthlyReport.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageMonthlyReport.Size = new System.Drawing.Size(1326, 557);
+            this.tabPageMonthlyReport.TabIndex = 2;
+            this.tabPageMonthlyReport.Text = "Monthly Report";
+            this.tabPageMonthlyReport.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(6, 7);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(108, 19);
+            this.label3.TabIndex = 27;
+            this.label3.Text = "Select Month";
+            // 
+            // comboBoxSelectMonth
+            // 
+            this.comboBoxSelectMonth.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxSelectMonth.FormattingEnabled = true;
+            this.comboBoxSelectMonth.Items.AddRange(new object[] {
+            "---Select Month---",
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"});
+            this.comboBoxSelectMonth.Location = new System.Drawing.Point(3, 29);
+            this.comboBoxSelectMonth.Name = "comboBoxSelectMonth";
+            this.comboBoxSelectMonth.Size = new System.Drawing.Size(189, 30);
+            this.comboBoxSelectMonth.TabIndex = 26;
+            this.comboBoxSelectMonth.SelectedIndexChanged += new System.EventHandler(this.comboBoxSelectMonth_SelectedIndexChanged);
+            this.comboBoxSelectMonth.DisplayMemberChanged += new System.EventHandler(this.comboBoxSelectMonth_DisplayMemberChanged);
+            // 
+            // dataGridViewMonthlySales
+            // 
+            this.dataGridViewMonthlySales.AllowUserToAddRows = false;
+            this.dataGridViewMonthlySales.AllowUserToDeleteRows = false;
+            this.dataGridViewMonthlySales.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGridViewMonthlySales.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridViewMonthlySales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewMonthlySales.Dock = System.Windows.Forms.DockStyle.Right;
+            this.dataGridViewMonthlySales.Location = new System.Drawing.Point(465, 3);
+            this.dataGridViewMonthlySales.Name = "dataGridViewMonthlySales";
+            this.dataGridViewMonthlySales.ReadOnly = true;
+            this.dataGridViewMonthlySales.Size = new System.Drawing.Size(858, 551);
+            this.dataGridViewMonthlySales.TabIndex = 25;
+            // 
+            // tabPageYearlyReport
+            // 
+            this.tabPageYearlyReport.Controls.Add(chart3);
+            this.tabPageYearlyReport.Controls.Add(this.label4);
+            this.tabPageYearlyReport.Controls.Add(this.comboBox1);
+            this.tabPageYearlyReport.Controls.Add(this.dataGridViewYearlySales);
+            this.tabPageYearlyReport.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPageYearlyReport.ImageIndex = 3;
+            this.tabPageYearlyReport.Location = new System.Drawing.Point(4, 39);
+            this.tabPageYearlyReport.Name = "tabPageYearlyReport";
+            this.tabPageYearlyReport.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageYearlyReport.Size = new System.Drawing.Size(1326, 557);
+            this.tabPageYearlyReport.TabIndex = 3;
+            this.tabPageYearlyReport.Text = "Yearly Report";
+            this.tabPageYearlyReport.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(9, 5);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(93, 19);
+            this.label4.TabIndex = 29;
+            this.label4.Text = "Select Year";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "---Select Month---",
+            "2017"});
+            this.comboBox1.Location = new System.Drawing.Point(6, 27);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(189, 30);
+            this.comboBox1.TabIndex = 28;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // dataGridViewYearlySales
+            // 
+            this.dataGridViewYearlySales.AllowUserToAddRows = false;
+            this.dataGridViewYearlySales.AllowUserToDeleteRows = false;
+            this.dataGridViewYearlySales.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGridViewYearlySales.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridViewYearlySales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewYearlySales.Dock = System.Windows.Forms.DockStyle.Right;
+            this.dataGridViewYearlySales.Location = new System.Drawing.Point(465, 3);
+            this.dataGridViewYearlySales.Name = "dataGridViewYearlySales";
+            this.dataGridViewYearlySales.ReadOnly = true;
+            this.dataGridViewYearlySales.Size = new System.Drawing.Size(858, 551);
+            this.dataGridViewYearlySales.TabIndex = 26;
+            // 
+            // imageListReport
+            // 
+            this.imageListReport.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListReport.ImageStream")));
+            this.imageListReport.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageListReport.Images.SetKeyName(0, "dailySales.png");
+            this.imageListReport.Images.SetKeyName(1, "monthlySales.png");
+            this.imageListReport.Images.SetKeyName(2, "SalesRepost.png");
+            this.imageListReport.Images.SetKeyName(3, "yearlySales.png");
+            this.imageListReport.Images.SetKeyName(4, "Membership.png");
+            // 
+            // tabPageLog
+            // 
+            this.tabPageLog.Controls.Add(this.tabControlLog);
+            this.tabPageLog.ImageIndex = 3;
+            this.tabPageLog.Location = new System.Drawing.Point(4, 55);
+            this.tabPageLog.Name = "tabPageLog";
+            this.tabPageLog.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageLog.Size = new System.Drawing.Size(1340, 606);
+            this.tabPageLog.TabIndex = 3;
+            this.tabPageLog.Text = "LOG";
+            this.tabPageLog.UseVisualStyleBackColor = true;
+            // 
+            // tabControlLog
+            // 
+            this.tabControlLog.Controls.Add(this.itemLog);
+            this.tabControlLog.Controls.Add(this.tabPageStockLog);
+            this.tabControlLog.Controls.Add(this.accountLog);
+            this.tabControlLog.Controls.Add(this.loginHistory);
+            this.tabControlLog.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlLog.Location = new System.Drawing.Point(3, 3);
+            this.tabControlLog.Margin = new System.Windows.Forms.Padding(0);
+            this.tabControlLog.Multiline = true;
+            this.tabControlLog.Name = "tabControlLog";
+            this.tabControlLog.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.tabControlLog.SelectedIndex = 0;
+            this.tabControlLog.Size = new System.Drawing.Size(1334, 600);
+            this.tabControlLog.TabIndex = 0;
+            this.tabControlLog.Selected += new System.Windows.Forms.TabControlEventHandler(this.tabControlLog_Selected);
+            // 
+            // itemLog
+            // 
+            this.itemLog.Controls.Add(chart5);
+            this.itemLog.Controls.Add(chart4);
+            this.itemLog.Controls.Add(this.dataGridViewItemLog);
+            this.itemLog.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.itemLog.Location = new System.Drawing.Point(4, 31);
+            this.itemLog.Name = "itemLog";
+            this.itemLog.Padding = new System.Windows.Forms.Padding(3);
+            this.itemLog.Size = new System.Drawing.Size(1326, 565);
+            this.itemLog.TabIndex = 0;
+            this.itemLog.Text = "Item Log";
+            this.itemLog.UseVisualStyleBackColor = true;
+            // 
+            // dataGridViewItemLog
+            // 
+            this.dataGridViewItemLog.AllowUserToAddRows = false;
+            this.dataGridViewItemLog.AllowUserToDeleteRows = false;
+            this.dataGridViewItemLog.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGridViewItemLog.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridViewItemLog.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewItemLog.Location = new System.Drawing.Point(556, 3);
+            this.dataGridViewItemLog.Name = "dataGridViewItemLog";
+            this.dataGridViewItemLog.ReadOnly = true;
+            this.dataGridViewItemLog.Size = new System.Drawing.Size(767, 231);
+            this.dataGridViewItemLog.TabIndex = 23;
+            // 
+            // tabPageStockLog
+            // 
+            this.tabPageStockLog.Controls.Add(chart6);
+            this.tabPageStockLog.Controls.Add(chart7);
+            this.tabPageStockLog.Controls.Add(this.dataGridViewStockLog);
+            this.tabPageStockLog.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPageStockLog.Location = new System.Drawing.Point(4, 31);
+            this.tabPageStockLog.Name = "tabPageStockLog";
+            this.tabPageStockLog.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageStockLog.Size = new System.Drawing.Size(1326, 565);
+            this.tabPageStockLog.TabIndex = 1;
+            this.tabPageStockLog.Text = "Stock Log";
+            this.tabPageStockLog.UseVisualStyleBackColor = true;
+            // 
+            // dataGridViewStockLog
+            // 
+            this.dataGridViewStockLog.AllowUserToAddRows = false;
+            this.dataGridViewStockLog.AllowUserToDeleteRows = false;
+            this.dataGridViewStockLog.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGridViewStockLog.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridViewStockLog.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewStockLog.Location = new System.Drawing.Point(506, 3);
+            this.dataGridViewStockLog.Name = "dataGridViewStockLog";
+            this.dataGridViewStockLog.ReadOnly = true;
+            this.dataGridViewStockLog.Size = new System.Drawing.Size(817, 220);
+            this.dataGridViewStockLog.TabIndex = 24;
+            // 
+            // accountLog
+            // 
+            this.accountLog.Controls.Add(chart8);
+            this.accountLog.Controls.Add(chart9);
+            this.accountLog.Controls.Add(this.dataGridViewAccountLog);
+            this.accountLog.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accountLog.Location = new System.Drawing.Point(4, 31);
+            this.accountLog.Name = "accountLog";
+            this.accountLog.Size = new System.Drawing.Size(1326, 565);
+            this.accountLog.TabIndex = 2;
+            this.accountLog.Text = "Account Log";
+            this.accountLog.UseVisualStyleBackColor = true;
+            // 
+            // dataGridViewAccountLog
+            // 
+            this.dataGridViewAccountLog.AllowUserToAddRows = false;
+            this.dataGridViewAccountLog.AllowUserToDeleteRows = false;
+            this.dataGridViewAccountLog.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGridViewAccountLog.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridViewAccountLog.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewAccountLog.Location = new System.Drawing.Point(563, 0);
+            this.dataGridViewAccountLog.Name = "dataGridViewAccountLog";
+            this.dataGridViewAccountLog.ReadOnly = true;
+            this.dataGridViewAccountLog.Size = new System.Drawing.Size(763, 255);
+            this.dataGridViewAccountLog.TabIndex = 25;
+            // 
+            // loginHistory
+            // 
+            this.loginHistory.Controls.Add(chart10);
+            this.loginHistory.Controls.Add(this.dataGridViewLoginHistory);
+            this.loginHistory.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginHistory.Location = new System.Drawing.Point(4, 31);
+            this.loginHistory.Name = "loginHistory";
+            this.loginHistory.Size = new System.Drawing.Size(1326, 565);
+            this.loginHistory.TabIndex = 3;
+            this.loginHistory.Text = "Login History";
+            this.loginHistory.UseVisualStyleBackColor = true;
+            // 
+            // dataGridViewLoginHistory
+            // 
+            this.dataGridViewLoginHistory.AllowUserToAddRows = false;
+            this.dataGridViewLoginHistory.AllowUserToDeleteRows = false;
+            this.dataGridViewLoginHistory.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGridViewLoginHistory.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridViewLoginHistory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewLoginHistory.Location = new System.Drawing.Point(680, 0);
+            this.dataGridViewLoginHistory.Name = "dataGridViewLoginHistory";
+            this.dataGridViewLoginHistory.ReadOnly = true;
+            this.dataGridViewLoginHistory.Size = new System.Drawing.Size(646, 228);
+            this.dataGridViewLoginHistory.TabIndex = 26;
+            // 
+            // tabPageOffers
+            // 
+            this.tabPageOffers.Controls.Add(chart11);
+            this.tabPageOffers.Controls.Add(this.pictureBoxOfferSearch);
+            this.tabPageOffers.Controls.Add(this.txtOfferSearch);
+            this.tabPageOffers.Controls.Add(this.label14);
+            this.tabPageOffers.Controls.Add(this.label16);
+            this.tabPageOffers.Controls.Add(this.pictureBoxDeteleOffer);
+            this.tabPageOffers.Controls.Add(this.pictureBoxEditOffer);
+            this.tabPageOffers.Controls.Add(this.pictureBoxNewOffer);
+            this.tabPageOffers.Controls.Add(this.label17);
+            this.tabPageOffers.Controls.Add(this.txtOfferValidity);
+            this.tabPageOffers.Controls.Add(this.label13);
+            this.tabPageOffers.Controls.Add(this.txtOfferGiven);
+            this.tabPageOffers.Controls.Add(this.label12);
+            this.tabPageOffers.Controls.Add(this.comboBoxMemberShipId);
+            this.tabPageOffers.Controls.Add(this.label5);
+            this.tabPageOffers.Controls.Add(this.comboBoxItemCode);
+            this.tabPageOffers.Controls.Add(this.comboBoxCategoryId);
+            this.tabPageOffers.Controls.Add(this.txtDiscount);
+            this.tabPageOffers.Controls.Add(this.txtOfferDescription);
+            this.tabPageOffers.Controls.Add(this.label6);
+            this.tabPageOffers.Controls.Add(this.label7);
+            this.tabPageOffers.Controls.Add(this.label8);
+            this.tabPageOffers.Controls.Add(this.label9);
+            this.tabPageOffers.Controls.Add(this.label10);
+            this.tabPageOffers.Controls.Add(this.txtOfferName);
+            this.tabPageOffers.Controls.Add(this.txtOfferId);
+            this.tabPageOffers.Controls.Add(this.label11);
+            this.tabPageOffers.Controls.Add(this.dataGridViewOfferDetails);
+            this.tabPageOffers.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPageOffers.ImageIndex = 12;
+            this.tabPageOffers.Location = new System.Drawing.Point(4, 55);
+            this.tabPageOffers.Name = "tabPageOffers";
+            this.tabPageOffers.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageOffers.Size = new System.Drawing.Size(1340, 606);
+            this.tabPageOffers.TabIndex = 4;
+            this.tabPageOffers.Text = "OFFERS";
+            this.tabPageOffers.UseVisualStyleBackColor = true;
+            // 
+            // pictureBoxOfferSearch
+            // 
+            this.pictureBoxOfferSearch.Image = global::InventoryManagementSystem.Properties.Resources.search;
+            this.pictureBoxOfferSearch.Location = new System.Drawing.Point(1311, 4);
+            this.pictureBoxOfferSearch.Name = "pictureBoxOfferSearch";
+            this.pictureBoxOfferSearch.Size = new System.Drawing.Size(26, 22);
+            this.pictureBoxOfferSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxOfferSearch.TabIndex = 78;
+            this.pictureBoxOfferSearch.TabStop = false;
+            // 
+            // txtOfferSearch
+            // 
+            this.txtOfferSearch.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOfferSearch.Location = new System.Drawing.Point(1085, 4);
+            this.txtOfferSearch.Name = "txtOfferSearch";
+            this.txtOfferSearch.Size = new System.Drawing.Size(223, 22);
+            this.txtOfferSearch.TabIndex = 77;
+            this.txtOfferSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtOfferSearch_KeyDown);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(189, 497);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(76, 16);
+            this.label14.TabIndex = 75;
+            this.label14.Text = "Delete Offer";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(45, 497);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(62, 16);
+            this.label16.TabIndex = 74;
+            this.label16.Text = "Edit Offer";
+            // 
+            // pictureBoxDeteleOffer
+            // 
+            this.pictureBoxDeteleOffer.Image = global::InventoryManagementSystem.Properties.Resources.deleteAccount;
+            this.pictureBoxDeteleOffer.Location = new System.Drawing.Point(183, 418);
+            this.pictureBoxDeteleOffer.Name = "pictureBoxDeteleOffer";
+            this.pictureBoxDeteleOffer.Size = new System.Drawing.Size(87, 76);
+            this.pictureBoxDeteleOffer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxDeteleOffer.TabIndex = 73;
+            this.pictureBoxDeteleOffer.TabStop = false;
+            this.pictureBoxDeteleOffer.Click += new System.EventHandler(this.pictureBoxDeteleOffer_Click);
+            // 
+            // pictureBoxEditOffer
+            // 
+            this.pictureBoxEditOffer.Image = global::InventoryManagementSystem.Properties.Resources.editAccount;
+            this.pictureBoxEditOffer.Location = new System.Drawing.Point(32, 418);
+            this.pictureBoxEditOffer.Name = "pictureBoxEditOffer";
+            this.pictureBoxEditOffer.Size = new System.Drawing.Size(87, 76);
+            this.pictureBoxEditOffer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxEditOffer.TabIndex = 72;
+            this.pictureBoxEditOffer.TabStop = false;
+            this.pictureBoxEditOffer.Click += new System.EventHandler(this.pictureBoxEditOffer_Click);
+            // 
+            // pictureBoxNewOffer
+            // 
+            this.pictureBoxNewOffer.Image = global::InventoryManagementSystem.Properties.Resources.newOffer;
+            this.pictureBoxNewOffer.Location = new System.Drawing.Point(23, 16);
+            this.pictureBoxNewOffer.Name = "pictureBoxNewOffer";
+            this.pictureBoxNewOffer.Size = new System.Drawing.Size(57, 50);
+            this.pictureBoxNewOffer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxNewOffer.TabIndex = 70;
+            this.pictureBoxNewOffer.TabStop = false;
+            this.pictureBoxNewOffer.Click += new System.EventHandler(this.pictureBoxNewOffer_Click);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(19, 69);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(64, 16);
+            this.label17.TabIndex = 71;
+            this.label17.Text = "New Offer";
+            // 
+            // txtOfferValidity
+            // 
+            this.txtOfferValidity.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOfferValidity.Location = new System.Drawing.Point(107, 260);
+            this.txtOfferValidity.Name = "txtOfferValidity";
+            this.txtOfferValidity.Size = new System.Drawing.Size(193, 26);
+            this.txtOfferValidity.TabIndex = 68;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(4, 271);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(98, 18);
+            this.label13.TabIndex = 69;
+            this.label13.Text = "Validity Date:";
+            // 
+            // txtOfferGiven
+            // 
+            this.txtOfferGiven.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOfferGiven.Location = new System.Drawing.Point(107, 226);
+            this.txtOfferGiven.Name = "txtOfferGiven";
+            this.txtOfferGiven.Size = new System.Drawing.Size(193, 26);
+            this.txtOfferGiven.TabIndex = 66;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(10, 239);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(92, 18);
+            this.label12.TabIndex = 67;
+            this.label12.Text = "Given Date:";
+            // 
+            // comboBoxMemberShipId
+            // 
+            this.comboBoxMemberShipId.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxMemberShipId.FormattingEnabled = true;
+            this.comboBoxMemberShipId.Location = new System.Drawing.Point(107, 364);
+            this.comboBoxMemberShipId.Name = "comboBoxMemberShipId";
+            this.comboBoxMemberShipId.Size = new System.Drawing.Size(193, 27);
+            this.comboBoxMemberShipId.TabIndex = 65;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(6, 370);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(96, 18);
+            this.label5.TabIndex = 64;
+            this.label5.Text = "Membership";
+            // 
+            // comboBoxItemCode
+            // 
+            this.comboBoxItemCode.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxItemCode.FormattingEnabled = true;
+            this.comboBoxItemCode.Location = new System.Drawing.Point(107, 294);
+            this.comboBoxItemCode.Name = "comboBoxItemCode";
+            this.comboBoxItemCode.Size = new System.Drawing.Size(193, 27);
+            this.comboBoxItemCode.TabIndex = 63;
+            // 
+            // comboBoxCategoryId
+            // 
+            this.comboBoxCategoryId.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxCategoryId.FormattingEnabled = true;
+            this.comboBoxCategoryId.Location = new System.Drawing.Point(107, 329);
+            this.comboBoxCategoryId.Name = "comboBoxCategoryId";
+            this.comboBoxCategoryId.Size = new System.Drawing.Size(193, 27);
+            this.comboBoxCategoryId.TabIndex = 53;
+            // 
+            // txtDiscount
+            // 
+            this.txtDiscount.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDiscount.Location = new System.Drawing.Point(107, 192);
+            this.txtDiscount.Name = "txtDiscount";
+            this.txtDiscount.Size = new System.Drawing.Size(193, 26);
+            this.txtDiscount.TabIndex = 52;
+            // 
+            // txtOfferDescription
+            // 
+            this.txtOfferDescription.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOfferDescription.Location = new System.Drawing.Point(107, 158);
+            this.txtOfferDescription.Name = "txtOfferDescription";
+            this.txtOfferDescription.Size = new System.Drawing.Size(193, 26);
+            this.txtOfferDescription.TabIndex = 51;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(18, 304);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(84, 18);
+            this.label6.TabIndex = 55;
+            this.label6.Text = "Item Code:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(26, 338);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(76, 18);
+            this.label7.TabIndex = 50;
+            this.label7.Text = "Category:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(8, 165);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(94, 18);
+            this.label8.TabIndex = 49;
+            this.label8.Text = "Description:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(27, 202);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(75, 18);
+            this.label9.TabIndex = 56;
+            this.label9.Text = "Discount:";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(9, 132);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(93, 18);
+            this.label10.TabIndex = 57;
+            this.label10.Text = "Offer Name:";
+            // 
+            // txtOfferName
+            // 
+            this.txtOfferName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOfferName.Location = new System.Drawing.Point(107, 124);
+            this.txtOfferName.Name = "txtOfferName";
+            this.txtOfferName.Size = new System.Drawing.Size(193, 26);
+            this.txtOfferName.TabIndex = 62;
+            // 
+            // txtOfferId
+            // 
+            this.txtOfferId.Enabled = false;
+            this.txtOfferId.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOfferId.Location = new System.Drawing.Point(107, 90);
+            this.txtOfferId.Name = "txtOfferId";
+            this.txtOfferId.Size = new System.Drawing.Size(193, 26);
+            this.txtOfferId.TabIndex = 59;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(36, 97);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(66, 18);
+            this.label11.TabIndex = 58;
+            this.label11.Text = "Offer Id:";
+            // 
+            // dataGridViewOfferDetails
+            // 
+            this.dataGridViewOfferDetails.AllowUserToAddRows = false;
+            this.dataGridViewOfferDetails.AllowUserToDeleteRows = false;
+            this.dataGridViewOfferDetails.AutoGenerateColumns = false;
+            this.dataGridViewOfferDetails.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dataGridViewOfferDetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridViewOfferDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewOfferDetails.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.offerIDDataGridViewTextBoxColumn,
+            this.offerNameDataGridViewTextBoxColumn,
+            this.descriptionDataGridViewTextBoxColumn1,
+            this.discountPercentageDataGridViewTextBoxColumn,
+            this.offerGivenDataGridViewTextBoxColumn,
+            this.offerValidDataGridViewTextBoxColumn,
+            this.itemCodeDataGridViewTextBoxColumn1,
+            this.categoryIDDataGridViewTextBoxColumn1,
+            this.memberTypeIDDataGridViewTextBoxColumn});
+            this.dataGridViewOfferDetails.DataSource = this.offerBindingSource;
+            this.dataGridViewOfferDetails.Location = new System.Drawing.Point(324, 31);
+            this.dataGridViewOfferDetails.Name = "dataGridViewOfferDetails";
+            this.dataGridViewOfferDetails.ReadOnly = true;
+            this.dataGridViewOfferDetails.Size = new System.Drawing.Size(1015, 247);
+            this.dataGridViewOfferDetails.TabIndex = 76;
+            this.dataGridViewOfferDetails.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewOfferDetails_CellContentClick);
+            // 
+            // offerIDDataGridViewTextBoxColumn
+            // 
+            this.offerIDDataGridViewTextBoxColumn.DataPropertyName = "OfferID";
+            this.offerIDDataGridViewTextBoxColumn.HeaderText = "Offer ID";
+            this.offerIDDataGridViewTextBoxColumn.Name = "offerIDDataGridViewTextBoxColumn";
+            this.offerIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // offerNameDataGridViewTextBoxColumn
+            // 
+            this.offerNameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.offerNameDataGridViewTextBoxColumn.DataPropertyName = "OfferName";
+            this.offerNameDataGridViewTextBoxColumn.HeaderText = "Offer Name";
+            this.offerNameDataGridViewTextBoxColumn.Name = "offerNameDataGridViewTextBoxColumn";
+            this.offerNameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // descriptionDataGridViewTextBoxColumn1
+            // 
+            this.descriptionDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.descriptionDataGridViewTextBoxColumn1.DataPropertyName = "Description";
+            this.descriptionDataGridViewTextBoxColumn1.HeaderText = "Description";
+            this.descriptionDataGridViewTextBoxColumn1.Name = "descriptionDataGridViewTextBoxColumn1";
+            this.descriptionDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // discountPercentageDataGridViewTextBoxColumn
+            // 
+            this.discountPercentageDataGridViewTextBoxColumn.DataPropertyName = "DiscountPercentage";
+            this.discountPercentageDataGridViewTextBoxColumn.HeaderText = "Discount";
+            this.discountPercentageDataGridViewTextBoxColumn.Name = "discountPercentageDataGridViewTextBoxColumn";
+            this.discountPercentageDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // offerGivenDataGridViewTextBoxColumn
+            // 
+            this.offerGivenDataGridViewTextBoxColumn.DataPropertyName = "OfferGiven";
+            this.offerGivenDataGridViewTextBoxColumn.HeaderText = "Given Date";
+            this.offerGivenDataGridViewTextBoxColumn.Name = "offerGivenDataGridViewTextBoxColumn";
+            this.offerGivenDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // offerValidDataGridViewTextBoxColumn
+            // 
+            this.offerValidDataGridViewTextBoxColumn.DataPropertyName = "OfferValid";
+            this.offerValidDataGridViewTextBoxColumn.HeaderText = "Validity Date";
+            this.offerValidDataGridViewTextBoxColumn.Name = "offerValidDataGridViewTextBoxColumn";
+            this.offerValidDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // itemCodeDataGridViewTextBoxColumn1
+            // 
+            this.itemCodeDataGridViewTextBoxColumn1.DataPropertyName = "ItemCode";
+            this.itemCodeDataGridViewTextBoxColumn1.HeaderText = "Item Code";
+            this.itemCodeDataGridViewTextBoxColumn1.Name = "itemCodeDataGridViewTextBoxColumn1";
+            this.itemCodeDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // categoryIDDataGridViewTextBoxColumn1
+            // 
+            this.categoryIDDataGridViewTextBoxColumn1.DataPropertyName = "CategoryID";
+            this.categoryIDDataGridViewTextBoxColumn1.HeaderText = "Category";
+            this.categoryIDDataGridViewTextBoxColumn1.Name = "categoryIDDataGridViewTextBoxColumn1";
+            this.categoryIDDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // memberTypeIDDataGridViewTextBoxColumn
+            // 
+            this.memberTypeIDDataGridViewTextBoxColumn.DataPropertyName = "MemberTypeID";
+            this.memberTypeIDDataGridViewTextBoxColumn.HeaderText = "Member Type";
+            this.memberTypeIDDataGridViewTextBoxColumn.Name = "memberTypeIDDataGridViewTextBoxColumn";
+            this.memberTypeIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // tabPageMembership
+            // 
+            this.tabPageMembership.Controls.Add(chart12);
+            this.tabPageMembership.Controls.Add(this.pictureBoxMemberSearch);
+            this.tabPageMembership.Controls.Add(this.txtMemberSearch);
+            this.tabPageMembership.Controls.Add(this.dataGridViewMember);
+            this.tabPageMembership.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPageMembership.ImageIndex = 15;
+            this.tabPageMembership.Location = new System.Drawing.Point(4, 55);
+            this.tabPageMembership.Name = "tabPageMembership";
+            this.tabPageMembership.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageMembership.Size = new System.Drawing.Size(1340, 606);
+            this.tabPageMembership.TabIndex = 5;
+            this.tabPageMembership.Text = "MEMBERSHIP";
+            this.tabPageMembership.UseVisualStyleBackColor = true;
+            // 
+            // pictureBoxMemberSearch
+            // 
+            this.pictureBoxMemberSearch.Image = global::InventoryManagementSystem.Properties.Resources.search;
+            this.pictureBoxMemberSearch.Location = new System.Drawing.Point(1311, 6);
+            this.pictureBoxMemberSearch.Name = "pictureBoxMemberSearch";
+            this.pictureBoxMemberSearch.Size = new System.Drawing.Size(26, 22);
+            this.pictureBoxMemberSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxMemberSearch.TabIndex = 80;
+            this.pictureBoxMemberSearch.TabStop = false;
+            // 
+            // txtMemberSearch
+            // 
+            this.txtMemberSearch.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMemberSearch.Location = new System.Drawing.Point(1085, 6);
+            this.txtMemberSearch.Name = "txtMemberSearch";
+            this.txtMemberSearch.Size = new System.Drawing.Size(223, 22);
+            this.txtMemberSearch.TabIndex = 79;
+            this.txtMemberSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtMemberSearch_KeyDown);
+            // 
+            // dataGridViewMember
+            // 
+            this.dataGridViewMember.AllowUserToAddRows = false;
+            this.dataGridViewMember.AllowUserToDeleteRows = false;
+            this.dataGridViewMember.AutoGenerateColumns = false;
+            this.dataGridViewMember.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dataGridViewMember.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridViewMember.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewMember.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.membershipIDDataGridViewTextBoxColumn,
+            this.memberTypeIDDataGridViewTextBoxColumn1,
+            this.memberNameDataGridViewTextBoxColumn,
+            this.memberAddressDataGridViewTextBoxColumn,
+            this.phoneNumberDataGridViewTextBoxColumn,
+            this.emailDataGridViewTextBoxColumn,
+            this.memberFromDataGridViewTextBoxColumn,
+            this.totalShoppingDataGridViewTextBoxColumn});
+            this.dataGridViewMember.DataSource = this.membershipBindingSource3;
+            this.dataGridViewMember.Location = new System.Drawing.Point(476, 36);
+            this.dataGridViewMember.Name = "dataGridViewMember";
+            this.dataGridViewMember.ReadOnly = true;
+            this.dataGridViewMember.Size = new System.Drawing.Size(862, 218);
+            this.dataGridViewMember.TabIndex = 77;
+            // 
+            // membershipIDDataGridViewTextBoxColumn
+            // 
+            this.membershipIDDataGridViewTextBoxColumn.DataPropertyName = "MembershipID";
+            this.membershipIDDataGridViewTextBoxColumn.HeaderText = "MembershipID";
+            this.membershipIDDataGridViewTextBoxColumn.Name = "membershipIDDataGridViewTextBoxColumn";
+            this.membershipIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // memberTypeIDDataGridViewTextBoxColumn1
+            // 
+            this.memberTypeIDDataGridViewTextBoxColumn1.DataPropertyName = "MemberTypeID";
+            this.memberTypeIDDataGridViewTextBoxColumn1.HeaderText = "MemberTypeID";
+            this.memberTypeIDDataGridViewTextBoxColumn1.Name = "memberTypeIDDataGridViewTextBoxColumn1";
+            this.memberTypeIDDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // memberNameDataGridViewTextBoxColumn
+            // 
+            this.memberNameDataGridViewTextBoxColumn.DataPropertyName = "MemberName";
+            this.memberNameDataGridViewTextBoxColumn.HeaderText = "MemberName";
+            this.memberNameDataGridViewTextBoxColumn.Name = "memberNameDataGridViewTextBoxColumn";
+            this.memberNameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // memberAddressDataGridViewTextBoxColumn
+            // 
+            this.memberAddressDataGridViewTextBoxColumn.DataPropertyName = "MemberAddress";
+            this.memberAddressDataGridViewTextBoxColumn.HeaderText = "MemberAddress";
+            this.memberAddressDataGridViewTextBoxColumn.Name = "memberAddressDataGridViewTextBoxColumn";
+            this.memberAddressDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // phoneNumberDataGridViewTextBoxColumn
+            // 
+            this.phoneNumberDataGridViewTextBoxColumn.DataPropertyName = "PhoneNumber";
+            this.phoneNumberDataGridViewTextBoxColumn.HeaderText = "PhoneNumber";
+            this.phoneNumberDataGridViewTextBoxColumn.Name = "phoneNumberDataGridViewTextBoxColumn";
+            this.phoneNumberDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // emailDataGridViewTextBoxColumn
+            // 
+            this.emailDataGridViewTextBoxColumn.DataPropertyName = "Email";
+            this.emailDataGridViewTextBoxColumn.HeaderText = "Email";
+            this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
+            this.emailDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // memberFromDataGridViewTextBoxColumn
+            // 
+            this.memberFromDataGridViewTextBoxColumn.DataPropertyName = "MemberFrom";
+            this.memberFromDataGridViewTextBoxColumn.HeaderText = "MemberFrom";
+            this.memberFromDataGridViewTextBoxColumn.Name = "memberFromDataGridViewTextBoxColumn";
+            this.memberFromDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // totalShoppingDataGridViewTextBoxColumn
+            // 
+            this.totalShoppingDataGridViewTextBoxColumn.DataPropertyName = "TotalShopping";
+            this.totalShoppingDataGridViewTextBoxColumn.HeaderText = "TotalShopping";
+            this.totalShoppingDataGridViewTextBoxColumn.Name = "totalShoppingDataGridViewTextBoxColumn";
+            this.totalShoppingDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // imageListAdmin
+            // 
+            this.imageListAdmin.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListAdmin.ImageStream")));
+            this.imageListAdmin.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageListAdmin.Images.SetKeyName(0, "help.png");
+            this.imageListAdmin.Images.SetKeyName(1, "items.png");
+            this.imageListAdmin.Images.SetKeyName(2, "log.png");
+            this.imageListAdmin.Images.SetKeyName(3, "sales.png");
+            this.imageListAdmin.Images.SetKeyName(4, "stocks.png");
+            this.imageListAdmin.Images.SetKeyName(5, "username.png");
+            this.imageListAdmin.Images.SetKeyName(6, "addAccount.png");
+            this.imageListAdmin.Images.SetKeyName(7, "addItem.png");
+            this.imageListAdmin.Images.SetKeyName(8, "category.png");
+            this.imageListAdmin.Images.SetKeyName(9, "delete.png");
+            this.imageListAdmin.Images.SetKeyName(10, "editItem.png");
+            this.imageListAdmin.Images.SetKeyName(11, "search.png");
+            this.imageListAdmin.Images.SetKeyName(12, "offers.png");
+            this.imageListAdmin.Images.SetKeyName(13, "deleteAccount.png");
+            this.imageListAdmin.Images.SetKeyName(14, "editAccount.png");
+            this.imageListAdmin.Images.SetKeyName(15, "Membership.png");
+            // 
+            // itemTableAdapter
+            // 
+            this.itemTableAdapter.ClearBeforeFill = true;
+            // 
+            // categoryTableAdapter
+            // 
+            this.categoryTableAdapter.ClearBeforeFill = true;
+            // 
+            // logTableAdapter
+            // 
+            this.logTableAdapter.ClearBeforeFill = true;
+            // 
+            // accountTableAdapter
+            // 
+            this.accountTableAdapter.ClearBeforeFill = true;
+            // 
+            // offerTableAdapter
+            // 
+            this.offerTableAdapter.ClearBeforeFill = true;
+            // 
+            // offerBindingSource1
+            // 
+            this.offerBindingSource1.DataMember = "Offer";
+            this.offerBindingSource1.DataSource = this.imsDBDataSet;
+            // 
+            // membershipBindingSource
+            // 
+            this.membershipBindingSource.DataMember = "Membership";
+            this.membershipBindingSource.DataSource = this.imsDBDataSet;
+            // 
+            // membershipTableAdapter
+            // 
+            this.membershipTableAdapter.ClearBeforeFill = true;
+            // 
+            // membershipBindingSource1
+            // 
+            this.membershipBindingSource1.DataMember = "Membership";
+            this.membershipBindingSource1.DataSource = this.imsDBDataSet;
+            // 
+            // membershipBindingSource2
+            // 
+            this.membershipBindingSource2.DataMember = "Membership";
+            this.membershipBindingSource2.DataSource = this.imsDBDataSet;
+            // 
+            // userTypeTableAdapter
+            // 
+            this.userTypeTableAdapter.ClearBeforeFill = true;
+            // 
+            // transactionTableAdapter
+            // 
+            this.transactionTableAdapter.ClearBeforeFill = true;
+            // 
+            // accountTableAdapter1
+            // 
+            this.accountTableAdapter1.ClearBeforeFill = true;
             // 
             // frmAdminPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(892, 540);
-            this.Controls.Add(this.tabControlAdmin);
-            this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.tableLayoutPanel2);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.shapeContainer1);
             this.Name = "frmAdminPanel";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AdminPanel";
+            this.Text = "SHWAPNO RETAIL";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmAdminPanel_FormClosed);
             this.Load += new System.EventHandler(this.frmAdminPanel_Load);
+            ((System.ComponentModel.ISupportInitialize)(chart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.transactionBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imsDBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(chart2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(chart3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(chart4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.itemBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(chart5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(chart6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(chart7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(chart8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(chart9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(chart10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(chart11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.offerBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(chart12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.membershipBindingSource3)).EndInit();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.menuStripAdmin.ResumeLayout(false);
+            this.menuStripAdmin.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tabControlAdmin.ResumeLayout(false);
+            this.tabPageStocks.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.tabPageLogManager.ResumeLayout(false);
-            this.tabPageSales.ResumeLayout(false);
-            this.tabPageSales.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picMonthlySales)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picYearlySales)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDailySales)).EndInit();
-            this.tabPageAccount.ResumeLayout(false);
-            this.tabPageAccount.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picAddAccount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.tabPageStocks.ResumeLayout(false);
-            this.tabPageStocks.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.tabPageItems.ResumeLayout(false);
-            this.tabPageItems.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartPricevsStock)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartItemName)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartItemNamevsStock)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.itemBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSearchCategory)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSearchItem)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStocks)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.categoryBindingSource)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDeleteCategory)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNewCategory)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDeleteItem)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEditItem)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAddItem)).EndInit();
-            this.tabControlAdmin.ResumeLayout(false);
+            this.tabPageUserAccount.ResumeLayout(false);
+            this.tabPageUserAccount.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartJoinDatevsSalary)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartNamevsSalary)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartUserIDType)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userTypeBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSearchUser)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAccount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imsDBDataSet1)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDeleteUserType)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNewUserType)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDeleteAccount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEditUser)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAddAccount)).EndInit();
+            this.tabPageReport.ResumeLayout(false);
+            this.tabControlReport.ResumeLayout(false);
+            this.tabPageAllReport.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chartAccIDvsTrDate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAllSales)).EndInit();
+            this.tabPageDailyReport.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDailySales)).EndInit();
+            this.tabPageMonthlyReport.ResumeLayout(false);
+            this.tabPageMonthlyReport.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMonthlySales)).EndInit();
+            this.tabPageYearlyReport.ResumeLayout(false);
+            this.tabPageYearlyReport.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewYearlySales)).EndInit();
+            this.tabPageLog.ResumeLayout(false);
+            this.tabControlLog.ResumeLayout(false);
+            this.itemLog.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewItemLog)).EndInit();
+            this.tabPageStockLog.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStockLog)).EndInit();
+            this.accountLog.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAccountLog)).EndInit();
+            this.loginHistory.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewLoginHistory)).EndInit();
+            this.tabPageOffers.ResumeLayout(false);
+            this.tabPageOffers.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOfferSearch)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDeteleOffer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEditOffer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNewOffer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOfferDetails)).EndInit();
+            this.tabPageMembership.ResumeLayout(false);
+            this.tabPageMembership.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMemberSearch)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMember)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.offerBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.membershipBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.membershipBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.membershipBindingSource2)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lblSubTitle;
-        private System.Windows.Forms.ImageList adminImageList;
-        private System.Windows.Forms.TabPage tabPageHelp;
-        private System.Windows.Forms.TabPage tabPageLogManager;
-        private System.Windows.Forms.TabPage tabPageSales;
-        private System.Windows.Forms.TabPage tabPageAccount;
-        private System.Windows.Forms.TabPage tabPageStocks;
-        private System.Windows.Forms.TabPage tabPageItems;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.Button btnChangeUser;
+        private System.Windows.Forms.MenuStrip menuStripAdmin;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TabControl tabControlAdmin;
+        private System.Windows.Forms.TabPage tabPageStocks;
+        private System.Windows.Forms.TabPage tabPageUserAccount;
+        private System.Windows.Forms.TabPage tabPageReport;
+        private System.Windows.Forms.TabPage tabPageLog;
+        private System.Windows.Forms.TabPage tabPageOffers;
+        private System.Windows.Forms.ImageList imageListAdmin;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.ComboBox comCategory;
+        private System.Windows.Forms.TextBox txtItemName;
+        private System.Windows.Forms.TextBox txtItemDescription;
+        private System.Windows.Forms.TextBox txtPrice;
+        private System.Windows.Forms.TextBox txtStocks;
+        private System.Windows.Forms.TextBox txtItemCode;
         private System.Windows.Forms.PictureBox picAddItem;
-        private System.Windows.Forms.Label lblTotalItem;
-        private System.Windows.Forms.Label llblTotalItemCount;
         private System.Windows.Forms.Label lblItemCode;
         private System.Windows.Forms.Label lblItemName;
         private System.Windows.Forms.Label lblItemDescription;
@@ -1457,104 +3008,177 @@
         private System.Windows.Forms.Label lblPrice;
         private System.Windows.Forms.Label lblStocks;
         private System.Windows.Forms.Label lblAddItem;
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ComboBox comSearchByCategory;
-        private System.Windows.Forms.Label lblSearchByCategory;
         private System.Windows.Forms.TextBox txtSearchItem;
-        private System.Windows.Forms.Label lblSearchItem;
-        private System.Windows.Forms.ListView listViewItems;
-        private System.Windows.Forms.ColumnHeader colItemCode;
-        private System.Windows.Forms.ColumnHeader colItemName;
-        private System.Windows.Forms.ColumnHeader colDescription;
-        private System.Windows.Forms.ColumnHeader colCategory;
-        private System.Windows.Forms.ColumnHeader colPrice;
-        private System.Windows.Forms.ColumnHeader colStocks;
-        private System.Windows.Forms.Button btnDeleteItem;
-        private System.Windows.Forms.Button btnEditItem;
-        private System.Windows.Forms.TextBox txtItemName;
-        private System.Windows.Forms.TextBox txtItemDescription;
-        private System.Windows.Forms.TextBox txtPrice;
-        private System.Windows.Forms.TextBox txtStocks;
-        private System.Windows.Forms.TextBox txtItemCode;
-        private System.Windows.Forms.ComboBox comCategory;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox txtCategory2;
-        private System.Windows.Forms.TextBox txtItemCode2;
-        private System.Windows.Forms.Label lblStock2;
-        private System.Windows.Forms.Label lblPrice2;
-        private System.Windows.Forms.Button btnAddStock;
-        private System.Windows.Forms.Label lblCaterory2;
-        private System.Windows.Forms.TextBox txtItemName2;
-        private System.Windows.Forms.Label lblDescription2;
-        private System.Windows.Forms.TextBox txtDescription2;
-        private System.Windows.Forms.Label lblItemName2;
-        private System.Windows.Forms.TextBox txtPrice2;
-        private System.Windows.Forms.Label lblItemCode2;
-        private System.Windows.Forms.TextBox txtStock2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ListView listViewStocks;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.ColumnHeader columnHeader6;
-        private System.Windows.Forms.PictureBox picMonthlySales;
-        private System.Windows.Forms.PictureBox picYearlySales;
-        private System.Windows.Forms.PictureBox picDailySales;
-        private System.Windows.Forms.Label lblYearlySales;
-        private System.Windows.Forms.Label lblMonthlySales;
-        private System.Windows.Forms.Label lblDailySales;
-        private System.Windows.Forms.ListView listViewSales;
-        private System.Windows.Forms.ColumnHeader colTransCode;
-        private System.Windows.Forms.ColumnHeader colDate;
-        private System.Windows.Forms.ColumnHeader colItemCodeSales;
-        private System.Windows.Forms.ColumnHeader colItemNameSales;
-        private System.Windows.Forms.ColumnHeader colPriceSales;
-        private System.Windows.Forms.ColumnHeader colQuantity;
-        private System.Windows.Forms.ColumnHeader colTotal;
+        private System.Windows.Forms.DataGridView dataGridViewStocks;
+        private System.Windows.Forms.DataGridView dataGridViewAccount;
         private System.Windows.Forms.TextBox txtSearchUsername;
-        private System.Windows.Forms.Label lblSearchUsername;
-        private System.Windows.Forms.ListView listViewAccount;
-        private System.Windows.Forms.ColumnHeader colAccountId;
-        private System.Windows.Forms.ColumnHeader colUsername;
-        private System.Windows.Forms.ColumnHeader colPassword;
-        private System.Windows.Forms.ColumnHeader colFirstName;
-        private System.Windows.Forms.ColumnHeader coLastName;
-        private System.Windows.Forms.ColumnHeader colSalary;
-        private System.Windows.Forms.ColumnHeader colJoinDate;
-        private System.Windows.Forms.Button btnDeleteAccount;
-        private System.Windows.Forms.Button btnUpdateAccount;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label lblAccountId;
-        private System.Windows.Forms.Label lblUsername;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.PictureBox picAddAccount;
+        private System.Windows.Forms.TextBox txtSalary;
+        private System.Windows.Forms.ComboBox comUserType;
+        private System.Windows.Forms.Label lblSalary;
+        private System.Windows.Forms.TextBox txtFirstname;
+        private System.Windows.Forms.TextBox txtLastName;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Label lblLastName;
+        private System.Windows.Forms.Label lblUserType;
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.Label lblFirstName;
-        private System.Windows.Forms.Label lblLastName;
-        private System.Windows.Forms.Label lblSalary;
+        private System.Windows.Forms.Label lblUsername;
+        private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label lblUserType;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Button btnItemLog;
-        private System.Windows.Forms.Button btnAccountLog;
-        private System.Windows.Forms.Button btnStockLog;
-        private System.Windows.Forms.Button btnLogInHistory;
-        private System.Windows.Forms.PictureBox picAddAccount;
-        private System.Windows.Forms.Button btnChangeUser;
-        private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.Label lblSystemUserName;
-        private System.Windows.Forms.Label lblSystemDateTime;
-        private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.TextBox txtAccountId;
+        private System.Windows.Forms.Label lblAccountId;
+        private System.Windows.Forms.TabControl tabControlLog;
+        private System.Windows.Forms.TabPage itemLog;
+        private System.Windows.Forms.TabPage tabPageStockLog;
+        private System.Windows.Forms.TabPage accountLog;
+        private System.Windows.Forms.TabPage loginHistory;
+        private System.Windows.Forms.DataGridView dataGridViewItemLog;
+        private System.Windows.Forms.DataGridView dataGridViewStockLog;
+        private System.Windows.Forms.DataGridView dataGridViewAccountLog;
+        private System.Windows.Forms.DataGridView dataGridViewLoginHistory;
+        private System.Windows.Forms.ToolStripMenuItem changeUserToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.TabControl tabControlReport;
+        private System.Windows.Forms.TabPage tabPageAllReport;
+        private System.Windows.Forms.DataGridView dataGridViewAllSales;
+        private System.Windows.Forms.TabPage tabPageDailyReport;
+        private System.Windows.Forms.DataGridView dataGridViewDailySales;
+        private System.Windows.Forms.TabPage tabPageMonthlyReport;
+        private System.Windows.Forms.DataGridView dataGridViewMonthlySales;
+        private System.Windows.Forms.TabPage tabPageYearlyReport;
+        private System.Windows.Forms.DataGridView dataGridViewYearlySales;
+        private System.Windows.Forms.TabPage tabPageMembership;
+        private System.Windows.Forms.PictureBox pictureBoxSearchUser;
+        private System.Windows.Forms.PictureBox pictureBoxEditUser;
+        private System.Windows.Forms.PictureBox pictureBoxDeleteAccount;
+        private System.Windows.Forms.PictureBox pictureBoxEditItem;
+        private System.Windows.Forms.PictureBox pictureBoxDeleteItem;
+        private System.Windows.Forms.PictureBox pictureBoxSearchItem;
+        private System.Windows.Forms.PictureBox pictureBoxSearchCategory;
+        private System.Windows.Forms.ImageList imageListReport;
+        private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private imsDBDataSet imsDBDataSet;
+        private System.Windows.Forms.BindingSource itemBindingSource;
+        private imsDBDataSetTableAdapters.ItemTableAdapter itemTableAdapter;
+        private System.Windows.Forms.BindingSource categoryBindingSource;
+        private imsDBDataSetTableAdapters.CategoryTableAdapter categoryTableAdapter;
+        private imsDBDataSetTableAdapters.LogTableAdapter logTableAdapter;
+        private System.Windows.Forms.BindingSource accountBindingSource;
+        private imsDBDataSetTableAdapters.AccountTableAdapter accountTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn accountIdDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn userNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn passwordDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn firstNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn lastNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn userTypeIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn salaryDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn joinDateDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartItemNamevsStock;
+        private System.Windows.Forms.BindingSource itemBindingSource1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartItemName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn itemCodeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn itemNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn descriptionDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn categoryIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn priceDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn stockDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Label lblDeleteItem;
+        private System.Windows.Forms.Label lblEditItem;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox comboBoxSelectMonth;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox txtOfferValidity;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox txtOfferGiven;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ComboBox comboBoxMemberShipId;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox comboBoxItemCode;
+        private System.Windows.Forms.ComboBox comboBoxCategoryId;
+        private System.Windows.Forms.TextBox txtDiscount;
+        private System.Windows.Forms.TextBox txtOfferDescription;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtOfferName;
+        private System.Windows.Forms.TextBox txtOfferId;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.PictureBox pictureBoxDeteleOffer;
+        private System.Windows.Forms.PictureBox pictureBoxEditOffer;
+        private System.Windows.Forms.PictureBox pictureBoxNewOffer;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.DataGridView dataGridViewOfferDetails;
+        private System.Windows.Forms.BindingSource offerBindingSource;
+        private imsDBDataSetTableAdapters.OfferTableAdapter offerTableAdapter;
+        private System.Windows.Forms.PictureBox pictureBoxOfferSearch;
+        private System.Windows.Forms.TextBox txtOfferSearch;
+        private System.Windows.Forms.PictureBox pictureBoxMemberSearch;
+        private System.Windows.Forms.TextBox txtMemberSearch;
+        private System.Windows.Forms.DataGridView dataGridViewMember;
+        private System.Windows.Forms.BindingSource offerBindingSource1;
+        private System.Windows.Forms.BindingSource membershipBindingSource;
+        private imsDBDataSetTableAdapters.MembershipTableAdapter membershipTableAdapter;
+        private System.Windows.Forms.BindingSource membershipBindingSource1;
+        private System.Windows.Forms.BindingSource membershipBindingSource2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn offerIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn offerNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn descriptionDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn discountPercentageDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn offerGivenDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn offerValidDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn itemCodeDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn categoryIDDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn memberTypeIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.ToolStripMenuItem homeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem stockToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem userAccountToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reportToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem logToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem offerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem membershipToolStripMenuItem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn membershipIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn memberTypeIDDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn memberNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn memberAddressDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn phoneNumberDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn memberFromDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn totalShoppingDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource membershipBindingSource3;
+        private System.Windows.Forms.PictureBox pictureBoxNewCategory;
+        private System.Windows.Forms.Label lblNewCategory;
+        private System.Windows.Forms.PictureBox pictureBoxDeleteCategory;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.PictureBox pictureBoxDeleteUserType;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.PictureBox pictureBoxNewUserType;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.BindingSource userTypeBindingSource;
+        private imsDBDataSetTableAdapters.UserTypeTableAdapter userTypeTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn userTypeIdDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn userTypeNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartPricevsStock;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartJoinDatevsSalary;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartNamevsSalary;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartUserIDType;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartAccIDvsTrDate;
+        private System.Windows.Forms.BindingSource transactionBindingSource;
+        private imsDBDataSetTableAdapters.TransactionTableAdapter transactionTableAdapter;
+        private imsDBDataSet1 imsDBDataSet1;
+        private System.Windows.Forms.BindingSource accountBindingSource1;
+        private imsDBDataSet1TableAdapters.AccountTableAdapter accountTableAdapter1;
+        private System.Windows.Forms.BindingSource logBindingSource;
     }
 }

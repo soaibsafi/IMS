@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F0ECD594-802B-4F3A-8BCA-6CE7AAB0C4EF}</ProjectGuid>
+    <ProjectGuid>{712D805D-DC83-4EBE-B4BF-7E880F99EDE8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>InventoryManagementSystem</RootNamespace>
@@ -37,6 +37,11 @@
     <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,11 +53,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmAccountLog.cs">
+    <Compile Include="ForgetPassword.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAccountLog.Designer.cs">
-      <DependentUpon>frmAccountLog.cs</DependentUpon>
+    <Compile Include="ForgetPassword.Designer.cs">
+      <DependentUpon>ForgetPassword.cs</DependentUpon>
     </Compile>
     <Compile Include="frmAddAccount.cs">
       <SubType>Form</SubType>
@@ -60,11 +65,35 @@
     <Compile Include="frmAddAccount.Designer.cs">
       <DependentUpon>frmAddAccount.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmAddItems.cs">
+    <Compile Include="frmAddCategory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAddItems.Designer.cs">
-      <DependentUpon>frmAddItems.cs</DependentUpon>
+    <Compile Include="frmAddCategory.Designer.cs">
+      <DependentUpon>frmAddCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddItem.Designer.cs">
+      <DependentUpon>frmAddItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddMember.Designer.cs">
+      <DependentUpon>frmAddMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddNewUserType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddNewUserType.Designer.cs">
+      <DependentUpon>frmAddNewUserType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddOffer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddOffer.Designer.cs">
+      <DependentUpon>frmAddOffer.cs</DependentUpon>
     </Compile>
     <Compile Include="frmAdminPanel.cs">
       <SubType>Form</SubType>
@@ -72,43 +101,23 @@
     <Compile Include="frmAdminPanel.Designer.cs">
       <DependentUpon>frmAdminPanel.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDailySales.cs">
+    <Compile Include="frmDeleteCategory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDailySales.Designer.cs">
-      <DependentUpon>frmDailySales.cs</DependentUpon>
+    <Compile Include="frmDeleteCategory.Designer.cs">
+      <DependentUpon>frmDeleteCategory.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmItemLog.cs">
+    <Compile Include="frmDeleteUserType.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmItemLog.Designer.cs">
-      <DependentUpon>frmItemLog.cs</DependentUpon>
+    <Compile Include="frmDeleteUserType.Designer.cs">
+      <DependentUpon>frmDeleteUserType.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmLogInHistory.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmLogInHistory.Designer.cs">
-      <DependentUpon>frmLogInHistory.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmMonthlySales.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMonthlySales.Designer.cs">
-      <DependentUpon>frmMonthlySales.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="frmSalesHelp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSalesHelp.Designer.cs">
-      <DependentUpon>frmSalesHelp.cs</DependentUpon>
     </Compile>
     <Compile Include="frmSalesPanel.cs">
       <SubType>Form</SubType>
@@ -122,44 +131,56 @@
     <Compile Include="frmStartUpScreen.Designer.cs">
       <DependentUpon>frmStartUpScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmStockLog.cs">
-      <SubType>Form</SubType>
+    <Compile Include="imsDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>imsDBDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="frmStockLog.Designer.cs">
-      <DependentUpon>frmStockLog.cs</DependentUpon>
+    <Compile Include="imsDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>imsDBDataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="frmYearlySales.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmYearlySales.Designer.cs">
-      <DependentUpon>frmYearlySales.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="frmAccountLog.resx">
-      <DependentUpon>frmAccountLog.cs</DependentUpon>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ForgetPassword.resx">
+      <DependentUpon>ForgetPassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAddAccount.resx">
       <DependentUpon>frmAddAccount.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmAddItems.resx">
-      <DependentUpon>frmAddItems.cs</DependentUpon>
+    <EmbeddedResource Include="frmAddCategory.resx">
+      <DependentUpon>frmAddCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddItem.resx">
+      <DependentUpon>frmAddItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddMember.resx">
+      <DependentUpon>frmAddMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddNewUserType.resx">
+      <DependentUpon>frmAddNewUserType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddOffer.resx">
+      <DependentUpon>frmAddOffer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAdminPanel.resx">
       <DependentUpon>frmAdminPanel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDailySales.resx">
-      <DependentUpon>frmDailySales.cs</DependentUpon>
+    <EmbeddedResource Include="frmDeleteCategory.resx">
+      <DependentUpon>frmDeleteCategory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmItemLog.resx">
-      <DependentUpon>frmItemLog.cs</DependentUpon>
+    <EmbeddedResource Include="frmDeleteUserType.resx">
+      <DependentUpon>frmDeleteUserType.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLogInHistory.resx">
-      <DependentUpon>frmLogInHistory.cs</DependentUpon>
+    <EmbeddedResource Include="frmSalesPanel.resx">
+      <DependentUpon>frmSalesPanel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMonthlySales.resx">
-      <DependentUpon>frmMonthlySales.cs</DependentUpon>
+    <EmbeddedResource Include="frmStartUpScreen.resx">
+      <DependentUpon>frmStartUpScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -171,18 +192,28 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="frmSalesPanel.resx">
-      <DependentUpon>frmSalesPanel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmStartUpScreen.resx">
-      <DependentUpon>frmStartUpScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmStockLog.resx">
-      <DependentUpon>frmStockLog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmYearlySales.resx">
-      <DependentUpon>frmYearlySales.cs</DependentUpon>
-    </EmbeddedResource>
+    <None Include="imsDBDataSet.xsc">
+      <DependentUpon>imsDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="imsDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>imsDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="imsDBDataSet.xss">
+      <DependentUpon>imsDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="imsDBDataSet1.xsc">
+      <DependentUpon>imsDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="imsDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>imsDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="imsDBDataSet1.xss">
+      <DependentUpon>imsDBDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -197,59 +228,119 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\startinglogo.png" />
+    <None Include="Resources\addNew.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\username.png" />
+    <None Include="Resources\change_user.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\password.png" />
+    <None Include="Resources\dailySales.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\change_user.png" />
+    <None Include="Resources\exit.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\exit.png" />
+    <None Include="Resources\help.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\help.png" />
+    <None Include="Resources\items.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\items.png" />
+    <None Include="Resources\log.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\log.png" />
+    <None Include="Resources\monthlySales.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\pos.png" />
+    <None Include="Resources\password.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\sales.png" />
+    <None Include="Resources\pos.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\stocks.png" />
+    <None Include="Resources\sales.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\addNew.png" />
+    <None Include="Resources\startinglogo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\dailySales.png" />
+    <None Include="Resources\stocks.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\monthlySales.png" />
+    <None Include="Resources\username.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\yearlySales.png" />
+    <None Include="Resources\yearlySales.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\InventoryManagementSystem.Core\InventoryManagementSystem.Core.csproj">
-      <Project>{afc4d770-824c-4f7c-a247-5f7af5847bb6}</Project>
+      <Project>{c07c0fa6-3455-4937-9ef3-75e767c7e2d2}</Project>
       <Name>InventoryManagementSystem.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\InventoryManagementSystem.Entity\InventoryManagementSystem.Entity.csproj">
-      <Project>{66b52736-493f-4db2-b83b-f393d0c3e4e2}</Project>
+      <Project>{f1805ed6-aeda-41f6-8a01-845d2ba4bce6}</Project>
       <Name>InventoryManagementSystem.Entity</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addAccount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchUser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editAccount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deleteAccount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addItem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editItem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\category.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addToCart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exitMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viewMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\offers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Membership.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newOffer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removeButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

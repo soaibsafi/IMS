@@ -1,0 +1,8 @@
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Data\bin\Release\InventoryManagementSystem.Data.dll.config
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Data\bin\Release\InventoryManagementSystem.Data.dll
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Data\bin\Release\InventoryManagementSystem.Data.pdb
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Data\bin\Release\InventoryManagementSystem.Entity.dll
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Data\bin\Release\InventoryManagementSystem.Entity.pdb
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Data\obj\Release\InventoryManagementSystem.Data.csprojResolveAssemblyReference.cache
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Data\obj\Release\InventoryManagementSystem.Data.dll
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem.Data\obj\Release\InventoryManagementSystem.Data.pdb

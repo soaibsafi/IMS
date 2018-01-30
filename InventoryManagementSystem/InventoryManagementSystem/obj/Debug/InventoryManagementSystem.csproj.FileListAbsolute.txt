@@ -1,53 +1,105 @@
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csprojResolveAssemblyReference.cache
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAccountLog.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddAccount.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddItems.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAdminPanel.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmDailySales.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmItemLog.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmLogin.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmLogInHistory.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmMonthlySales.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmSalesPanel.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmStartUpScreen.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmStockLog.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmYearlySales.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v0.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v0.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v0.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Core.dll
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Entity.dll
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Core.pdb
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Entity.pdb
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csprojResolveAssemblyReference.cache
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAccountLog.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddAccount.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddItems.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAdminPanel.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmDailySales.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmItemLog.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmLogin.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmLogInHistory.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmMonthlySales.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmSalesPanel.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmStartUpScreen.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmStockLog.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmYearlySales.resources
-D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\vFinal\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csprojResolveAssemblyReference.cache
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmLogin.resources
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmStartUpScreen.resources
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAdminPanel.resources
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmSalesPanel.resources
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Core.dll
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Entity.dll
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Core.pdb
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Entity.pdb
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Data.dll
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Data.pdb
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddItem.resources
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddAccount.resources
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Core.dll
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Entity.dll
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Data.dll
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Core.pdb
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Entity.pdb
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Data.pdb
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddAccount.resources
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddItem.resources
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAdminPanel.resources
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmLogin.resources
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmSalesPanel.resources
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmStartUpScreen.resources
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
+C:\Users\Fahim Afser\Dropbox\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddOffer.resources
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddCategory.resources
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmDeleteCategory.resources
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddNewUserType.resources
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmDeleteUserType.resources
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddMember.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Core.dll
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Entity.dll
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Data.dll
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Core.pdb
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Entity.pdb
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Data.pdb
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddAccount.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddCategory.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddItem.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddMember.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddNewUserType.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddOffer.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAdminPanel.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmDeleteCategory.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmDeleteUserType.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmLogin.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmSalesPanel.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmStartUpScreen.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
+C:\Users\Fahim Afser\Desktop\v1.6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Core.dll
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Entity.dll
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Data.dll
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Core.pdb
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Entity.pdb
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Data.pdb
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddAccount.resources
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddCategory.resources
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddItem.resources
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddMember.resources
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddNewUserType.resources
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAddOffer.resources
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmAdminPanel.resources
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmDeleteCategory.resources
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmDeleteUserType.resources
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmLogin.resources
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmSalesPanel.resources
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.frmStartUpScreen.resources
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ForgetPassword.resources
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ForgetPassword.resources
+C:\Users\Fahim Afser\Desktop\v1.7\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.Data.dll.config
+D:\Cloud\Dropbox\AIUB\Semester\8th\OOP2\Project\OOP2Project\v1.0\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.CoreCompileInputs.cache
